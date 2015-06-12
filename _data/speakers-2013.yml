@@ -1,0 +1,120 @@
+- name: "Mite Mitreski" #0
+  id: "mite"
+  bio: >
+    Mite Mitreski currently works at Tricode and has over 6 years of experience in various open source technologies, with primary
+           focus on Java and JVM. He has also worked as an Oracle certifed java trainer in a local educational center and as custom solutions developer at Netcetera as well as GenrepSoft in the past.
+           He is deeply involved in activities related to Java User Group Macedonia, free and open source software,
+                            open data formats and the open web.
+                            Occasonaly he writes on his <a href="http://blog.mitemitreski.com">blog</a> and <a
+                               href="https://twitter.com/mitemitreski">twitter @mitemitreski</a>
+           Recently he co-authored a book titled <a href="http://rcm-na.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=mitemitreskic-20&o=1&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=1783559284" style="width:120px;height:240px;">HTML 5 Data and Services Cookbook</a>.
+  title: ""
+  contact: ""
+  image: "mitemitreski.jpg"
+
+- name: "Pance Cavkovski" #1
+  id: "pance"
+  bio: >
+    Pance Cavkovski is a senior software engineer working at Netcetera in Skopje, Macedonia. 
+    As part of the team, he has specialized working in Java, Javascript, Flex/ActionScript 
+    and .NET technologies. The scopes of the projects he has worked so far have varied from 
+    CAD application, simulations and visualizations to finance applications, distributed web 
+    systems and infrastructures. He is known for the CodeFu system which he redesigned, developed 
+    in most and is one of the head administrators. As of 2009 he is an active member of the Macedonian Java User Group.
+  title: ""
+  contact: ""
+  image: "pance.jpg"
+
+- name: "Sinisa Mihajlovski" #2
+  id: "sinisha"
+  bio: >
+    Sinisa Mihajlovski is a Java developer, working with all sorts of java based technologies for 6 years.
+    In the recent past also involved in automation of functional tests and continuous integration automation.
+    His favourite colour is blue. Likes long walks on the beach, pina coladas &amp; getting caught in the rain.
+  title: ""
+  contact: ""
+  image: "sinisha.jpg"
+
+- name: "Ognen Ivanovski" #3
+  id: "ogi"
+  bio: >
+    Ognen is a senior software engineer and chief architect at Netcetera. His experience ranges from development of
+     business-critical enterprise projects through process control, technical lead, coaching and architecture. Areas of
+     expertise include real-time market data delivery / technical analysis, content management systems, acquiring
+     systems for credit and debit cards, and transport schedule delivery. Since 2008 he has been responsible for mobile
+     platforms and technologies within Netcetera.
+  title: ""
+  contact: ""
+  image: "ogi.jpg"
+
+- name: "Goran Cvetkoski" #4
+  id: "goran"
+  bio: >
+    Goran Cvetkoski is currently working as a senior software engineer at Netcetera in Skopje. As part of the Java
+      team, he has been working  in various Java and mixed technology project teams as a developer and a technical
+      coordinator for more than six years. In this time, he is involved in development and maintenance of web based
+      financial, business and budget reporting services and applications in the banking and insurance domains. He is
+      currently working on development of Wemlin Hub, system that provides reference and real-time public transportation
+      data and does online and offline transport data conversions.
+  title: ""
+  contact: ""
+  image: "goran.jpg"
+
+- name: "Nikolce Mihalovski" #5
+  id: "nikolche"
+  bio: >
+    Nikolche Mihajlovski is a software engineer who always seeks improvements of the commonly established processes, 
+    practices and technologies. He has 16+ years of experience with various programming languages, paradigms and technologies. 
+    Nikolche is the author of <a href="http://www.jannocessor.org">JAnnocessor</a> - innovative annotation-based code 
+    generator, <a href="http://www.rdxpl.org">RDXPL</a> - experimental programming language and 
+    <a href="http://www.ohmdb.com">OhmDB - The Irresistible Database for Java</a>
+  title: ""
+  contact: ""
+  image: "nikolche.png"
+
+- name: "Stojan Peshov" #6
+  id: "stojan"
+  bio: >
+    Stojan Peshov is Java developer with more than 10 years experience in web and back-end development.
+     He has worked on a wide range of projects and business domains using open source libraries and frameworks
+     such as Spring, Hibernate, Magnolia CMS, IceFaces, Hessian, RobotFramework, AngularJS, etc.
+     As such, he has tasted different flavors of Java: JSP, JSF, JPA, JTA, CDI, as well as Test Automation, ETL, HTML5, Javascript and Web Services.
+  title: ""
+  contact: ""
+  image: "stojan.jpg"
+
+- name: "Zlatko Stamatov" #7
+  id: "zlatko"
+  bio: >
+    Zlatko Stamatov works as a software engineer at Netcetera in Skopje, Macedonia. 
+    He has experience in various technologies, lately with primary focus on Java and Android. 
+    His portfolio covers from Windows desktop applications, rich web application created with Flex, 
+    enterprise finance solutions with GWT, applications for secure payment in the 3-D Secure domain, 
+    to mobile application for the Android platform.
+  title: ""
+  contact: ""
+  image: "zlatko-stamatov.jpeg"
+
+- name: "Ali Lazim" #8
+  id: "ali"
+  bio: >
+    Mr. Ali Lazim is presently the Chief Technology Officer of SolidPass. He previously was  
+    the CEO of Crea Technology which was acquired by SolidPass. Prior to founding Crea Technology 
+    he led software engineering at Sonera, the leading telecommunications company in Finland at the time. 
+    Ali Lazim helped engineer many world firsts at Sonera. Ali Lazim is an expert on data structures 
+    and algorithms analysis, software engineering, encryption protocols, and communication protocols. 
+    He has a Master degree in Computer Science and has taught at many universities. SolidPass 
+    is a leader in next-generation strong authentication. SolidPass protects enterprises and 
+    their customers from fraud, digital attacks, or information theft through advanced security 
+    software by converting mobile phones, internet browsers, and desktop applications into robust security tokens.
+  title: ""
+  contact: ""
+  image: "ali.jpg"
+
+- name: "Igor Stojanovski" #9
+  id: "igor"
+  bio: >
+    
+  title: ""
+  contact: ""
+  image: "igor.jpg"

@@ -1,70 +1,12 @@
 <h3>Sponsors</h3>
 <div class="sponsors">
   <ul class="list-group">
+    {% for sponsor in site.data.sponsors %}
     <li class="list-group-item">
-      <a href="http://www.netcetera.com/">
-        <img src="/images/sponsors/netcetera.gif" alt="Netcetera">
+      <a href="{{sponsor.url}}">
+        <img src="/images/sponsors/{{sponsor.image}}" alt="{{sponsor.name}}">
       </a>
     </li>
-    <li class="list-group-item">
-      <a href="http://www.seavus.com.mk/">
-        <img src="/images/sponsors/seavus.jpg">
-      </a>
-    </li>
-    <li class="list-group-item">
-      <a href="http://polarcape.com/">
-        <img src="/images/sponsors/polarcape.gif">
-      </a>
-    </li>
-    <li class="list-group-item">
-      <a href="http://www.genrepsoft.com/">
-        <img src="/images/sponsors/genrep_logo.png">
-      </a>
-    </li>
-    <li class="list-group-item">
-      <a href="http://www.evernear.com/">
-        <img src="/images/sponsors/ever_near.jpg">
-      </a>
-    </li>
-    <li class="list-group-item">
-      <a href="http://www.tricode.nl/">
-        <img src="/images/sponsors/tricode.jpg">
-      </a>
-    </li>
-    <li class="list-group-item">
-      <a href="http://www.nordeus.com/">
-        <img src="/images/sponsors/nordeus.png">
-      </a>
-    </li>
-  </ul>
-</div>
-<h3>Supporters</h3>
-<div class="sponsors">
-  <ul class="list-group">
-    <li class="list-group-item">
-      <a href="http://www.devoxx.be/">
-        <img src="/images/supporters/devoxx.png">
-      </a>
-    </li>
-    <li class="list-group-item">
-      <a href="http://www.finki.ukim.mk/">
-        <img src="/images/supporters/finki.png">
-      </a>
-    </li>
-    <li class="list-group-item">
-      <a href="http://www.java2days.com">
-        <img src="/images/supporters/java2days.png">
-      </a>
-    </li>
-    <li class="list-group-item">
-      <a href="http://jazoon.com/" style="background-color:#9B0431;">
-        <img src="/images/supporters/jazoonlogo.png">
-      </a>
-    </li>
-    <li class="list-group-item">
-      <a href="http://www.oreilly.com/">
-        <img src="/images/supporters/oreilly_ug.jpg">
-      </a>
-    </li>
+    {% endfor %}
   </ul>
 </div>

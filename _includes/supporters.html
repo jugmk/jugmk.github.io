@@ -1,0 +1,12 @@
+<h3>Supporters</h3>
+<div class="sponsors">
+  <ul class="list-group">
+    {% for supporter in site.data.supporters %}
+    <li class="list-group-item">
+      <a href="{{supporter.url}}">
+        <img src="/images/supporters/{{supporter.image}}" alt="{{supporter.name}}">
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

@@ -1,0 +1,6 @@
+<h3>Organized events</h3>
+{% assign events = site.event | sort: 'date' | reverse %}
+{% for event in events %}
+    <h4><a href="{{ event.url }}">{{ event.title }}</a></h4>
+    <p>{{ event.date | date_to_long_string }}, {{ event.location }}</p>
+{% endfor %}

@@ -1,0 +1,158 @@
+---
+title:  "Java Day#0x03"
+date:   2014-11-22 09:30:00
+start: "9:30"
+end: "16:30"
+location: "Cineplexx, Skopje city mall"
+agenda:
+ - from: "9:30"
+   to: "10:00"
+   talk: "Registration"
+   speakers: []
+ - from: "10:00"
+   to: "10:15"
+   talk: "Opening"
+   speakers: [0, 1]
+   index: 0
+ - from: "10:15"
+   to: "10:55"
+   talk: "How to become a great developer"
+   speakers: [2] 
+   index: 2  
+ - from: "10:55"
+   to: "11:05"
+   talk: "Short break"
+   speakers: []
+ - from: "11:05"
+   to: "11:45"
+   talk: "#scaling #automation #opsworks #chef #vagrant"
+   speakers: [3]
+   index: 3
+ - from: "11:45"
+   to: "11:50"
+   talk: "Short break"
+   speakers: []
+ - from: "11:50"
+   to: "12:10"
+   talk: "Java 8: Functional programming "
+   speakers: [4]
+   index: 4
+ - from: "12:10"
+   to: "12:50"
+   talk: "Lunch break"
+   speakers: []
+ - from: "12:50"
+   to: "13:30"
+   talk: "IDE independent development with JBoss Forge"
+   speakers: [5]
+   index: 5
+ - from: "13:30"
+   to: "13:40"
+   talk: Short break
+   speakers: []
+ - from: "13:40"
+   to: "14:20"
+   talk: The Challenge of going Real-time
+   speakers: [6]
+   index: 6
+ - from: "14:20"
+   to: "14:35"
+   talk: Break
+   speakers: []
+ - from: "14:35"
+   to: "15:15"
+   talk: Rapid Development of High Performance Web Apps with Rapidoid 
+   speakers: [7]
+   index: 7
+ - from: "15:15"
+   to: "15:25"
+   talk: Short break
+   speakers: []
+ - from: "15:25"
+   to: "16:05"
+   talk: Caching - oldie but goldie
+   speakers: [8]
+   index: 8
+ - from: "16:05"
+   to: "16:15"
+   talk: Short break
+   speakers: []
+ - from: "16:15"
+   to: "16:55"
+   talk: Modular Java
+   speakers: [9]
+   index: 9
+ - from: "16:55"
+   to: "17:00"
+   talk: Short break
+   speakers: []
+ - from: "17:00"
+   to: "17:20"
+   talk: Modern Web Application Development Workflow 
+   speakers: [10]
+   index: 10
+ - from: "17:20"
+   to: "17:30"
+   talk: Closing statement
+   speakers: []
+---
+<h3>{{ page.date | date_to_long_string }}, {{ page.location }}</h3>
+
+<h2>Agenda</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Time</th>
+            <th>Talk</th>
+            <th>Presenter</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for a in page.agenda %}
+        <tr>
+            <td>
+                {{ a.from }} - {{ a.to }}
+            </td>
+            <td>
+                {% if a.index %}
+                <a href="#talk-{{ site.data.speakers-2014[a.index].id }}">
+                {% endif %}
+                {{ a.talk }}
+                {% if a.index %}
+                </a>
+                {% endif %}
+            </td>
+            <td>
+              {% for speaker in a.speakers %}
+                <a href="#speaker-{{ site.data.speakers-2014[speaker].id }}">{{ site.data.speakers-2014[speaker].name }}</a>
+                {% if forloop.last == false %} &amp; {% endif %}
+              {% endfor %}
+            </td>
+        </tr>
+        {% endfor %}    
+    </tbody>
+</table>
+
+<h2>Speakers</h2>
+
+{% for speaker in site.data.speakers-2014 %}
+<div class="row speaker">
+  <div class="col-md-4 speaker-image">
+    <img src="/images/speakers/{{speaker.image}}" class="img-circle">
+  </div>
+  <div class="col-md-8 speaker-body">
+    <h3 id="speaker-{{ speaker.id }}">{{ speaker.name }}</h3>
+    <p>
+      {{ speaker.bio }}
+    </p>
+    <h4 id="talk-{{ speaker.id }}">{{ speaker.title }}</h4>
+    <p>
+      {{ speaker.abstract }}
+    </p>
+  </div>
+</div>
+{% endfor %}
+
+</table>
+

@@ -1,6 +1,6 @@
 # Site settings
 title: Java User Group Macedonia
-email: your-email@domain.com
+email: webadmin@jug.mk
 description: > # this means to ignore newlines until "baseurl:"
   Official web site of the Java User Group Macedonia. 
   Events, mailing list and other activities of the Java community in Macedonia.
@@ -8,6 +8,14 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://jug.mk" # the base hostname & protocol for your site
 twitter_username: jugmk
 github_username:  jugmk
-
+collections:
+  event:
+    output: true    
+defaults:
+  - scope:
+      path: ""
+      type: event
+    values:
+      layout: events
 # Build settings
 markdown: kramdown

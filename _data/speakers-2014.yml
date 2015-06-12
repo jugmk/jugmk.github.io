@@ -1,0 +1,223 @@
+- name: "Mite Mitreski" #0
+  id: "mite"
+  bio: >
+    Mite Mitreski works on custom enterprise application development and consultancy with primary focus
+    on Java and JVM-based solutions. He has held various titles such as solution architect, team leader,
+    senior engineer and technical consultant but at the end of the day he is software engineer..
+    He is deeply involved in activities related to Java User Group Macedonia, free and open source
+    software, open data formats and the open web. Occasional he writes on his <a href="http://blog.mitemitreski.com">blog</a> and 
+    <a href="https://twitter.com/mitemitreski">twitter @mitemitreski</a> 
+    Recently he co-authored a book titled <a href="http://rcm-na.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=mitemitreskic-20&o=1&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=1783559284" style="width:120px;height:240px">HTML 5 Data and Services Cookbook</a>.
+  title: ""
+  abstract: ""
+  contact: ""
+  image: "mite.jpg"
+
+- name: "Pance Cavkovski" #1
+  id: "pance"
+  bio: >
+    Pance Cavkovski is a senior software engineer working at Netcetera in Skopje, Macedonia. As part of
+        the team, he has specialized working in Java, Javascript, Flex/ActionScript and .NET technologies.
+        The scopes of the projects he has worked so far have varied from CAD application, simulations and
+        visualizations to finance applications, distributed web systems and infrastructures. He is known for
+        the CodeFu system which he redesigned, developed in most and is one of the head administrators. As
+        of 2009 he is an active member of the Macedonian Java User Group.
+  title: ""
+  contact: ""
+  image: "pance.jpg"
+
+- name: "Corsin Decurtins" #2
+  id: "corsin"
+  bio: >
+    Corsin is the CTO of Netcetera and one of the leaders of the Java
+        User Group Switzerland (jug.ch). He has been working with Java and
+        related technologies for more than 10 years, designing and developing
+        business-critical systems for various customers. Corsin studied
+        computer science and worked as a research assistant at ETH Zurich.
+  title: "How to become a great developer"
+  abstract: >
+    At the core, the job of a software developer is and has always been
+            the same: writing good, elegant, sustainable and bug-free software
+            that exceeds the expectations of your clients. But the context in
+            which we do our job is changing and with it the skills required to be
+            a great software developer.
+            In this talk, I want to go through a couple of things that I think
+            make the difference between a developer and a great developer. This
+            includes some technical skills and practices, but also non-technical
+            things that you might not consider relevant for a developer at first.
+  contact: ""
+  image: "corsin.jpg"
+
+- name: "Raluca Breaur" #3
+  id: "raluca"
+  bio: >
+     Raluca is an enthusiastic software engineer and scrum master that works as Head of Development at
+        Endava. She started her career in software development in 2004 as a java developer and shows a special
+        interest in jvm technologies, clean code, design and Agile/Lean methodologies. As sharing is caring she
+        is one of the organizers or the Agile meetups and Java User Group in Iasi, Romania.
+  title: "Caching – oldie but goldie"
+  abstract: >
+    When we deal with performance issues one of the classical approaches is to use a cache, but using
+        caching doesn't imply an one size fits all solution. We will discuss about different elements we have to
+        consider when we design our cache solution and analyze some real life scenarios.
+  contact: ""
+  image: "raluca.jpg"
+
+
+- name: "Nikola Zivkov" #4
+  id: "zivkov"
+  bio: >
+    Nikola Zivkov is currently holding the position of Java Technology Line Manager at Seavus and is based
+        in the company’s Skopje office. With more than 10 years of experience in building Java Enterprise
+        solutions, he’s very passionate about building resilient architectures that withstand the test of time
+        (and crazy client demands). He’s favorite topic to talk about is testing/TDD as he’s a strong believer
+        in the phrase that “good code is testable code”. He’s been a member of the Macedonian JUG since the
+        group’s second meeting.
+  title: "#scaling #automation #opsworks #chef #vagrant"
+  abstract: >
+    We take a look at Amazon Web Services’ Elastic Compute Cloud (AWS EC2)
+        service as a representative of the IaaS family to check its shortcomings during the resource provisioning
+        and configuration process in particular for solutions that need to scale. We then take look at the AWS OpsWorks
+        service that promises to eliminate those shortcomings without sacrificing the control and flexibility that
+        IaaS provides.
+  contact: ""
+  image: "goran.jpg"
+
+- name: "Ivan St. Ivanov" #5
+  id: "ivan"
+  bio: >
+    Ivan St. Ivanov is development architect at SAP Labs Bulgaria. He is now working in the HANA Cloud Platform
+        team, focusing on performance topics. In his free time he likes contributing to open source software, mostly to
+        JBoss Forge. He is active JUG member, co-driving the adoption of OpenJDK in Bulgaria. Ivan is doing his PhD in
+        the area of cloud multi-tenancy in the University of National and World Economy in Sofia. He is teaching Java,
+        Java EE and SOA in three Universities in Sofia.
+  title: "IDE independent development with JBoss Forge"
+  abstract: >
+    Java EE has long been accused for being very hard to quickly develop web applications and most of the
+            accusations come from the old J2EE days. It was the times when you had to create heavy deployment
+            descriptors
+            even for the simplest app. So every vendor provided plethora of deployment and development tools. With Java
+            EE 5
+            and 6 the things got simplified a lot with the removal of accompanying descriptor XMLs and imposing the
+            convention over configuration development model. But still there are some things that make developer's life
+            hard: finding the right dependencies, setting up ORM layer, writing all the plumbing CRUD code.
+    In this session we'll introduce JBoss Forge - a tool that further simplifies developer experience. Even though
+        it's not bound to Java EE, we'll show how you can easily wire JPA, bean validation, JAX-RS, EJB. Another cool
+        feature of the tool is its IDE agnostics: all its features can be used transparently from Eclipse, IntelliJ IDEA
+        and (coming soon) from NetBeans, as well as from the command line.
+        Come and see how Java [EE] can feel like all the *rails frameworks that are threatening to kill it!
+  contact: ""
+  image: "ivan.jpg"
+
+- name: "Martin Tihomirov Toshev" #6
+  id: "martin"
+  bio: >
+    Martin is a Java enthusiast. He is a graduate of Computer Science
+        from the University of Sofia. He is also a certified Java professional (SCJP6) and a certified IBM cloud
+        computing solution advisor. His areas of interest include the wide range of Java-related technologies (such as
+        Servlets, JSP, JAXB, JAXP, JMS, JMX, JAX-RS, JAX-WS, Hibernate, Spring Framework, Liferay Portal and Eclipse
+        RCP), cloud computing technologies, cloud-based software architectures, enterprise application integration,
+        relational and NoSQL databases. You can reach him for any Java and FOSS-related topics (especially Eclipse and
+        the OpenJDK).
+  title: "Modular Java"
+  abstract: >
+    This session will present the current progress around project Jigsaw that aims to modularize the Java platform
+        and provide overview on the interoperability with OSGi in terms of project Penrose. Brief overview on the two
+        projects in terms of OpenJDK and points for open-source contribution will be covered at the end of the talk.
+        Agenda:
+        - Modularity 101
+        - Modularity of the platform: Jigsaw
+        - OSGi and Jigsaw interoperability: Penrose
+        - Contributing to Jigsaw and Penrose
+  contact: ""
+  image: "stojan.jpg"
+
+- name: "Nikolce Mihajlovski" #7
+  id: "nikolche"
+  bio: >
+    Nikolche Mihajlovski is a software engineer who always seeks improvements of the commonly established processes,
+        practices and technologies. He has 17+ years of programming experience in various programming languages,
+        paradigms and technologies, diverging from experimental research and pet projects to serious enterprise
+        applications.
+        Nikolche is the author of Rapidoid framework (open-source high-performance TCP/IP and HTTP server, web framework
+        and more), OhmDB (open-source hybrid RDBMS + NoSQL database), JAnnocessor (a modern annotation-based code
+        generator), RDXPL (experimental multi-paradigm programming language), and much more… Nikolche is a co-founder
+        and CEO of Rapidobest.
+  title: "Rapid Development of High Performance Web Apps with Rapidoid "
+  abstract: >
+    Serving millions of HTTP requests per second is now really easy - simply implement a web handler with a
+            single line of Java code and use the Rapidoid framework to do the rest and the REST. Rapidoid is a new
+            open-source framework providing simplicity of modern web development. It can be used to write any kind of
+            asynchronous high-performance TCP/IP servers, and is built on top of low-level Java NIO. It features very
+            fast HTTP server written from scratch for maximum performance, a framework for POJO-based RESTful services
+            and complex web applications, off-heap buffers and minimal usage of the Java heap, minimalistic dependency
+            injection and many cool static utilities. It integrates well with OhmDB and it is released under the APL.
+  contact: ""
+  image: "nikolche.jpg"
+
+- name: "Aleksandar Pecanov" #8
+  id: "pecanov"
+  bio: >
+    Aleksandar Pecanov is a Senior Software Engineer with Singular Macedonia and is
+        responsible for the overall design and architecture of development solutions. He has been
+        developing software for more than 15 years, most of that using Java EE and various
+        enterprise technologies. He has worked as a developer, architect and team lead, developing
+        software in a variety of industries, including the financial sector, music entertainment and
+        gaming industry, as well as with a variety of languages, databases and platforms. Outside of
+        work, Aleksandar is a passionate game enthusiast, both as a player and a developer and has
+        authored several casual game titles as personal projects.
+  title: "The Challenge of going Real-time "
+  abstract: >
+    The design and implementation of a real time data processing system, in the terms of
+            enterprise systems, is a formidable task that introduces somewhat unorthodox obstacles
+            when compared to most systems in the field of enterprise application software. The
+            implementation of such system is crucial to the operation of various software solutions of
+            which most notable are solutions providing financial trading, traffic control, weather
+            prediction, social networks, analytics systems and MMO real-time games.
+  contact: ""
+  image: "pecanov.jpg"
+
+- name: "Mihail Stoynov" #9
+  id: "mihail"
+  bio: >
+    Mihail is a security and software consultant, trainer and author. His resume includes projects in companies like
+        Saudi Aramco, Boeing, HP, Siemens, USAF, several foreign banks and government entities. Mihail is the co-author
+        of 6 books on software, and has 10 years of training experience in local and foreign companies and most of the
+        local universities.
+  title: "Java 8: Functional programming "
+  abstract: >
+    How can we start writing immutable and declarative code? How can we focus on the what, not the how? In this
+        session we shall discuss the functional programming in java. This talk will also mention higher-order functions
+        and how we can leverage lazy evaluation and composition of lambda expressions. A demo will present predicates,
+        selectors and functions in a new way and will show how to inject dependencies. An explanation will be presented
+        on how we can mix object composition with function composition. Last but not least some time will be spent on
+        parallelising operations with composition of lambda expressions.
+  contact: ""
+  image: "mihail.jpg"
+
+- name: "Bogdan Begović" #10
+  id: "bogdan"
+  bio: >
+    Bogdan Begović is a software engineer from Kragujevac, Serbia, working in Seavus, Belgrade, Serbia,
+        as a lead JavaScript/Frontend developer. He is specialized in UI and UX development using languages
+        like JavaScript, HTML and CSS, frameworks like FlightJS, jQuery, KnockoutJS etc. and mobile application
+        development in Android and iOS. He started out as a backend Java developer but quickly transferred
+        to frontend technologies. Being a highly competitive person, he has attended several hackathons
+        and competitions, with his biggest success - winning Microsoft ImagineCup, Local finals, best mobile
+        application.
+  title: "Modern Web Application Development Workflow "
+  abstract: >
+     As we all know, development of web application, especially frontend, has changed a lot over past few
+            years. The JavaScript community has grown and people started using it the right way, as it was supposed
+            to.
+            Today, development of web apps always starts, and is dependent on choosing the right frameworks,
+            build system, package manager, etc...
+            There is a lot of options and to find the right one for your project is a true art itself.
+            My topic for the presentation would be creating environment for the frontend part of the project,
+            which includes a build system (Grunt), dependency management (Bower), JS frameworks (KnockoutJS
+            and jQuery), CSS tools and preprocesors (SASS), linting tool (JSHint) and Testing tools and frameworks
+            (Karma and Jasmine). The end result of the presentation will be ToDo application which will follow the principles shown in
+            the presentation. I will also mention other technologies like Angular, Gulp, JSLint etc. but I will not
+            cover them as extensively as previously mentioned technologies.
+  contact: ""
+  image: "bogdan.jpg"

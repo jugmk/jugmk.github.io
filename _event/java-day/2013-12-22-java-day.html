@@ -1,0 +1,117 @@
+---
+title:  "Java Day#0x02"
+date:   2013-12-22 09:30:00
+start: "9:30"
+end: "16:30"
+location: "Cineplexx, Skopje city mall"
+agenda:
+ - from: "9:30"
+   to: "10:00"
+   talk: "Registration"
+   speakers: []
+ - from: "10:00"
+   to: "10:15"
+   talk: "Opening JavaDay 2013#0x02"
+   speakers: [0]
+ - from: "10:15"
+   to: "10:30"
+   talk: "WebSockets in Java: from n00b to pro"
+   speakers: [1]
+ - from: "10:30"
+   to: "10:40"
+   talk: "10 min break"
+   speakers: []
+ - from: "10:40"
+   to: "11:00"
+   talk: "Continuous delivery"
+   speakers: [2]
+ - from: "11:05"
+   to: "11:50"
+   talk: "The Architecture of Wemlin Hub"
+   speakers: [3,4]
+ - from: "11:55"
+   to: "12:15"
+   talk: "State of the Lambda"
+   speakers: [0]
+ - from: "12:15"
+   to: "13:00"
+   talk: "Lunch break"
+   speakers: []
+ - from: "13:00"
+   to: "13:45"
+   talk: OhmDB db = Ohm.db("my.db");
+   speakers: [5]
+ - from: "13:50"
+   to: "14:20"
+   talk: Automated Testing using RobotFramework Libraries
+   speakers: [6]
+ - from: "14:25"
+   to: "14:45"
+   talk: Android and the real world
+   speakers: [7]
+ - from: "14:45"
+   to: "14:55"
+   talk: 10 min break
+   speakers: []
+ - from: "14:55"
+   to: "15:15"
+   talk: Java Into the Cloud
+   speakers: [8]
+ - from: "15:20"
+   to: "16:00"
+   talk: Java FX
+   speakers: [9]
+ - from: "16:05"
+   to: "16:35"
+   talk: "Micro &amp; Mobile : Java on the Raspberry Pi"
+   speakers: [1]
+---
+<h3>{{ page.date | date_to_long_string }}, {{ page.location }}</h3>
+
+<h2>Agenda</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Time</th>
+            <th>Talk</th>
+            <th>Presenter</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for a in page.agenda %}
+        <tr>
+            <td>
+                {{ a.from }} - {{ a.to }}
+            </td>
+            <td>
+                {{ a.talk }}
+            </td>
+            <td>
+              {% for speaker in a.speakers %}
+                <a href="#{{ site.data.speakers-2013[speaker].id }}">{{ site.data.speakers-2013[speaker].name }}</a>
+              {% endfor %}
+            </td>
+        </tr>
+        {% endfor %}    
+    </tbody>
+</table>
+
+<h2>Speakers</h2>
+
+{% for speaker in site.data.speakers-2013 %}
+<div class="row speaker">
+  <div class="col-md-4 speaker-image">
+    <img src="/images/speakers/{{speaker.image}}" class="img-circle">
+  </div>
+  <div class="col-md-8 speaker-body">
+    <h3 id="{{ speaker.id }}">{{ speaker.name }}</h3>
+    <p>
+      {{ speaker.bio }}
+    </p>
+  </div>
+</div>
+{% endfor %}
+
+</table>
+

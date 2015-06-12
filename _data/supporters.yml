@@ -1,0 +1,15 @@
+- name: Devox
+  url: http://www.devoxx.be/
+  image: devoxx.png
+- name: FINKI
+  url: http://www.finki.ukim.mk/
+  image: finki.png
+- name: Java2Days
+  url: http://www.java2days.com
+  image: java2days.png
+- name: Jazoon
+  url: http://jazoon.com/
+  image: jazoonlogo.png
+- name: OReilly
+  url: http://www.oreilly.com/
+  image: oreilly_ug.jpg

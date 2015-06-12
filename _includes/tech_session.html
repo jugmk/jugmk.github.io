@@ -1,0 +1,22 @@
+<h3>{{ page.date | date_to_long_string }}, starting at {{ page.date | date: '%H:%M' }}</h3>
+
+{% for p in page.presentations %}
+<div class="tech-session">
+  <h2>{{ p.title }}</h2>
+  <h3>{{ p.speaker }}</h3>
+  <div class="row">
+    <div class="col-md-4 tech-session-image">
+      <img src="/images/speakers/{{p.image}}" class="img-rounded">
+    </div>
+    <div class="col-md-8 tech-session-body">
+      <p>
+        {{ p.abstract }}
+      </p>
+      <h3>About the speaker</h3>
+      <p>
+        {{ p.bio }}
+      </p>
+    </div>
+  </div>
+</div>
+{% endfor %}

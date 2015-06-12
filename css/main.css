@@ -208,3 +208,34 @@ h6,
   padding: 5px 8px;
   line-height: 1;
 }
+
+.speaker {
+  margin-bottom: 20px;
+}
+.speaker-image {
+  text-align: center;
+}
+.speaker-body {
+  padding: 10px 20px;
+}
+.speaker img {
+  width: 160px;
+  margin-top: 30px;
+}
+
+.tech-session {
+  margin-bottom: 40px;
+}
+.tech-session h3 {
+  margin-top: 4px;
+}
+.tech-session-image {
+  text-align: center;
+}
+.tech-session-body {
+  padding: 10px 20px;
+}
+.tech-session img {
+  margin-top: 12px;
+  width: 200px;
+}
