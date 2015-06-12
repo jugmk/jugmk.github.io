@@ -81,7 +81,7 @@
         service that promises to eliminate those shortcomings without sacrificing the control and flexibility that
         IaaS provides.
   contact: ""
-  image: "goran.jpg"
+  image: "zivkov.png"
 
 - name: "Ivan St. Ivanov" #5
   id: "ivan"

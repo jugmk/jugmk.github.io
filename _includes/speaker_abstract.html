@@ -1,0 +1,19 @@
+<h2>Speakers</h2> 
+
+{% for speaker in speakers %}
+<div class="row speaker">
+  <div class="col-md-4 speaker-image">
+    <img src="/images/speakers/{{speaker.image}}" class="img-circle">
+  </div>
+  <div class="col-md-8 speaker-body">
+    <h3 id="speaker-{{ speaker.id }}">{{ speaker.name }}</h3>
+    <p>
+      {{ speaker.bio }}
+    </p>
+    <h4 id="talk-{{ speaker.id }}">{{ speaker.title }}</h4>
+    <p>
+      {{ speaker.abstract }}
+    </p>
+  </div>
+</div>
+{% endfor %}

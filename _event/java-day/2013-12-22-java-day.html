@@ -1,8 +1,6 @@
 ---
-title:  "Java Day#0x02"
+title:  "Java Day #3"
 date:   2013-12-22 09:30:00
-start: "9:30"
-end: "16:30"
 location: "Cineplexx, Skopje city mall"
 agenda:
  - from: "9:30"
@@ -66,52 +64,10 @@ agenda:
    talk: "Micro &amp; Mobile : Java on the Raspberry Pi"
    speakers: [1]
 ---
-<h3>{{ page.date | date_to_long_string }}, {{ page.location }}</h3>
+{% include date_location_time.html %}
 
-<h2>Agenda</h2>
+{% assign speakers = site.data.speakers-2013 %}
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>Time</th>
-            <th>Talk</th>
-            <th>Presenter</th>
-        </tr>
-    </thead>
-    <tbody>
-        {% for a in page.agenda %}
-        <tr>
-            <td>
-                {{ a.from }} - {{ a.to }}
-            </td>
-            <td>
-                {{ a.talk }}
-            </td>
-            <td>
-              {% for speaker in a.speakers %}
-                <a href="#{{ site.data.speakers-2013[speaker].id }}">{{ site.data.speakers-2013[speaker].name }}</a>
-              {% endfor %}
-            </td>
-        </tr>
-        {% endfor %}    
-    </tbody>
-</table>
+{% include agenda.html %}
 
-<h2>Speakers</h2>
-
-{% for speaker in site.data.speakers-2013 %}
-<div class="row speaker">
-  <div class="col-md-4 speaker-image">
-    <img src="/images/speakers/{{speaker.image}}" class="img-circle">
-  </div>
-  <div class="col-md-8 speaker-body">
-    <h3 id="{{ speaker.id }}">{{ speaker.name }}</h3>
-    <p>
-      {{ speaker.bio }}
-    </p>
-  </div>
-</div>
-{% endfor %}
-
-</table>
-
+{% include speaker_abstract.html %}

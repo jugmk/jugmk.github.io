@@ -1,5 +1,5 @@
 ---
-title:  "Java Day#0x03"
+title:  "Java Day #4"
 date:   2014-11-22 09:30:00
 start: "9:30"
 end: "16:30"
@@ -96,63 +96,10 @@ agenda:
    talk: Closing statement
    speakers: []
 ---
-<h3>{{ page.date | date_to_long_string }}, {{ page.location }}</h3>
+{% include date_location_time.html %}
 
-<h2>Agenda</h2>
+{% assign speakers = site.data.speakers-2014 %}
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>Time</th>
-            <th>Talk</th>
-            <th>Presenter</th>
-        </tr>
-    </thead>
-    <tbody>
-        {% for a in page.agenda %}
-        <tr>
-            <td>
-                {{ a.from }} - {{ a.to }}
-            </td>
-            <td>
-                {% if a.index %}
-                <a href="#talk-{{ site.data.speakers-2014[a.index].id }}">
-                {% endif %}
-                {{ a.talk }}
-                {% if a.index %}
-                </a>
-                {% endif %}
-            </td>
-            <td>
-              {% for speaker in a.speakers %}
-                <a href="#speaker-{{ site.data.speakers-2014[speaker].id }}">{{ site.data.speakers-2014[speaker].name }}</a>
-                {% if forloop.last == false %} &amp; {% endif %}
-              {% endfor %}
-            </td>
-        </tr>
-        {% endfor %}    
-    </tbody>
-</table>
+{% include agenda.html %}
 
-<h2>Speakers</h2>
-
-{% for speaker in site.data.speakers-2014 %}
-<div class="row speaker">
-  <div class="col-md-4 speaker-image">
-    <img src="/images/speakers/{{speaker.image}}" class="img-circle">
-  </div>
-  <div class="col-md-8 speaker-body">
-    <h3 id="speaker-{{ speaker.id }}">{{ speaker.name }}</h3>
-    <p>
-      {{ speaker.bio }}
-    </p>
-    <h4 id="talk-{{ speaker.id }}">{{ speaker.title }}</h4>
-    <p>
-      {{ speaker.abstract }}
-    </p>
-  </div>
-</div>
-{% endfor %}
-
-</table>
-
+{% include speaker_abstract.html %}

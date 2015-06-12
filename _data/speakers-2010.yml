@@ -1,0 +1,111 @@
+- name: "Pance Cavkovski" #0
+  id: "pance"
+  bio: >
+    Pance Cavkovski is a senior software engineer working at Netcetera in Skopje, Macedonia. 
+    As part of the team, he has specialized working in Java, Javascript, Flex/ActionScript 
+    and .NET technologies. The scopes of the projects he has worked so far have varied from 
+    CAD application, simulations and visualizations to finance applications, distributed web 
+    systems and infrastructures. He is known for the CodeFu system which he redesigned, developed 
+    in most and is one of the head administrators. As of 2009 he is an active member of the Macedonian Java User Group.
+  title: "Flex, Java and the rest"
+  abstract: >
+    
+  contact: ""
+  image: "pance.jpg"
+
+- name: "Jovan Kostovski" #1
+  id: "jovan"
+  bio: >
+    TBD
+  title: "Java Native Acess"
+  abstract: ""
+  contact: ""
+  image: "jovan.jpg"
+
+- name: Ice Penov #2
+  id: penov
+  bio: >
+    Ice Penov is a technology agnostic software architect with a passion for Java technologies
+    currently on a mission in Amsterdam. He's been developing and designing software systems for quite
+    some time and enjoys speaking on events. He also firmly believes in a world run by developers.
+  title: Google App Engine for Java
+  abstract: ""
+  contact: 
+  image: "penov.jpg"
+
+- name: Goran Peoski #3
+  id: "goran"
+  bio: >
+    TBD
+  title: "REST what they don't tell you in tutorials"
+  contact: ""
+  abstract: ""
+  image: "goran.jpg"
+
+- name: "Mite Mitreski" #4
+  id: "mite"
+  bio: >
+    Mite Mitreski currently works at Tricode and has over 6 years of experience in various open source technologies, with primary
+    focus on Java and JVM. He has also worked as an Oracle certifed java trainer in a local educational center and as custom solutions developer at Netcetera as well as GenrepSoft in the past.
+    He is deeply involved in activities related to Java User Group Macedonia, free and open source software,
+    open data formats and the open web. Occasonaly he writes on his <a href="http://blog.mitemitreski.com">blog</a> and <a
+    href="https://twitter.com/mitemitreski">twitter @mitemitreski</a>. Recently he co-authored a book 
+    titled <a href="http://rcm-na.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF
+    &t=mitemitreskic-20&o=1&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=1783559284" style="width:120px;height:240px;">HTML
+    5 Data and Services Cookbook</a>.
+  title: "New Languages on the JVM"
+  abstract: ""
+  contact: ""
+  image: "mitemitreski.jpg"
+
+- name: Nikolce Mihalovski #5
+  id: nikolche
+  bio: >
+    Nikolche Mihajlovski is a software engineer who always seeks improvements of the commonly established processes, 
+    practices and technologies. He has 16+ years of experience with various programming languages, paradigms and technologies. 
+    Nikolche is the author of <a href="http://www.jannocessor.org">JAnnocessor</a> - innovative annotation-based code 
+    generator, <a href="http://www.rdxpl.org">RDXPL</a> - experimental programming language and 
+    <a href="http://www.ohmdb.com">OhmDB - The Irresistible Database for Java</a>
+  title: "New Languages on the JVM"
+  abstract: ""
+  contact: "" 
+  image: "nikolche.png"
+
+- name: Sasho Lazarevski #6
+  id: sasho
+  bio: >
+    TBD
+  title: Webdav for Java
+  abstract: 
+  contact: 
+  image: "sasho.jpg"
+
+- name: Risto Muchev #7
+  id: muchev
+  bio: >
+    <a href="http://mk.linkedin.com/in/ristomuchev/" target="_blank">Risto Muchev</a> currently 
+    works at <a href="http://www.lifewatch.com" target="_blank">LifeWatch MK</a> on 
+    the <a href="http://www.lifewatchv.com" target="_blank">LifeWatch V</a>
+    project - World's first medical smartphone. He is experienced software engineer in mobile software
+    development and ERP systems with passion for Java.
+  title: "Comet and Java, Real time web"
+  abstract: 
+  contact: 
+  image: "muchev.jpg"
+
+- name: Stanojko Markovik  #8
+  id: stanojko
+  bio: >
+    TBD
+  title: "The good, the bad and the ugly, things to do with Android"
+  abstract: 
+  contact: 
+  image: "stanojko.jpg"
+- name: Tomche Delev  #9
+  id: tomche
+  bio: >
+    TBD
+  title: "Developing REST apps for Android"
+  abstract: 
+  contact: 
+  image: "tomche.jpg"

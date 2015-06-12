@@ -1,0 +1,121 @@
+- name: "Mite Mitreski" #0
+  id: "mite"
+  bio: >
+    Mite Mitreski currently works at Tricode and has over 6 years of experience in various open source technologies, with primary
+    focus on Java and JVM. He has also worked as an Oracle certifed java trainer in a local educational center and as custom solutions developer at Netcetera as well as GenrepSoft in the past.
+    He is deeply involved in activities related to Java User Group Macedonia, free and open source software,
+    open data formats and the open web. Occasonaly he writes on his <a href="http://blog.mitemitreski.com">blog</a> and <a
+    href="https://twitter.com/mitemitreski">twitter @mitemitreski</a>. Recently he co-authored a book 
+    titled <a href="http://rcm-na.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF
+    &t=mitemitreskic-20&o=1&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=1783559284" style="width:120px;height:240px;">HTML
+    5 Data and Services Cookbook</a>.
+  title: "Clean and type-safe SQL queries with QueryDSL"
+  abstract: >
+    Querydsl is a framework which enables the construction of type-safe SQL-like queries for
+                      multiple backends including JPA, JDO and SQL in Java.
+  contact: ""
+  image: "mitemitreski.jpg"
+
+- name: "Branislav Bajlovski" #1
+  id: "branislav"
+  bio: >
+    
+  title: "Corporative solutions with JTAPI (Advanced JTAPI) – CTI, Call Managers  Dialers"
+  abstract: >
+
+  contact: ""
+  image: "nophoto.png"
+
+- name: "Igor Stojanovski" #2
+  id: "igor"
+  bio: >
+    
+  title: "Corporative solutions with JTAPI (Advanced JTAPI) – CTI, Call Managers  Dialers"
+  abstract: >
+
+  contact: ""
+  image: "nophoto.png"
+
+- name: "Pance Cavkovski" #3
+  id: "pance"
+  bio: >
+    Pance Cavkovski is a senior software engineer working at Netcetera in Skopje, Macedonia. 
+    As part of the team, he has specialized working in Java, Javascript, Flex/ActionScript 
+    and .NET technologies. The scopes of the projects he has worked so far have varied from 
+    CAD application, simulations and visualizations to finance applications, distributed web 
+    systems and infrastructures. He is known for the CodeFu system which he redesigned, developed 
+    in most and is one of the head administrators. As of 2009 he is an active member of the Macedonian Java User Group.
+  title: "Visualize with D3.js"
+  abstract: >
+    Bring life to your data, and create interactive visual JavaScript
+                      applications with d3.js.
+  contact: ""
+  image: "pance.jpg"
+
+- name: "Dragan Sahpaski" #4
+  id: "dragan"
+  bio: >
+    Dragan Sahpaski currently works as a junior teaching assistant at the Faculty of Computer Science and 
+    Engineering (FCSE) at the University "Ss. Cyril and Methodius" in Skopje (UKIM). He teaches courses in 
+    advanced databases, computer graphics and web technologies. He has experience with various Java open 
+    source technologies, including his favorite the Apache Tapestry web application framework. He has 
+    worked with tapestry for over 3 years now and has worked on many projects using it with various other
+    Java open source technologies. He has contributed a few patches and modules for the framework which 
+    can be found on his github profile github.com/dragansah. The talk will be about clojure and using 
+    clojurescript  in web applicaitons.
+  title: ClojureScript
+  abstract: >
+    The talk will be about clojure and using clojurescript in web applicaitons.
+  contact: ""
+  image: "goran.jpg"
+
+- name: Goran Peoski #5
+  id: "goran"
+  bio: >
+    TBD
+  title: "За програмерцките работи"
+  contact: ""
+  image: "goran.jpg"
+
+- name: Nikolce Mihalovski #6
+  id: nikolche
+  bio: >
+    Nikolche Mihajlovski is a software engineer who always seeks improvements of the commonly established processes, 
+    practices and technologies. He has 16+ years of experience with various programming languages, paradigms and technologies. 
+    Nikolche is the author of <a href="http://www.jannocessor.org">JAnnocessor</a> - innovative annotation-based code 
+    generator, <a href="http://www.rdxpl.org">RDXPL</a> - experimental programming language and 
+    <a href="http://www.ohmdb.com">OhmDB - The Irresistible Database for Java</a>
+  title: Run Java 8 On-line
+  abstract: >
+    Explore the cool features of Java 8, edit and execute Java 8 code on-line, get ready for the future and have fun!
+  contact: 
+  image: "nikolche.png"
+
+- name: Ice Penov #7
+  id: ice
+  bio: >
+    Ice Penov is a technology agnostic software architect with a passion for Java technologies
+    currently on a mission in Amsterdam. He's been developing and designing software systems for quite
+    some time and enjoys speaking on events. He also firmly believes in a world run by developers.
+  title: SQL vs NoSQL - бази на екстази
+  abstract: >
+    SQL vs NoSQL - What would you choose?
+  contact: 
+  image: "ice.jpg"
+
+- name: Risto Muchev #8
+  id: muchev
+  bio: >
+    <a href="http://mk.linkedin.com/in/ristomuchev/" target="_blank">Risto Muchev</a> currently 
+    works at <a href="http://www.lifewatch.com" target="_blank">LifeWatch MK</a> on 
+    the <a href="http://www.lifewatchv.com" target="_blank">LifeWatch V</a>
+    project - World's first medical smartphone. He is experienced software engineer in mobile software
+    development and ERP systems with passion for Java.
+  title: Modern software development methodologies for mobile devices
+  abstract: >
+    What methodologies to choose and apply in professional software
+    development to achieve the required quality, use a minimum amount of resources, reduce the
+    workload and thus achieve all deadlines. By comparing some methodologies he will show which of
+    them to use if you have parallel software development.
+  contact: 
+  image: "muchev.jpg"

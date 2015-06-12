@@ -1,4 +1,4 @@
-<h3>{{ page.date | date_to_long_string }}, starting at {{ page.date | date: '%H:%M' }}</h3>
+{% include date_location_time.html %}
 
 {% for p in page.presentations %}
 <div class="tech-session">
