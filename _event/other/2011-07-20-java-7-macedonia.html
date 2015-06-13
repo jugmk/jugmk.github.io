@@ -1,0 +1,35 @@
+---
+title:  "Java 7 Macedonia"
+date:   2011-07-20 18:00:00
+location: "Skopje Fair Business Hall"
+agenda:
+ - from: "17:30"
+   to: "18:00"
+   talk: "Reception (everyone gets free Java 7 t-shirt)"
+   speakers: []
+ - from: "18:00"
+   to: "18:15"
+   talk: "A brief histrory of JUGMK"
+   speakers: [0]
+   index: 0
+ - from: "18:15"
+   to: "19:30"
+   talk: "Java SE 7: The Java Platform Evolves"
+   speakers: [1]
+   index: 1
+ - from: "19:30"
+   to: "21:00"
+   talk: "Non-formal discussion outside in the lobby over complementary drinks (with coffee)"
+   speakers: []
+ - from: "21:00"
+   to: "??:??"
+   talk: "Voluntary - we continue for a beer and snacks in the city centre"
+   speakers: []
+---
+{% include date_location_time.html %}
+
+{% assign speakers = site.data.speakers-java7 %}
+
+{% include agenda.html %}
+
+{% include speaker_abstract.html %}

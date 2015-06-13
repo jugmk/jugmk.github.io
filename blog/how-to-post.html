@@ -1,0 +1,49 @@
+---
+layout: page
+title: How to contribute posts and collaborate
+---
+<p class="lead">Anyone can post articles, propose changes to the website or collaborate following the
+  <a href="https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow">
+    forking workflow</a>.
+</p>
+<ol>
+  <li>Fork the <a href="https://github.com/jugmk/jugmk.github.io">jugmk.github.io</a> repository</li>
+  <li>
+    Clone the repo from your fork
+    <p>Example</p>
+    <pre>git clone https://github.com/{git_username}/jugmk.github.io.git</pre>
+  </li>
+  <li>
+    Checkout a new branch with your post title
+    <p>Example</p>
+    <pre>git checkout -b example-post-title</pre>
+  </li>
+  <li>
+    Write your post in a new file in <kbd>_posts</kbd> directory
+    following the official <a href="http://jekyllrb.com/docs/posts/">jekyll documentation</a>.
+    <p>Example for file named <kbd>2015-01-31-javaday-2014-a-leap-forward.md</kbd></p>
+    <pre>---
+layout: post
+title: JavaDay 2014 a leap forward
+author: Mite Mitreski
+date: 2015-01-31
+categories: java-day personal
+---
+
+Your post contents in html/markdown</pre>
+  </li>
+  <li>
+    Commit your changes to your local repository
+    <p>Example</p>
+    <pre>git add .
+git commit -am "Add my post to jug.mk"</pre>
+  </li>
+  <li>
+    Push your changes
+    <p>Example</p>
+    <pre>git push origin example-post-title</pre>
+  </li>
+  <li>
+    Create a <a href="https://help.github.com/articles/using-pull-requests/">pull request</a>.
+  </li>
+</ol>

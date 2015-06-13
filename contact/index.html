@@ -1,18 +1,17 @@
 ---
-layout: main
+layout: page
 title: Contacts
 ---
 
-<h2>President/JUG Leader</h2>
-<p>Mite Mitreski</p>
-
-<h2>Previous leaders</h2>
-<ul>
-    <li>Ice Penov - Founding President/JUG Leader</li>
-</ul>
-
-<h2>Organization</h2>
-<ul>
-    <li>Stojan Peshov - Vicepresident</li>
-    <li>Toni Kostov - Administration</li>
-</ul>
+<p class="lead">You can find out more and get involved contacting us on:</p>
+<dl>
+    {% for c in site.data.contacts %}
+    <dt>
+        <h3><i class="fa fa-fw fa-{{c.icon}}"></i> {{ c.name }}</h3>
+    </dt>
+    <dd>
+        <p>{{ c.type }}</p>
+        <a href="{{ c.url }}">{{ c.url }}</a>
+    </dd>
+    {% endfor %}
+</dl>

@@ -1,0 +1,21 @@
+- type: Email
+  icon: at
+  name: webadmin at jug.mk
+  url: mailto:webadmin@jug.mk
+
+- type: Twitter account
+  icon: twitter
+  name: "@JavaUserGroupMK"
+  url: https://twitter.com/JavaUserGroupMK
+
+- type: Facebook group
+  icon: facebook
+  name: Java User Group Macedonia (JUGMK)
+  url: https://www.facebook.com/groups/jugmk/
+
+- type: Github user
+  icon: github
+  name: jugmk
+  url: https://github.com/jugmk/
+
+

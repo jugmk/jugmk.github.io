@@ -1,0 +1,24 @@
+- name: Ice Penov #0
+  id: ice
+  bio: >
+    Ice Penov is a technology agnostic software architect with a passion for Java technologies
+    currently on a mission in Amsterdam. He's been developing and designing software systems for quite
+    some time and enjoys speaking on events. He also firmly believes in a world run by developers.
+  title: A brief histrory of JUGMK
+  contact: 
+  image: "penov.jpg"
+
+- name: "Simon Ritter" #1
+  id: "ritter"
+  bio: >
+    Simon Ritter is head of Java Technology Evangelism at Oracle Corporation. Simon has been in 
+    the IT business since 1984 and holds a Bachelor of Science degree in Physics from Brunel University 
+    in the U.K. Originally working in the area of UNIX development for AT&T UNIX System Labs and 
+    then Novell, Simon moved to Sun in 1996. At this time he started working with Java technology 
+    and has spent time working both in Java technology development and consultancy. Having moved 
+    to Oracle as part of the Sun acquisition he now specialises in looking at emerging technologies 
+    including cloud computing, wireless sensor networks, and gestural interfaces. 
+    <p>Expertise: Java SE, Java Desktop, JavaFX, Java EE, GlassFish, Java ME</p>
+  title: "Java SE 7: The Java Platform Evolves"
+  contact: ""
+  image: "ritter.jpg"

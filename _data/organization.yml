@@ -1,1 +1,20 @@
-president: "Panche Chavskovski"
+president: 
+    name: Pance Cavskovski
+    email: hsilomedus@gmail.com
+
+
+previous:
+    - name: Ice Penov
+      email: penov@gmail.com
+      fonding: true
+    - name: Mite Mitreski
+      email: mite.mitreski@gmail.com
+
+vicepresident:
+    name: Stojan Peshov
+    email: stojan@stojan.com
+
+administration:
+    name: Toni Kostov
+    email: toni@toni.com
+
