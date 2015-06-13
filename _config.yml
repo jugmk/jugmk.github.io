@@ -17,5 +17,6 @@ defaults:
       type: event
     values:
       layout: events
+      icon: beer
 # Build settings
 markdown: kramdown

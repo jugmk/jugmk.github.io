@@ -1,17 +1,18 @@
 ---
 layout: page
 title: Contacts
+icon: share-alt
 ---
 
 <p class="lead">You can find out more and get involved contacting us on:</p>
 <dl>
-    {% for c in site.data.contacts %}
-    <dt>
-        <h3><i class="fa fa-fw fa-{{c.icon}}"></i> {{ c.name }}</h3>
-    </dt>
-    <dd>
-        <p>{{ c.type }}</p>
-        <a href="{{ c.url }}">{{ c.url }}</a>
-    </dd>
-    {% endfor %}
+  {% for c in site.data.contacts %}
+  <dt>
+  <h3><i class="fa fa-fw fa-{{c.icon}}"></i> {{ c.name }}</h3>
+  </dt>
+  <dd>
+    <p>{{ c.type }}</p>
+    <a href="{{ c.url }}">{{ c.url }}</a>
+  </dd>
+  {% endfor %}
 </dl>

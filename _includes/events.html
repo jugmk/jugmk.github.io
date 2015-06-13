@@ -7,7 +7,7 @@
     <h2 id="{{ this_year }}-ref">{{this_year}}</h2>
     {% endif %}
 
-    <h4><a href="{{ event.url }}">{{ event.title }}</a></h4>
+    <h4><a href="{{ event.url }}"><i class="fa fa-angle-right"></i> {{ event.title }}</a></h4>
     <p>{{ event.date | date_to_long_string }}, {{ event.location }}</p>
 
     {% assign prev_year = this_year %}

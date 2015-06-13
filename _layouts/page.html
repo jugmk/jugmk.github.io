@@ -4,12 +4,12 @@ layout: main
 <div class="row">
   <div class="col-md-9">
     <header class="page-header">
-      <h1>{{ page.title }}</h1>
+      <h1>{% if page.icon %}<i class="fa fa-fw fa-{{ page.icon }}"></i>{% endif %} {{ page.title }}</h1>
     </header>
     {{ content }}
   </div>
   <div class="col-md-3">
-    <h3><a href="/blog/how-to-post.html">How to post your article</a></h3>
+    {% include collaborate.html %}
     {% include sponsors.html %} 
     {% include supporters.html %} 
     {% include twitter.html %}
