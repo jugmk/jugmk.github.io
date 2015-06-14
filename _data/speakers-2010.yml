@@ -104,7 +104,11 @@
 - name: Tomche Delev  #9
   id: tomche
   bio: >
-    TBD
+    Tomche Delev currently works as teaching assistant at the <a href="http://www.finki.ukim.mk/en/staff/tomche-delev">
+    Faculty of Computer Science ang Engineering</a> in Skopje. He teaches courses in introductionary programming in C/C++,
+    Java and C#. He is interested in Java and other open source technolgoies since 2007 with main focus on development of
+    web and mobile applications. In his professional career he worked as a co-founder developer and architect of 
+    <a href="http://www.sportypal.com/">SportyPal</a>.
   title: "Developing REST apps for Android"
   abstract: 
   contact: 
