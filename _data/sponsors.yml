@@ -1,6 +1,9 @@
 - name: Netcetera
   url: http://www.netcetera.com/
   image: netcetera.gif
+- name: Endava
+  url: http://www.endava.mk/
+  image: endava.jpg
 - name: Seavus
   url: http://www.seavus.com.mk/
   image: seavus.jpg
