@@ -1,3 +1,8 @@
+- type: Google Group
+  icon: google
+  name: jugmk
+  url: https://groups.google.com/group/jugmk
+
 - type: Email
   icon: at
   name: webadmin at jug.mk
