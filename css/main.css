@@ -2,7 +2,10 @@
  * Globals
  */
 
-body {}
+body {
+  font-size: 14px;
+  color: #555;
+}
 
 h1,
 .h1,
