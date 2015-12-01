@@ -37,7 +37,7 @@
     HTML5, Javascript and Web Services.
   title: "Java Time Travel"
   contact: ""
-  image: "stojan.jpg"
+  image: "stojanp.jpg"
 
 - name: "Pance Cavkovski" #3
   id: "pance"
@@ -49,7 +49,7 @@
     Every now and then, Pance blogs at http://pance.mk/
   title: "Connected Hardware for Java Software Engineers 101"
   contact: ""
-  image: "pance.jpg"
+  image: "pance2.jpg"
   
 - name: "Martin Toshev" #4
   id: "martin"
