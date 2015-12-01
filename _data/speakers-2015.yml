@@ -1,0 +1,97 @@
+- name: "Marcel Kessler" #0
+  id: "marcel"
+  twitter: "cheesenoc"
+  bio: >
+    In 2005, I graduated from ETH in Zurich, Switzerland with a Master in Software Engineering. 
+    I was living a happy life as developer at Netcetera, until I felt the need to learn something new 
+    and attended an advanced study course in Human-Computer Interaction (HCI), where I learned that not 
+    just technology, but also design and psychology are important. 
+    For more than 3 years now, I am the Head of Netcetera's User Experience Office and spend my time 
+    doing User Research, Sketching, Prototyping and Usability Testing. 
+
+  title: "May the UX force be with you"
+  abstract: ""
+  contact: ""
+  image: "marcel.jpg"
+  
+- name: "Mihail Stoynov" #1
+  id: "mihail"
+  twitter: "mihailstoynov"
+  bio: >
+    Mihail is a security and software consultant, trainer and author. His resume includes projects in companies like
+        Saudi Aramco, Boeing, HP, Siemens, USAF, several foreign banks and government entities. Mihail is the co-author
+        of 6 books on software, and has 10 years of training experience in local and foreign companies and most of the
+        local universities.
+  title: "Finally a modular Java"
+  abstract: ""
+  contact: ""
+  image: "mihail.jpg"
+  
+- name: "Stojan Peshov" #2
+  id: "stojan"
+  twitter: "spesov"
+  bio: >
+    Stojan Peshov is Java developer with more than 10 years experience in web and back-end development. 
+    He has worked on a wide range of projects and business domains using open source libraries and frameworks 
+    such as Spring, Hibernate, Magnolia CMS, IceFaces, Hessian, RobotFramework, AngularJS, etc. As such, 
+    he has tasted different flavors of Java: JSP, JSF, JPA, JTA, CDI, as well as Test Automation, ETL, 
+    HTML5, Javascript and Web Services.
+  title: "Java Time Travel"
+  contact: ""
+  image: "stojan.jpg"
+
+- name: "Pance Cavkovski" #3
+  id: "pance"
+  bio: >
+    Pance is a senior software engineer at Netcetera and the current JUGMK leader. 
+    He is a developer on daily basis in Java, JavaScript, C# and C, part of the team 
+    behind the codefu.mk algorithm coding competition, strong hardware, electronics and 
+    IoT enthusiast, and d3js fan. 
+    Every now and then, Pance blogs at http://pance.mk/
+  title: "Connected Hardware for Java Software Engineers 101"
+  contact: ""
+  image: "pance2.jpg"
+  
+- name: "Martin Toshev" #4
+  id: "martin"
+  twitter: martin_fmi
+  bio: >
+    Martin is a Java enthusiast, software consultant and one of the board members of the Bulgarian Java Users group (BG JUG).
+    He is a certified Java professional (SCJP6) and a certified IBM cloud computing solution advisor. His areas of 
+    interest include the wide range of Java-related technologies (such as Servlets, JSP, JAXB, JAXP, JMS, JMX, JAX-RS, 
+    JAX-WS, Hibernate, Spring Framework, Liferay Portal and Eclipse RCP), cloud computing technologies, cloud-based 
+    software architectures, enterprise application integration, relational and NoSQL databases. You can reach him 
+    for any Java and FOSS-related topics (especially Eclipse and the OpenJDK). 
+    Martin is a regular speaker at Java conferences. 
+  title: "Spring RabbitMQ"
+  abstract: ""
+  contact: ""
+  image: "martin.jpg"
+  
+- name: "Goran Kopevski" #5
+  id: "gorank"
+  twitter: "kopevski"
+  bio: >
+    Goran Kopevski is a 5 year experienced Java & mobile developer. Currently, he is working for Polar Cape 
+    as a senior consultant and developer for a telecom company. He has worked for multiple clients including 
+    Porsche Informatik, Cardiologie Centra Nederland and various telecom companies. He is a versatile developer 
+    who aims for simplified code and usage of javascript. Open minded for new technologies and solutions. 
+    As an open minded person, he wants to exploit all of the magic that javascript can offer.
+  title: "JS Modularization - The Restaurant approach"
+  abstract: ""
+  contact: ""
+  image: "gorank.jpg"
+
+- name: "Christian Mäder" #6
+  id: "christian"
+  twitter: "cimnine"
+  bio: >
+    Christian's interest in computers dates back to his childhood. You know, that time, where "IBM compatible" 
+    was really a thing and the games fit on a single 3.5" floppy disk. After his eduction and studies in 
+    Computer Science, Christian now works as software engineer in the Swiss-based company Netcetera. 
+    He's working on various tasks related to Software, including some ops tasks. In his spare time Christian 
+    explores emerging technologies like NodeJS or, more recently, software container (i.e. Docker, Kubernetes, etc.).
+  title: "Docker from Dev to Prod"
+  abstract: ""
+  contact: ""
+  image: "christian.jpg"
