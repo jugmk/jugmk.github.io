@@ -9,7 +9,7 @@
     </tr>
   </thead>
   <tbody>
-    {% for a in page.agenda6 %}
+    {% for a in page.agendasix %}
     <tr>
       <td class="table-time" width="20%">
         {{ a.from }} - {{ a.to }}
@@ -45,22 +45,22 @@
     </tr>
   </thead>
   <tbody>
-    {% for a in page.agenda5 %}
+    {% for b in page.agendafive %}
     <tr>
       <td class="table-time" width="20%">
-        {{ a.from }} - {{ a.to }}
+        {{ b.from }} - {{ b.to }}
       </td>
       <td class="table-title" width="40%">
-        {% if a.index %}
+        {% if b.index %}
         <a href="#talk-{{ speakers[a.index].id }}">
         {% endif %}
-        {{ a.talk }}
-        {% if a.index %}
+        {{ b.talk }}
+        {% if b.index %}
         </a> 
         {% endif %}
       </td>
       <td class="table-speaker" width="40%">
-        {% for speaker in a.speakers %}
+        {% for speaker in b.speakers %}
         <a href="#speaker-{{ speakers[speaker].id }}">{{ speakers[speaker].name }}</a> 
         {% if forloop.last == false %} &amp; {% endif %} 
         {% endfor %}
