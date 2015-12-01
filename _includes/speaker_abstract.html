@@ -10,12 +10,13 @@
     {% if speaker.twitter %}
     <h4 id="speaker-twitter-{{ speaker.id }}"><a href="https://twitter.com/{{ speaker.twitter }}">@{{ speaker.twitter }}</a></h3>
     {% endif %}
-    <p>
-      {{ speaker.bio }}
-    </p>
-    <h4 id="talk-{{ speaker.id }}">Talk: {{ speaker.title }}</h4>
+    <h4 id="talk-{{ speaker.id }}">Topic: {{ speaker.title }}</h4>
     <p>
       {{ speaker.abstract }}
+    </p>
+    <h4>Bio:</h4>
+    <p>
+      {{ speaker.bio }}
     </p>
   </div>
 </div>
