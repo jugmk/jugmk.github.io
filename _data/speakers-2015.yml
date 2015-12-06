@@ -106,6 +106,7 @@
     In this talk we will distinguish between reactive programming, reactive application, functional reactive programming. It will be a quick introduction of what is reactive application and what reactive programming is.<br/>
     At the end we will see a reactive application demo.
   contact: ""
+  image: "martinil.jpg"
 - name: "Sinisha Mihajlovski" #8
   id: "sinishamih"
   bio: >
@@ -166,6 +167,7 @@
     In the end i will present how Selenium actually works and and what is all about, presenting the library and the infrastructure, with a couple of examples. <br/>
     And 5-10 minutes for questions and open discussions.  
   contact: ""
+  image: "anasarbescu.jpg"
 - name: "Jovan Krajevski" #13
   id: "jovank"
   bio: >
@@ -174,6 +176,7 @@
   abstract: >
     Ignite talk that will remind you about the basics of algorithms and complexity, followed by real examples that made some features possible or improved existing ones
   contact: ""
+  image: "jovank.jpg"
 - name: "Rosica Dejanovska" #14
   id: "rosica"
   bio: >
@@ -182,6 +185,7 @@
   abstract: >
     Ignite talk that will remind you about the basics of algorithms and complexity, followed by real examples that made some features possible or improved existing ones
   contact: ""
+  image: "rosica.jpg"
 - name: "Jana Karcheska" #15
   id: "jana"
   bio: >
@@ -191,6 +195,7 @@
     Javascript has taken over the world and among its other traits it's supposed to be a functional programming language. Does this mean now we can use our favorite patterns in our daily jobs? I have taken the journey of understanding how Monads can live in Javascript only to find out we are already using them everyday.In this presentation I want to share my experience with Monads - the Javascript way.<br/>
     I'll start by shortly explaining in plain words what Monads are so that every programmer can understand regardless of their preferred language. Then I will showcase through few examples how they can be implemented in Javascript and why should we use them. And finally I will present where they are already used and give you references of where the community is at on this topic.
   contact: ""
+  image: "jana.jpg"
 - name: "Goran Atanasovski" #16
   id: "goranatanasovski"
   twitter: "gatanaso_"
@@ -200,6 +205,7 @@
   abstract: >
     This ignite talk will cover some of the core topics that arise when using the spring framework for application development. It will go over some major points, such as, spring configuration, whether to use java or xml based configuration. Dependency injection, constructor vs setter injection, which should be used when and what to avoid. Application design, layering a web application and how spring supports this type of design. The all important art of testing, unit and integration testing, and when should spring be avoided. Additionally, we will briefly go over spring's templating support and take a look at some basic performance considerations. 
   contact: ""
+  image: "goranatanasovski.jpg"
 - name: "Aleksandar Ubavkov" #17
   id: "aleksandarub"
   bio: >
@@ -211,3 +217,4 @@
     Modern Project Management Principles & Methodologies in Software Industry.<br/>
     The Right Choice - Making the right selections to achieve the Optimal Project.  
   contact: ""
+  image: "aleksandarub.jpg"
