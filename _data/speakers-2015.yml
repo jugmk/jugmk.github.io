@@ -9,10 +9,14 @@
     For more than 3 years now, I am the Head of Netcetera's User Experience Office and spend my time 
     doing User Research, Sketching, Prototyping and Usability Testing. 
   title: "May the UX force be with you"
-  abstract: ""
+  abstract: >
+    Angular, React, ECMAscript6 and all the other cool and trendy frameworks and languages are all great from a technical perspective, but here's the thing: the user doesn't care.<br/> 
+    What he or she does care about is that software is intuitive, easy to use, looks good and feels good.<br/>
+    So you should not just care about the technology, but also about the User Experience (UX).<br/>
+    In this talk, I will give you a short introduction into UX and User Centered Design (UCD), based on examples from my daily work.<br/>
+    I will discuss topics like Personas, Prototyping and Usability Testing, and hope that at the end of the talk, the UX force will be a bit stronger with you.
   contact: ""
   image: "marcel.jpg"
-  
 - name: "Mihail Stoynov" #1
   id: "mihail"
   twitter: "mihailstoynov"
@@ -22,10 +26,10 @@
         of 6 books on software, and has 10 years of training experience in local and foreign companies and most of the
         local universities.
   title: "Finally a modular Java"
-  abstract: ""
+  abstract: >
+    We've been waiting for this for a long time. A java runtime (and JDK) that can be custom-tailored to our needs. No more a JRE that is 100mb. And now a way to bundle our app with the JRE. And no more jar hell. And a reusable VM. This sounds too good to be true, but that's what promised in JDK 9. 
   contact: ""
   image: "mihail.jpg"
-  
 - name: "Stojan Peshov" #2
   id: "stojan"
   twitter: "spesov"
@@ -36,9 +40,14 @@
     he has tasted different flavors of Java: JSP, JSF, JPA, JTA, CDI, as well as Test Automation, ETL, 
     HTML5, Javascript and Web Services.
   title: "Java Time Travel"
+  abstract: >
+    Time travel through Java's life span:<br/> 
+    How it all started 20 years ago.<br/> 
+    Where, What and Why is Java today.<br/> 
+    Java Future plans, what to expect in next years.<br/> 
+    How to get involved?<br/>
   contact: ""
   image: "stojanp.jpg"
-
 - name: "Pance Cavkovski" #3
   id: "pance"
   bio: >
@@ -48,9 +57,10 @@
     IoT enthusiast, and d3js fan. 
     Every now and then, Pance blogs at http://pance.mk/
   title: "Connected Hardware for Java Software Engineers 101"
+  abstract: >
+    Ignite session that will show you the basics of hardware coding on $5 platforms with Java and Arduino. Also, how you can make a quick IoT platform and connect all them to the internet. 
   contact: ""
   image: "pance2.jpg"
-  
 - name: "Martin Toshev" #4
   id: "martin"
   twitter: "martin_fmi"
@@ -63,10 +73,10 @@
     for any Java and FOSS-related topics (especially Eclipse and the OpenJDK). 
     Martin is a regular speaker at Java conferences. 
   title: "Spring RabbitMQ"
-  abstract: ""
+  abstract: >
+    During the presentation a brief overview of RabbitMQ and the capabilities of the message broker is provided (how does it work in general, types of exchanges, clustering support and tools in the message broker). The overview is followed by a brief demo on how to send/receive message from the broker using the Java client. The second of the presentation dives into the Spring RabbitMQ world and in particular - the Spring AMQP and Spring Integration projects that provide support for the RabbitMQ message broker. The presentation ends with a short demo on Spring AMQP and Spring Integration RabbitMQ.
   contact: ""
-  image: "martin.jpg"
-  
+  image: "martin.jpg"  
 - name: "Goran Kopevski" #5
   id: "gorank"
   twitter: "kopevski"
@@ -77,10 +87,16 @@
     who aims for simplified code and usage of javascript. Open minded for new technologies and solutions. 
     As an open minded person, he wants to exploit all of the magic that javascript can offer.
   title: "JS Modularization - The Restaurant approach"
-  abstract: ""
+  abstract: >
+    What to do when you have existing monolith angular application and you need to create several app releases for different affiliates / brands with an accent on:<br/> 
+    most of the business functionality is the same <br/>
+    reuse the core / common functionality <br/>
+    easily extend / modify the business and common functionality<br/> 
+    do it in 2 weeks.<br/>
+    The reason why we want to to make presentation on this topic is to spread the word about modular architecture in Javascript applications. Most of the applications that are built in AngularJS nowadays are based on the structure that is provided by Google. This approach is not suitable when your project needs to grow and continuously change / extend. We'd like to help others being in similar situation as us: having different affiliates / brands for same product.<br/>
+    Our solution was to use ng-boilerplate for project structure and use grunt + git for distributed code base of the modules. We used restaurant idea for presenting modularization in order to simplify the idea about the buzz word "modularization". Hear about the alternatives and the obstacles we had in this talk.
   contact: ""
   image: "gorank.jpg"
-
 - name: "Christian Mader" #6
   id: "christian"
   twitter: "cimnine"
@@ -91,7 +107,9 @@
     He's working on various tasks related to Software, including some ops tasks. In his spare time Christian 
     explores emerging technologies like NodeJS or, more recently, software container (i.e. Docker, Kubernetes, etc.).
   title: "Docker from Dev to Prod"
-  abstract: ""
+  abstract: >
+    Chris will first introduce you briefly to the Docker technology. After he ran through the basics he'll head off to what makes the Docker technology a thing, that is, how Docker helps you develop and deliver your applications better and faster. He'll look into the various stages of software development and you'll learn, which parts of the Docker stack is used in each step.<br/>
+    All new technology has it's pitfalls and Chris wants you to be aware of them. You'll learn that your application should follow certain patterns to leverage Docker to the full, commonly referred to as "the twelve-factor app".
   contact: ""
   image: "christian.jpg"
 - name: "Martin Ilievski" #7
