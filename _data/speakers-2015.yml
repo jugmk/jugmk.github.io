@@ -58,7 +58,7 @@
     Every now and then, Pance blogs at http://pance.mk/
   title: "Connected Hardware for Java Software Engineers 101"
   abstract: >
-    Ignite session that will show you the basics of hardware coding on $5 platforms with Java and Arduino. Also, how you can make a quick IoT platform and connect all them to the internet. 
+    Ignite session that will show you the basics of hardware coding on $5 platforms with Java and Arduino, and how you can make a quick IoT platform to connect all of them to the internet. 
   contact: ""
   image: "pance2.jpg"
 - name: "Martin Toshev" #4
