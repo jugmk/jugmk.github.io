@@ -30,6 +30,14 @@
         {% endfor %}
       </td>
     </tr>
+    {% if a.description %}
+    <tr>
+      <td class="table-row-notop" width="20%"></td>
+      <td class="table-row-notop" width="80%" colspan="2">
+        {{ a.description }}
+      </td>
+    </tr>
+    {% endif %} 
     {% endfor %}
   </tbody>
 </table>

@@ -242,3 +242,6 @@ h6,
   margin-top: 12px;
   width: 200px;
 }
+td .table-row-notop {
+  border-top-style: none;
+}
