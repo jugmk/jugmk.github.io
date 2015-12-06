@@ -94,3 +94,120 @@
   abstract: ""
   contact: ""
   image: "christian.jpg"
+- name: "Martin Ilievski" #7
+  id: "martinil"
+  twitter: "martinmaxs"
+  bio: >
+    Martin Ilievski is a Java Developer at Seavus, technology geek and a firm believer in the reactive manifesto. He is an Oracle certified Java Professional and holds a Bachelor's degree of Computer Science from FSCE. In his spare time, he enjoys MOBAs, reading books by awesome people, and eating pizza.
+  title: "Thinking reactive"
+  abstract: >
+    Over the past few years, web-applications have started to play an increasingly important role in our lives. We expect them to be always available and the data to be always fresh.<br/>
+    As reactive architectures gain in popularity, more and more developers find themselves faced with the challenge of "thinking reactive".  It's a lot about letting go of old imperative and stateful habits of typical programming, and forcing your brain to work in a different paradigm.<br/> 
+    In this talk we will distinguish between reactive programming, reactive application, functional reactive programming. It will be a quick introduction of what is reactive application and what reactive programming is.<br/>
+    At the end we will see a reactive application demo.
+  contact: ""
+- name: "Sinisha Mihajlovski" #8
+  id: "sinishamih"
+  bio: >
+    Sinisa Mihajlovski is a Java developer, working with all sorts of java based technologies for 7 years. He is interested in continuous delivery, code quality, integration patterns... His favourite colour is blue. Likes long walks on the beach, pina coladas & getting caught in the rain.
+  title: "Spring Cloud Netflix"
+  abstract: >
+    Spring Boot makes it easy to create Spring-powered, production-grade applications and services with absolute minimum fuss.<br/>
+    You can use Spring Boot to create stand-alone Java applications that can be started using java -jar. This makes it perfect for creating microservices.<br/>
+    This presentation will be about how to handle the setup, service discovery, some microservices patterns using Spring Cloud and the Netflix OSS components(Eureka, Hystrix, Zuul...)<br/> 
+  contact: ""
+  image: "sinisha.jpg"
+- name: "Zlatko Stamatov" #9
+  id: "zlatko"
+  bio: >
+    Zlatko Stamatov is a senior software engineer, currently part of the Android team at Netcetera, Skopje. He has experience in various technologies, lately with primary focus on Java. His portfolio covers from Windows desktop applications, rich web application created with Flex, enterprise finance solutions with GWT, applications for secure payment in the 3-D Secure domain, to mobile application for the Android platform.
+    In free time he enjoys mountain biking and hiking. 
+  title: "Intro to Gradle"
+  abstract: >
+    This talk will give an introduction on what is Gradle.<br/> 
+    It will include instructions on how to use it to build a simple java project. The talk will quickly explain how to use Gradle together with nexus repo, jenkins and sonar. Since most of the Java developers are familiar with Maven the talk will also include some Gradle vs Maven comparison. It will also shortly explain what is Gradle wrapper and how Gradle plugins work.<br/> 
+    The talk will end with some explanation on how to use Gradle to build Android applications. 
+  contact: ""
+  image: "zlatko-stamatov.jpeg"
+- name: "Dragan Miladinovski" #10
+  id: "draganmil"
+  bio: >
+   Dragan Miladinoski is developer with more then 5 years experience, mostly
+   in Java, Hybrid Mobile Applications and Test Automation. He works at Polar Cape
+   as a Developer and Consultant on projects for foreign customers. His working
+   experience covers Java EE, Spring, Hibernate, Web Services, JavaScript, HTML5,
+   AngularJS, RobotFramework and Selenium.
+  title: "Face feature detection using Java (openCV)"
+  abstract: >
+    This presentation will provide information of what is OpenCV and how face detection works using Haar Cascade Classifiers. <br/>
+    Using these classifiers we can make face features detection, eyes, nose, mouth, ears and face skin. <br/>
+    Also will be explained how to improve face detection by using squares of interests.
+  contact: ""
+  image: "draganmil.jpg"
+- name: "Sashko Peshevski" #11
+  id: "sashkopes"
+  twitter: "saspes"
+  bio: >
+    Sashko is a senior software developer and consultant at Polar Cape with 9 years experience in Java. More than 1 year ago (beside Java) started to work as a hybrid mobile app developer, Android and iOS, including JavaScript, AngularJS, Cordova, HTML5, Objective-C, etc. Also, in free time, he has blogging view on the most recent happenings in IT, gadgets and IoT (especially Raspberry Pi).
+  title: "Hybrid Tips & Tricks"
+  abstract: >
+    This presentation will provide set of simple, yet powerful, JavaScript tips, tricks and best practices that should be known by all hybrid mobile app developers. These are techniques that all JavaScript programmers can use now, you didn't need to be an advanced JavaScript developer to benefit from these tips. After detailed explanations of how each technique works and when to use it, you will have become a more enlightened JavaScript developer, if you aren't already one. 
+  contact: ""
+  image: "sasko.jpg"
+- name: "Ana Sarbescu" #12
+  id: "anasarbescu"
+  bio: >
+    I've been living and working in Skopje for the past 5 years; I'm from romania. I've started working in a gaming multinational corporation which opened and formed a specific style of work that is focused on improving yourself and work smart instead of work hard to meet the deadline, where you should wonder and play around and give your best in what you like. Now i like to share my QA experience with other people and try to push the people in the Software Testing Community in Macedonia to better practises and knowledge and self image, as well as the whole IT community in Macedonia. 
+  title: "Automation(testing).selenium();"
+  abstract: >
+    This presentation will explain the purpose of testing wing of the development, how people decided that it's a good idea to have it and what outcome usually has. A bit of context into agile testing and how this makes your life easier as a whole team, but requires a very well defined process.<br/> 
+    It will explain the basics of the testing process in order to see what can be best auomated, and a few methods and principles QAs use to simplify their tests, and that are also used in creating test data and valuable test cases. <br/>
+    Then we will take a practical case of implementing automation into a project and how this is done, what you need to have in mind when you choose your tools, how they inntegrate together and who's responsibility each step should be. Basically how to make your automation framework.<br/>
+    In the end i will present how Selenium actually works and and what is all about, presenting the library and the infrastructure, with a couple of examples. <br/>
+    And 5-10 minutes for questions and open discussions.  
+  contact: ""
+- name: "Jovan Krajevski" #13
+  id: "jovank"
+  bio: >
+    Jovan is a student at FCSE, a software engineer at UXMake and a frequent participant in algorithmic competitions. His areas of interest include Machine Learning, Natural Language Processing and Algorithms. He is also a vivid fan of Doctor Who. 
+  title: "A for Algorithms"
+  abstract: >
+    Ignite talk that will remind you about the basics of algorithms and complexity, followed by real examples that made some features possible or improved existing ones
+  contact: ""
+- name: "Rosica Dejanovska" #14
+  id: "rosica"
+  bio: >
+    Rosica is a 3rd year student at FSCE. She is very passionate about math, machine learning and competitive programming. Rosica is a former Google intern. 
+  title: "A for Algorithms"
+  abstract: >
+    Ignite talk that will remind you about the basics of algorithms and complexity, followed by real examples that made some features possible or improved existing ones
+  contact: ""
+- name: "Jana Karcheska" #15
+  id: "jana"
+  bio: >
+    Jana is a senior software engineer working at Netcetera. She has 10 years of experience working mainly with Java technologies. Her expertise includes working on complex safety critical and mission critical systems. Outside of the daily work, her other interests are machine learning, bioinformatics and functional programming languages like LISP and Clojure. 
+  title: "Monads in Javascript?"
+  abstract: >
+    Javascript has taken over the world and among its other traits it's supposed to be a functional programming language. Does this mean now we can use our favorite patterns in our daily jobs? I have taken the journey of understanding how Monads can live in Javascript only to find out we are already using them everyday.In this presentation I want to share my experience with Monads - the Javascript way.<br/>
+    I'll start by shortly explaining in plain words what Monads are so that every programmer can understand regardless of their preferred language. Then I will showcase through few examples how they can be implemented in Javascript and why should we use them. And finally I will present where they are already used and give you references of where the community is at on this topic.
+  contact: ""
+- name: "Goran Atanasovski" #16
+  id: "goranatanasovski"
+  twitter: "gatanaso_"
+  bio: >
+    Goran is a software engineer at Netcetera, working on Java based web applications, with a sprinkle of JavaScript. He is a Java enthusiast, pivotal spring certified professional, strong coffee addict and from recently a Python fan.
+  title: "Spring best practices"
+  abstract: >
+    This ignite talk will cover some of the core topics that arise when using the spring framework for application development. It will go over some major points, such as, spring configuration, whether to use java or xml based configuration. Dependency injection, constructor vs setter injection, which should be used when and what to avoid. Application design, layering a web application and how spring supports this type of design. The all important art of testing, unit and integration testing, and when should spring be avoided. Additionally, we will briefly go over spring's templating support and take a look at some basic performance considerations. 
+  contact: ""
+- name: "Aleksandar Ubavkov" #17
+  id: "aleksandarub"
+  bio: >
+    M.Sc. in Computer Science with rich experience in International Multicultural  IT companies on various positions both technical and management positions. An adventurer with excellent sense of humor, mostly on my behalf.   
+  title: "Stand Up Comedy about Software Project/Product Management"
+  abstract: >
+    Project & Product similarities and differences.<br/>
+    Project Managers,Project Management and their "Tools of Management"<br/>
+    Modern Project Management Principles & Methodologies in Software Industry.<br/>
+    The Right Choice - Making the right selections to achieve the Optimal Project.  
+  contact: ""

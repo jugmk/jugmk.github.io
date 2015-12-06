@@ -3,7 +3,9 @@
 {% for speaker in speakers %}
 <div class="row speaker">
   <div class="col-md-4 speaker-image">
+    {% if speaker.image %}
     <img src="/images/speakers/{{speaker.image}}" class="img-circle">
+    {% endif %}
   </div>
   <div class="col-md-8 speaker-body">
     <h3 id="speaker-{{ speaker.id }}">{{ speaker.name }}</h3>
