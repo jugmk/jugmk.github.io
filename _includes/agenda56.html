@@ -14,7 +14,7 @@
       <td class="table-time" width="20%">
         {{ a.from }} - {{ a.to }}
       </td>
-      <td class="table-title" width="40%">
+      <td class="table-title" {% if a.talk %} style="font-weight: bold;" {% endif %} width="40%">
         {% if a.index %}
         <a href="#talk-{{ speakers[a.index].id }}">
         {% endif %}
@@ -58,7 +58,7 @@
       <td class="table-time" width="20%">
         {{ b.from }} - {{ b.to }}
       </td>
-      <td class="table-title" width="40%">
+      <td class="table-title" {% if b.talk %} style="font-weight: bold;" {% endif %} width="40%">
         {% if b.index %}
         <a href="#talk-{{ speakers[a.index].id }}">
         {% endif %}
@@ -74,6 +74,14 @@
         {% endfor %}
       </td>
     </tr>
+    {% if a.description %}
+    <tr>
+      <td style="border-top-style: none;" width="20%"></td>
+      <td style="border-top-style: none;" width="80%" colspan="2">
+        {{ a.description }}
+      </td>
+    </tr>
+    {% endif %} 
     {% endfor %}
   </tbody>
 </table>
