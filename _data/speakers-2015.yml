@@ -147,7 +147,7 @@
     It will include instructions on how to use it to build a simple java project. The talk will quickly explain how to use Gradle together with nexus repo, jenkins and sonar. Since most of the Java developers are familiar with Maven the talk will also include some Gradle vs Maven comparison. It will also shortly explain what is Gradle wrapper and how Gradle plugins work.<br/> 
     The talk will end with some explanation on how to use Gradle to build Android applications. 
   contact: ""
-  image: "zlatko-stamatov.jpeg"
+  image: "zlatko.jpg"
 - name: "Dragan Miladinovski" #10
   id: "draganmil"
   bio: >
