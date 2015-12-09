@@ -236,3 +236,14 @@
     The Right Choice - Making the right selections to achieve the Optimal Project.  
   contact: ""
   image: "aleksandarub.jpg"
+- name: "Risto Muchev" #18
+  id: "muchev"
+  bio: >
+    Risto Muchev is passionate about open source technologies and has over 7 years work experience with Java and Android, designing and developing projects in the medical, financial and entertainment sector. He graduated with a Computer Science degree in 2008 and now he is doing master studies in Software Engineering. He is active member of Skopje software engineering community and his interests are in software architecture, design patterns, quality assurance, bio-signal processing, algorithms, optimizations and project management. He likes to help others and make things better.   
+  title: "Android pulse"
+  abstract: >
+    Android evolution is happening. The software matures and the hardware is getting better and cheaper. But why this happens and what does it mean to us? What possibilities will there be in the future with Android that don't exist now?
+    Medical industry, although highly standardized, is reinventing itself. Health trackers are everywhere. Wearable sensors are blooming. But do we need a sensor for everything? My app will measure heart pulse rate on multiple people simultaneously, in real time using only latest Android software and hardware. This is never done before and no sensor can do that. 
+    Standing on the shoulders of giants, I will explain how the human cardio system works and why measuring this vital sign is so important. But how the app performs it without touching users... Video face detection and custom face tracking - all there. How I managed to gain huge speed by doing thing in native, JNI way, switching between data structures and using all processor cores on the device. But there is more... signal processing and filtering. Do you think that that is too much for your pocket Android device to handle. Is it? I say no... Android is very powerful if used in proper way. It is the future of the software of things. I am looking forward to explain you how this is used in streaming music application that can generate playlist and stream songs by your heart pulse.
+  contact: ""
+  image: "ristomuchev.jpg"
