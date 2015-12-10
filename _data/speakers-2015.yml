@@ -2,11 +2,11 @@
   id: "marcel"
   twitter: "cheesenoc"
   bio: >
-    In 2005, I graduated from ETH in Zurich, Switzerland with a Master in Software Engineering. 
-    I was living a happy life as developer at Netcetera, until I felt the need to learn something new 
-    and attended an advanced study course in Human-Computer Interaction (HCI), where I learned that not 
+    In 2005, Marcel graduated from ETH in Zurich, Switzerland with a Master in Software Engineering. 
+    He was living a happy life as developer at Netcetera, until he felt the need to learn something new 
+    and attended an advanced study course in Human-Computer Interaction (HCI), where he learned that not 
     just technology, but also design and psychology are important. 
-    For more than 3 years now, I am the Head of Netcetera's User Experience Office and spend my time 
+    For more than 3 years now, Marcel is the Head of Netcetera's User Experience Office and spends his time 
     doing User Research, Sketching, Prototyping and Usability Testing. 
   title: "May the UX force be with you"
   abstract: >
@@ -17,19 +17,6 @@
     I will discuss topics like Personas, Prototyping and Usability Testing, and hope that at the end of the talk, the UX force will be a bit stronger with you.
   contact: ""
   image: "marcel.jpg"
-- name: "Mihail Stoynov" #1
-  id: "mihail"
-  twitter: "mihailstoynov"
-  bio: >
-    Mihail is a security and software consultant, trainer and author. His resume includes projects in companies like
-        Saudi Aramco, Boeing, HP, Siemens, USAF, several foreign banks and government entities. Mihail is the co-author
-        of 6 books on software, and has 10 years of training experience in local and foreign companies and most of the
-        local universities.
-  title: "Finally a modular Java"
-  abstract: >
-    We've been waiting for this for a long time. A java runtime (and JDK) that can be custom-tailored to our needs. No more a JRE that is 100mb. And now a way to bundle our app with the JRE. And no more jar hell. And a reusable VM. This sounds too good to be true, but that's what promised in JDK 9. 
-  contact: ""
-  image: "mihail.jpg"
 - name: "Stojan Peshov" #2
   id: "stojan"
   twitter: "spesov"
