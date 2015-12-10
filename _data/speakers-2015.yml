@@ -17,6 +17,19 @@
     I will discuss topics like Personas, Prototyping and Usability Testing, and hope that at the end of the talk, the UX force will be a bit stronger with you.
   contact: ""
   image: "marcel.jpg"
+- name: "Mihail Stoynov" #1
+  id: "mihail"
+  twitter: "mihailstoynov"
+  bio: >
+    Mihail is a security and software consultant, trainer and author. His resume includes projects in companies like
+        Saudi Aramco, Boeing, HP, Siemens, USAF, several foreign banks and government entities. Mihail is the co-author
+        of 6 books on software, and has 10 years of training experience in local and foreign companies and most of the
+        local universities.
+  title: "Finally a modular Java"
+  abstract: >
+    We've been waiting for this for a long time. A java runtime (and JDK) that can be custom-tailored to our needs. No more a JRE that is 100mb. And now a way to bundle our app with the JRE. And no more jar hell. And a reusable VM. This sounds too good to be true, but that's what promised in JDK 9. 
+  contact: ""
+  image: "mihail.jpg"
 - name: "Stojan Peshov" #2
   id: "stojan"
   twitter: "spesov"
