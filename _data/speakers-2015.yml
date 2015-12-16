@@ -266,3 +266,4 @@
     Standing on the shoulders of giants, I will explain how the human cardio system works and why measuring this vital sign is so important. But how the app performs it without touching users... Video face detection and custom face tracking - all there. How I managed to gain huge speed by doing thing in native, JNI way, switching between data structures and using all processor cores on the device. But there is more... signal processing and filtering. Do you think that that is too much for your pocket Android device to handle. Is it? I say no... Android is very powerful if used in proper way. It is the future of the software of things. I am looking forward to explain you how this is used in streaming music application that can generate playlist and stream songs by your heart pulse.
   contact: ""
   image: "ristomuchev.jpg"
+  slides: "javaskop15/androidpulse.pdf"
