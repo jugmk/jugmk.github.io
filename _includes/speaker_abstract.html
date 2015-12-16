@@ -1,6 +1,7 @@
 <h2>Speakers</h2> 
 
 {% for speaker in speakers %}
+{% if speaker.canceled == null %}
 <div class="row speaker">
   <div class="col-md-4 speaker-image">
     {% if speaker.image %}
@@ -29,4 +30,5 @@
     </p>
   </div>
 </div>
+{% endif %}
 {% endfor %}

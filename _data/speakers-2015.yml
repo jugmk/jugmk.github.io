@@ -19,6 +19,7 @@
   image: "marcel.jpg"
   slides: "javaskop15/uxforce.pptx"
 - name: "Mihail Stoynov" #1
+  canceled: true
   id: "mihail"
   twitter: "mihailstoynov"
   bio: >
@@ -184,7 +185,7 @@
     This presentation will provide set of simple, yet powerful, JavaScript tips, tricks and best practices that should be known by all hybrid mobile app developers. These are techniques that all JavaScript programmers can use now, you didn't need to be an advanced JavaScript developer to benefit from these tips. After detailed explanations of how each technique works and when to use it, you will have become a more enlightened JavaScript developer, if you aren't already one. 
   contact: ""
   image: "sasko.jpg"
-  slides: "javaskop15/hybrid.pptx"
+  slides: "javaskop15/hybrid.pdf"
 - name: "Ana Sarbescu" #12
   id: "anasarbescu"
   bio: >
@@ -200,6 +201,7 @@
   image: "anasarbescu.jpg"
   slides: "javaskop15/testing.pptx"
 - name: "Jovan Krajevski" #13
+  canceled: true
   id: "jovank"
   bio: >
     Jovan is a student at FCSE, a software engineer at UXMake and a frequent participant in algorithmic competitions. His areas of interest include Machine Learning, Natural Language Processing and Algorithms. He is also a vivid fan of Doctor Who. 
@@ -228,6 +230,7 @@
     I'll start by shortly explaining in plain words what Monads are so that every programmer can understand regardless of their preferred language. Then I will showcase through few examples how they can be implemented in Javascript and why should we use them. And finally I will present where they are already used and give you references of where the community is at on this topic.
   contact: ""
   image: "jana.jpg"
+  slides: "javaskop15/monads.pdf"
 - name: "Goran Atanasovski" #16
   id: "goranatanasovski"
   twitter: "gatanaso_"
