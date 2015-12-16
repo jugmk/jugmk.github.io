@@ -10,12 +10,18 @@
   <div class="col-md-8 speaker-body">
     <h3 id="speaker-{{ speaker.id }}">{{ speaker.name }}</h3>
     {% if speaker.twitter %}
-    <h4 id="speaker-twitter-{{ speaker.id }}"><a href="https://twitter.com/{{ speaker.twitter }}">@{{ speaker.twitter }}</a></h3>
+    <h4 id="speaker-twitter-{{ speaker.id }}"><a href="https://twitter.com/{{ speaker.twitter }}">@{{ speaker.twitter }}</a></h4>
     {% endif %}
     <h4 id="talk-{{ speaker.id }}">Topic: {{ speaker.title }}</h4>
     <p>
       {{ speaker.abstract }}
     </p>
+    {% if speaker.slides %}
+    <h4>Slides: <a href="/presentations/{{speaker.slides}}">download</a></h4>
+    {% endif %}
+    {% if speaker.other %}
+    <h4>Other: {{speaker.other}}</h4>
+    {% endif %}
     <br/>
     <h4>Bio:</h4>
     <p>

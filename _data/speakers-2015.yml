@@ -17,6 +17,7 @@
     I will discuss topics like Personas, Prototyping and Usability Testing, and hope that at the end of the talk, the UX force will be a bit stronger with you.
   contact: ""
   image: "marcel.jpg"
+  slides: "javaskop15/uxforce.pptx"
 - name: "Mihail Stoynov" #1
   id: "mihail"
   twitter: "mihailstoynov"
@@ -48,6 +49,7 @@
     How to get involved?<br/>
   contact: ""
   image: "stojanp.jpg"
+  slides: "javaskop15/javatimeline.pptx"
 - name: "Pance Cavkovski" #3
   id: "pance"
   bio: >
@@ -61,6 +63,7 @@
     Ignite session that will show you the basics of hardware coding on $5 platforms with Java and Arduino, and how you can make a quick IoT platform to connect all of them to the internet. 
   contact: ""
   image: "pance2.jpg"
+  slides: "javaskop15/hardware.pptx"
 - name: "Martin Toshev" #4
   id: "martin"
   twitter: "martin_fmi"
@@ -76,7 +79,8 @@
   abstract: >
     During the presentation a brief overview of RabbitMQ and the capabilities of the message broker is provided (how does it work in general, types of exchanges, clustering support and tools in the message broker). The overview is followed by a brief demo on how to send/receive message from the broker using the Java client. The second of the presentation dives into the Spring RabbitMQ world and in particular - the Spring AMQP and Spring Integration projects that provide support for the RabbitMQ message broker. The presentation ends with a short demo on Spring AMQP and Spring Integration RabbitMQ.
   contact: ""
-  image: "martin.jpg"  
+  image: "martin.jpg"
+  slides: "javaskop15/springrabbitmq.pptx"  
 - name: "Goran Kopevski" #5
   id: "gorank"
   twitter: "kopevski"
@@ -97,6 +101,7 @@
     Our solution was to use ng-boilerplate for project structure and use grunt + git for distributed code base of the modules. We used restaurant idea for presenting modularization in order to simplify the idea about the buzz word "modularization". Hear about the alternatives and the obstacles we had in this talk.
   contact: ""
   image: "gorank.jpg"
+  slides: "javaskop15/jsmodularization.pptx"
 - name: "Christian Mader" #6
   id: "christian"
   twitter: "cimnine"
@@ -112,6 +117,7 @@
     All new technology has it's pitfalls and Chris wants you to be aware of them. You'll learn that your application should follow certain patterns to leverage Docker to the full, commonly referred to as "the twelve-factor app".
   contact: ""
   image: "christian.jpg"
+  slides: "javaskop15/docker.pdf"
 - name: "Martin Ilievski" #7
   id: "martinil"
   twitter: "martinmaxs"
@@ -125,6 +131,8 @@
     At the end we will see a reactive application demo.
   contact: ""
   image: "martinil.jpg"
+  slides: "javaskop15/reactive.pptx"
+  other: "<a href='https://github.com/martinmax/SmartHome'>Source code</a>"
 - name: "Sinisha Mihajlovski" #8
   id: "sinishamih"
   bio: >
@@ -136,6 +144,7 @@
     This presentation will be about how to handle the setup, service discovery, some microservices patterns using Spring Cloud and the Netflix OSS components(Eureka, Hystrix, Zuul...)<br/> 
   contact: ""
   image: "sinisha.jpg"
+  slides: "javaskop15/springcloud.pptx"
 - name: "Zlatko Stamatov" #9
   id: "zlatko"
   bio: >
@@ -148,6 +157,7 @@
     The talk will end with some explanation on how to use Gradle to build Android applications. 
   contact: ""
   image: "zlatko.jpg"
+  slides: "javaskop15/gradle.pptx"
 - name: "Dragan Miladinovski" #10
   id: "draganmil"
   bio: >
@@ -163,6 +173,7 @@
     Also will be explained how to improve face detection by using squares of interests.
   contact: ""
   image: "draganmil.jpg"
+  slides: "javaskop15/opencv.pptx"
 - name: "Sashko Peshevski" #11
   id: "sashkopes"
   twitter: "saspes"
@@ -173,6 +184,7 @@
     This presentation will provide set of simple, yet powerful, JavaScript tips, tricks and best practices that should be known by all hybrid mobile app developers. These are techniques that all JavaScript programmers can use now, you didn't need to be an advanced JavaScript developer to benefit from these tips. After detailed explanations of how each technique works and when to use it, you will have become a more enlightened JavaScript developer, if you aren't already one. 
   contact: ""
   image: "sasko.jpg"
+  slides: "javaskop15/hybrid.pptx"
 - name: "Ana Sarbescu" #12
   id: "anasarbescu"
   bio: >
@@ -186,6 +198,7 @@
     And 5-10 minutes for questions and open discussions.  
   contact: ""
   image: "anasarbescu.jpg"
+  slides: "javaskop15/testing.pptx"
 - name: "Jovan Krajevski" #13
   id: "jovank"
   bio: >
@@ -204,6 +217,7 @@
     Ignite talk that will remind you about the basics of algorithms and complexity, followed by real examples that made some features possible or improved existing ones
   contact: ""
   image: "rosica.jpg"
+  slides: "javaskop15/algorithms.pptx"
 - name: "Jana Karcheska" #15
   id: "jana"
   bio: >
@@ -224,6 +238,7 @@
     This ignite talk will cover some of the core topics that arise when using the spring framework for application development. It will go over some major points, such as, spring configuration, whether to use java or xml based configuration. Dependency injection, constructor vs setter injection, which should be used when and what to avoid. Application design, layering a web application and how spring supports this type of design. The all important art of testing, unit and integration testing, and when should spring be avoided. Additionally, we will briefly go over spring's templating support and take a look at some basic performance considerations. 
   contact: ""
   image: "goranatanasovski.jpg"
+  slides: "javaskop15/springbestpractices.pdf"
 - name: "Aleksandar Ubavkov" #17
   id: "aleksandarub"
   bio: >
@@ -236,6 +251,7 @@
     The Right Choice - Making the right selections to achieve the Optimal Project.  
   contact: ""
   image: "aleksandarub.jpg"
+  slides: "javaskop15/standupcomedy.pptx"
 - name: "Risto Muchev" #18
   id: "muchev"
   bio: >
