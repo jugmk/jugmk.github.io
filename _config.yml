@@ -10,7 +10,9 @@ twitter_username: jugmk
 github_username:  jugmk
 collections:
   event:
-    output: true    
+    output: true
+  gallery:
+    output: true
 defaults:
   - scope:
       path: ""
@@ -18,5 +20,11 @@ defaults:
     values:
       layout: events
       icon: beer
+  - scope:
+      path: ""
+      type: gallery
+    values:
+      layout: gallery
+      icon: photo
 # Build settings
 markdown: kramdown

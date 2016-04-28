@@ -3,4 +3,8 @@ layout: page
 title: Gallery
 icon: photo
 ---
-### TODO
+{% for gallery in site.gallery %}
+
+<h3><a href="{{ gallery.url }}"><i class="fa fa-angle-right"></i> {{ gallery.title }}</a></h3>
+
+{% endfor %}

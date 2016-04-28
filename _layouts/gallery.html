@@ -1,0 +1,21 @@
+---
+layout: page
+icon: photo
+---
+
+{{ content }}
+
+<div class="row">
+  {% for image in page.images %}
+  <div class="col-md-3">
+    <div class="gallery-img">
+      <a href="{{ page.imagefolder }}/{{ image.name }}" data-lightbox="{{ page.id }}" title="{{ image.text }}">
+        <img src="{{ page.imagefolder }}/{{ image.thumb }}" class="img-thumbnail">
+      </a>
+    </div>
+    <p class="gallery-txt">{{ image.text }}</p>
+  </div>
+  {% endfor %}
+</div>
+
+{% include gallery_scripts.html %}
