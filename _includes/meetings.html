@@ -1,0 +1,23 @@
+<h3>Next Meetings</h3>
+
+<table class="table table-bordered">
+  <thead>
+  <tr>
+    <th>Time</th>
+    <th>Location</th>
+  </tr>
+  </thead>
+  <tbody>
+  {% for m in site.data.meetings %}
+  <tr>
+    <td>
+      <span><i class="fa fa-clock-o"></i> {{ m.time | date: '%H:%M' }}</span>
+      <span class="day">{{ m.time | date: '%B %d, %Y' }}</span>
+    </td>
+    <td>
+      {{ m.location }}
+    </td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table>
