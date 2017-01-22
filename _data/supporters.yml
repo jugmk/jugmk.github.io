@@ -7,6 +7,9 @@
 - name: Devoxx
   url: http://www.devoxx.be/
   image: devoxx.png
+- name: Jfokus
+  url: https://www.jfokus.se/
+  image: jfokus.png  
 - name: Java2Days
   url: http://www.java2days.com
   image: java2days.png
