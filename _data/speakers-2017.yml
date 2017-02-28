@@ -1,0 +1,296 @@
+- name: "Corsin Decurtins" #0
+  id: "corsin"
+  twitter: "corsin"
+  bio: >
+    Corsin is the CTO of Netcetera and works as a developer, IT architect ... and manager. 
+    Corsin studied computer science and worked part-time as a research assistant at ETH Zurich. 
+  title: "Managers and Customers - The Missing Manual"
+  abstract: >
+    The goal of the talk is to provide developers with information about how non-technical managers and customers tick and how to deal with them in daily project work.
+    Developers need to work together with non-technical people. And the better this collaboration works, the more successful the projects are. It is helpful for both parties to understand each other, know what motivates and drives the other side, what they care about.
+    In my career I gathered some insights that I would like to share with the audience. This experiences come from both working as a software developer and IT architect with non-technical people and from becoming a part-time manager myself."
+  contact: ""
+  image: "corsin.jpg"
+  slides: ""
+
+- name: "Nikola Zivkov" #1
+  id: "zivkov"
+  twitter: "nikolazivkov"
+  bio: >
+    Nikola Zivkov is a Java Technology Line Manager at Seavus. 
+    With more than 13 years of experience in building Java enterprise solutions, he’s passionate about building resilient architectures that withstand the test of time (and crazy client demands). 
+    He’s been a member of the Macedonian JUG since the group’s second meeting.
+  title: "How I learned to stop worrying and love the monolith"
+  abstract: >
+    With so many advocates of both the microservices-first and monolith-first approaches, it's important to understand the strengths and weaknesses of both architectural styles. 
+    With these two being at two opposite sides of the spectrum, could there be a middle ground?
+    We will explore the concept of structured monoliths by visiting several topics such as layered architecture (and the damages it causes), Ports and Adapters architecture as its alternative and Domain-Driven Design's Bounded Context pattern that can help us create components which can one day become microservices.
+  contact: ""
+  image: "zivkov.png"
+
+- name: "Dimitar Siljanovski" #2
+  id: "dimitarsiljanovski"
+  twitter: ""
+  bio: >
+    Dimitar is an experienced IT-professional, having a strong track record in start-ups and established technology companies. 
+    Before joining CUPONATION as CTO in 2013, he previously worked as Software architect and developer in multiple companies such as oDesk and Ecorys. 
+    Dimitar is globally responsible for all platforms and software related matters within the group. 
+    He holds a Bachelor in Software Engineering from First European University Skopje.
+  title: "Do not make the Monolith great again!"
+  abstract: >
+    Microservices are not something that you need to jump into immediately. 
+    It is a hidden trap for small teams and young companies. 
+    Luckily we survived that trap, so we can share the story with you. 
+    Business and Team organizations should follow this architecture, which motivated us to spend a huge amount of time in the last 3 years to transform our Company into Microservices-based organization.
+  contact: ""
+  image: "nophoto.png"
+  slides: ""
+
+- name: "Tomche Delev" #3
+  id: "tdelev"
+  twitter: "tdelev"
+  bio: >
+    Teaching assistant at FINKI, with previous industry experience in start-up with passion about sharing knowledge. 
+    Worked as developer and architect for ten years on business applications and personal projects in many different technologies and programming languages. 
+    Passionate about Java and JVM technologies, clean code, programming languages and from recently functional programming.
+  title: "Connected Hardware for Java Software Engineers 101"
+  abstract: >
+    The talk will be divided in three parts. 
+    In the first part it will show and emphasize the importance of testing in general, and unit testing in particular as the base of the test pyramid. 
+    Then, in the second part it will introduce the audience with the Spock Framework written in Groovy (JVM dynamic langauge). 
+    Then in the third and final part of the talk, a moderate and real world examples of unit tests written in Spock will be presented (or live coded, depending on the time).   
+  contact: ""
+  image: "tomche.jpg"
+  slides: ""
+
+- name: "Katerina Doneva" #4
+  id: "kdoneva"
+  twitter: ""
+  bio: >
+    Software Engineer with over 8 years of success in developing enterprise application in Java and related technologies.
+    Oracle Certified Professional, Java SE 8 Programmer.
+    Persistent problem solver, excited about every aspect of the process of creating software with good quality... more bragging you can find on linkedin. 
+    Apart from being a developer I like to brag that I am a mother of two little boys (read dragons) and have lots of fun with a four year old and a baby in the house.
+  title: "Spring RabbitMQ"
+  abstract: >
+    <h4>Jigsaw in a nutshell.</h4>
+    Reliable configuration and strong encapsulation are the two key values of the project. 
+    How are they achieved and what this means? This is a promise for better architecture of the platform itself and brings greater security, integrity and scallability.
+
+    <h4>The problem with the classpath</h4>
+    Whatever you know about the structure of your system the classpath erases it. 
+    With modules you are telling the compiler and the VM about the structure of your system and they use this information.
+
+    <h4>Modularity Basic concepts</h4>
+    Laying the foundations for this topic I will define what are modules, what is unnamed module, what is automatic module and how are now the rules of readability and accessibility changed. 
+    Implied readability will be discussed shortly.
+
+    <h4>Migration of the existing code</h4>
+    Two approaches for migration will be shown conceptually, top down and bottom up migration.
+
+    Coding example of course ;)
+
+    if(timeAllows()){
+       PrezUtil.writeSomeModules();
+    } else {
+       PrezUtil.showAllreadyWrittenModules();
+    }
+  contact: ""
+  image: "nophoto.png"
+  slides: ""
+
+- name: "Milen Dyankov" #5
+  id: "mdyankov"
+  twitter: "milendyankov"
+  bio: >
+    Milen is a Developer Advocate at Liferay and focuses on Java and OSGi Platform. 
+    He is passionate about designing and building software as well as helping others design and build good software! 
+    After more than 15 years developing, designing and consulting on various Java EE solutions for leading European companies, he currently spends most of his time teaching, speaking at conferences all over the world and researching his favorite topics around Java modularity, systems architecture and software craftsmanship.
+  abstract: >
+    NoSQL, Serverless, DevOps, Social Auth, ... 
+    Developers these days want to forget about infrastructure and simply build great scalable apps quickly. 
+    This just got easier and I'll prove it to you by live coding an application that you can interact with during the talk (bring your laptop and/or smartphone).
+
+    While having fun playing with what I code, you'll learn how to easily build any web application - from simple SPAs trough a full micro-service architecture to complex enterprise applications.
+  contact: ""
+  image: "nophoto.png"
+  slides: ""
+
+- name: "Miki Jankov" #6
+  id: "mjankov"
+  twitter: "Miki_Mixajlo"
+  bio: >
+    Java software engineer, embedded systems enthusiast and home automation hobbyist, with strong desire to improve his knowledge and skills in the software area.
+
+  title: "Building your own smarthome with openHAB, Raspberry Pi and Arduino"
+  abstract: >
+     Introduction to the open-source software openHAB and the challenges to build your own smarthome based on openHAB and open-source hardware like Raspberry Pi and Arduino. 
+     Learn how to setup the system, how to connect devices to it and how to control them using smartphone app and web browser, or automate their control with rules.
+  contact: ""
+  image: "nophoto.png"
+  slides: ""
+
+- name: "Michael Drost" #7
+  id: "mdrost"
+  twitter: ""
+  bio: >
+    Michael Drost: husband to a fantastic wife, father to four incredible children, TOGAF certified, excellence obsessed and motorsport mad. 
+    Started testing in 2000 and never looked back. 
+    Any time not spent on the job or the family, goes into being a motorsport data engineer at club level, because every race is a sprint, every driver a product owner and every car has the potential to be the perfect product. 
+    Unlocking that potential in an octane driven, high pressure environment and being rewarded with the top step of the podium, is the way I love to spend my weekends! 
+  title: "Agile testing: why the tester is your best friend ever!"
+  abstract: >
+    Testers bring a particular skillset to the table. 
+    Whether it is asking the unexpected question or finding the one issue everybody else missed. 
+    But they can do a lot more and I am not talking about coding. 
+    You actually hold the key to unlocking a huge amount of potential achievements. 
+    Did you know that if you let them start doing their thing before you start doing yours, you will be in a far better position to deliver the product the product owner needs?
+
+    My talk will focus on how practical Business Driven Testing can save you time and allow you to deliver the best product possible without distractions. 
+    Come and get the keys to unlock the true tester!
+  contact: ""
+  image: "nophoto.png"
+  slides: ""
+  
+- name: "Jana Karcheska" #8
+  id: "jkarcheska"
+  bio: >
+    Jana is a senior software engineer working at Netcetera. 
+    She has more than 10 years of experience working mainly with Java technologies. 
+    Her expertise includes working on complex safety critical and mission critical systems. 
+    Outside of the daily work, her other interests are machine learning, bioinformatics and functional programming, languages like Lisp, Clojure and few other languages on the JVM.
+  title: "How Reactive do we need to be"
+  abstract: >
+    My greatest passion in programming are functional languages, the languages that were believed to be the future of AI. 
+    Now they are prevailing in all other areas and concepts like Reactive, Immutable, Stateless are becoming part of our daily work. 
+    Which is great, but the question is how Reactive do we really need to be. 
+    I want to give my "point de vue" based on my experience with using Javascript frontend technologies for big enterprise projects.
+
+    While it is easy to be courageous and innovative when doing small start up projects in reality most of us still have to do big projects that need to stay stable and useful for many years. 
+    It is amazing that now enterprise projects are opening up to novelty but how can we really survive the turmoil and take advantage of the good and avoid the volatile and bad.
+
+    I want to try to go about this topic in a pragmatic way drawing from my experience and cured by my passion for functional programming and showcase and compare some of the advantages and setbacks in the most popular Javascript frameworks.
+  contact: ""
+  image: "jana.png"
+  slides: ""
+
+- name: "Marjan Kindalov" #9
+  id: "mkindalov"
+  bio: >
+    Marjan Kindalov is a Senior Software Engineer at Netcetera. 
+    He has been working mostly on eComerce and Payment solutions. 
+    Author of not so famous "Struckture" project.
+  title: "User story: User can register and login into the system"
+  abstract: >
+    Implementing User registration and Login functionality is a common but not a simple task. 
+    It is usually guided by some business and security guidelines. 
+    This talk guides you from most simple(and bad) implementations towards more complicated and secure solutions.
+    While doing that you will get the basic ideas about cryptography terms like nonce, hashes, salt, rainbow-tables, key stretching as well as terms like User Enumeration, Password Enumeration etc.
+  contact: ""
+  image: "nophoto.png"
+  slides: ""
+
+- name: "Gorjan Zajkovski" #10
+  id: "gzajkovski"
+  twitter: "the_wittyone"
+  bio: >
+   Gorjan is a software engineer at Netcetera, working on various projects including research into the area of machine learning. 
+   For his graduate thesis, he built a proof of concept event recommendation system. 
+   Nowadays, he spends his work time developing daily in Java, JavaScript and Python, and the rest at Coursera, learning the latest trends in the world of Big Data and Data Science. 
+  title: "Face feature detection using Java (openCV)"
+  abstract: >
+    The need to offer a custom tailored experience to each user, while fitting your product to their unique personality, has become a basic product requirement. 
+    Recommender systems are an essential step towards the solution.
+  contact: ""
+  image: "nophoto.png"
+  slides: ""
+
+- name: "Pavel Bely" #11
+  id: "pbely"
+  twitter: "BielyPaviel"
+  bio: >
+    I am a software engineer and punk musician from Minsk, Belarus.
+    In 2010 I have graduated from BSUIR (Belarusian State University of Informatics and Radio electronics) and since then have worked as a developer - starting as a vintage mainframe engineer (PL/I, Assembler) to fancy single page applications developer (JavaScript and Java).
+    Currently I work in Seavus as a full stack developer.
+  title: "How to deploy Dockerized applications to AWS ElasticBeanstalk"
+  abstract: >
+    Perhaps the easiest way  to run your application at AWS as a multi Docker container app is to use Amazon ElasticBeanstalk. 
+    It allows you to quickly deploy and manage applications in the AWS Cloud and let Amazon care about the infrastructure magic.
+    In my presentation I'll share my experience of using ElasticBeanstalk and automating deployment with Jenkins."
+  contact: ""
+  image: "nophoto.png"
+  slides: ""
+
+- name: "Sashko Peshevski" #12
+  id: "speshevski"
+  bio: >
+    Senior software developer and consultant at Polar Cape with 10 years experience in Java. 
+    More than 2 year ago (beside Java) started to work as a hybrid mobile app developer, Android and iOS, including JavaScript, AngularJS, Cordova, HTML5, Objective-C, etc. 
+    Also, in free time, he has blogging view on the most recent happenings in IT, gadgets and IoT (especially Raspberry Pi).
+  title: "Spring Boot SSO in 15 min"
+  abstract: >
+    Spring Boot SSO implemented with Oauth2 and Zuul proxy, focuses on client developer simplicity while providing specific authorization flows for web and desktop apps, mobile and IoT devices.
+  contact: ""
+  image: "nophoto.png"
+  slides: ""
+
+- name: "Goran Kopevski" #13
+  id: "gkopevski"
+  bio: >
+    Goran Kopevski is a 6 year experienced Javascript developer. 
+    Currently, he is working for Cuponation as a senior developer on a system that serves more than million users daily. 
+    He has worked for multiple clients including Porsche Informatik, Cardiologie Centra Nederland and various telecom companies. 
+    He is a versatile developer who has tasted the flavor of many technologies. 
+    Aims for simplified code and usage of javascript. 
+    Open minded for new technologies and thinking out of the box. 
+    As an open minded person, he wants to exploit all of the magic that Javascript can offer.
+  title: "AWS lambda using Serverless"
+  abstract: >
+    Serverless architecture is one of the trending architecture for cloud based scalable microservices. 
+    It is getting more and more popular in the last two years. 
+    Currently, there are multiple providers that are offering the serverless architecture in their cloud stack. 
+    The goal of this presentation is to show how easy it is to start working with AWS Lambda and the full potential that it offers. 
+    Also, to show the drawback you need to think about before you start using it in production applications. 
+    The presentation will cover an intro, a live coding demo and an explanation of the positive and negative things of the Serverless architecture.
+  contact: ""
+  image: "gorank.jpg"
+
+- name: "Blagoj Atanasovski & Aleksandar Andreevski" #14
+  id: "blagojaleks"
+  bio: >
+    ...
+  title: "Javaslang - Achieve functionally eloquence with Java8"
+  abstract: >
+    Javaslang is a functional library for Java8+. 
+    It helps to reduce the amount of code and to increase the robustness. 
+    Javaslang fuses the power of object-oriented programming with the elegance and robustness of functional programming. 
+  contact: ""
+  image: "nophoto.png"
+  slides: ""
+
+- name: "Ivan St. Ivanov" #15
+  id: "iivanov"
+  twitter: "ivan_stefanov"
+  bio: >
+    Ivan St. Ivanov has more than 15 years experience with Java development. 
+    He is founder and senior programmer at VIDA Software.
+    Ivan is one of the Bulgarian JUG leads, driving the Adopt a JSR initiative in Bulgaria. 
+    As of 2015 he is one of the key organizers of the jPrime conference in Sofia. 
+    In his free time he likes contributing to open source software, mostly to MicroProfile and JBoss Forge.
+    Ivan is doing his PhD in the University of National and World Economy in Sofia in the area of throttling shared resources in multi-tenant cloud environment. 
+    He is teaching Java and Java EE in the Sofia University.
+  title: "Monads in Javascript?"
+  abstract: >
+    Microservices are hot topic these days. 
+    And it's not just another hype, but the reality - the new  deployment and delivery model of scaling and maintaining single app features lead to completely new development model.
+
+    Most of the platform vendors from the Java space followed the trends and came up with powerful products in that space. 
+    As always Java EE was accused for being late for the party. 
+    Individual vendors have their own solutions, but they are still far from standard. 
+    The MicroProfile initiative is a step in the right direction. 
+    There vendors work together to define what a microservice runtime is and implement it on top of standard technologies.
+
+    Join this session to learn more about the initiative, its current state and future outlooks.
+  contact: ""
+  image: "nophoto.png"
+  slides: ""
