@@ -279,3 +279,40 @@
     Join this session to learn more about the initiative, its current state and future outlooks.
   contact: ""
   image: "nophoto.png"
+
+- name: "Petar Blazevski" #16
+  id: "PetarBlazevski"
+  twitter: "pblazevski"
+  bio: >
+    Petar is a front-end developer at Polar Cape with 5 years of experience. 
+    He started working as a back-end developer using the PHP scripting language, and moved to full time front-end when JavaScript started taking over the web.
+  title: "Quick introduction of state management in JavaScript apps using Redux"
+  abstract: >
+    Since the introduction of the modularization in the JavaScript world, we have faced countless of issues. 
+    One very common problem, especially in the component driven development, is how can we share data between modules/components. 
+    Facebook had the same issue when they moved their UI to React. 
+    In order to solve this problem, they started implementing the Flux application architecture. 
+    Redux, on the other hand, has evolved around the idea of Flux, and is becoming the go-to tool in a React application. 
+    It was created as a state management library with minimal API, but with the ability to be implemented in various features like hot reloading, universal apps, etc.
+  contact: ""
+  image: "nophoto.png"
+
+- name: "Branislav Bajlovski" #17
+  id: "bbajlovski"
+  twitter: "bbjski"
+  bio: >
+    17 years  experience as Java Ddeveloper.
+    Certified ScrumMaster & Certified Scrum Product Owner.
+    Founder and former Partner in Ever Near Macedonia.
+    VP for Operations and Technology in Sourcico.
+    More than 2.500 days in Java projects.
+  title: "Network Application with Apache MINA"
+  abstract: >
+    Playing with media streams, codecs, reliable data transfer, custom protocols, UDP/TCP & IP.
+    How to make applications that are focusing only on one functionality instead all functionalities. E.g. Proxy. 
+    If you need only 2 functionalities, why running whole proxy? 
+    Why not making your own proxy in 5 minutes?
+    How about performance? 
+    How about lightweight network applications?"
+  contact: ""
+  image: "nophoto.png"
