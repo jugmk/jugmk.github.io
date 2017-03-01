@@ -1,0 +1,93 @@
+<h2>Agenda Hall 6</h2>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Time</th>
+      <th>Talk</th>
+      <th>Presenter</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for a in page.agendasix %}
+    <tr>
+      <td class="table-time" width="20%">
+        {{ a.from }} - {{ a.to }}
+      </td>
+      <td class="table-title" {% if a.istalk %} style="font-weight: bold;" {% endif %} width="40%">
+        {% if a.index %}
+        <a href="#talk-{{ speakers[a.index].id }}">
+        {% endif %}
+        {{ a.talk }}
+        {% if a.index %}
+        </a> 
+        {% endif %}
+      </td>
+      <td class="table-speaker" width="40%">
+        {% for speaker in a.speakers %}
+        <a href="#speaker-{{ speakers[speaker].id }}">{{ speakers[speaker].name }}</a> 
+        {% if forloop.last == false %} &amp; {% endif %} 
+        {% endfor %}
+      </td>
+    </tr>
+    {% if a.description %}
+    <tr>
+      <td style="border-top-style: none;" width="20%"></td>
+      <td style="border-top-style: none;" width="80%" colspan="2">
+        {{ a.description }}
+      </td>
+    </tr>
+    {% endif %} 
+    {% endfor %}
+  </tbody>
+</table>
+
+<h2 style="text-align: center;">Sponsors</h2>
+<div style="text-align: center; "><img src="/images/sponsors/SponsorsJavaSkop17.png" style="width: 100%;"><br></div>
+
+<h2>Agenda Hall 5</h2>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Time</th>
+      <th>Talk</th>
+      <th>Presenter</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for b in page.agendafive %}
+    <tr>
+      <td class="table-time" width="20%">
+        {{ b.from }} - {{ b.to }}
+      </td>
+      <td class="table-title" {% if b.istalk %} style="font-weight: bold;" {% endif %} width="40%">
+        {% if b.index %}
+        <a href="#talk-{{ speakers[a.index].id }}">
+        {% endif %}
+        {{ b.talk }}
+        {% if b.index %}
+        </a> 
+        {% endif %}
+      </td>
+      <td class="table-speaker" width="40%">
+        {% for speaker in b.speakers %}
+        <a href="#speaker-{{ speakers[speaker].id }}">{{ speakers[speaker].name }}</a> 
+        {% if forloop.last == false %} &amp; {% endif %} 
+        {% endfor %}
+      </td>
+    </tr>
+    {% if b.description %}
+    <tr>
+      <td style="border-top-style: none;" width="20%"></td>
+      <td style="border-top-style: none;" width="80%" colspan="2">
+        {{ b.description }}
+      </td>
+    </tr>
+    {% endif %} 
+    {% endfor %}
+  </tbody>
+</table>
+
+<h2 style="text-align: center;">Supporters</h2>
+<div style="text-align: center; "><img src="/images/sponsors/SupportersJavaSkop17.png" style="width: 100%;"><br></div>
