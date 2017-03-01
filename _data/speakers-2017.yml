@@ -65,7 +65,7 @@
     Oracle Certified Professional, Java SE 8 Programmer.
     Persistent problem solver, excited about every aspect of the process of creating software with good quality... more bragging you can find on linkedin. 
     Apart from being a developer I like to brag that I am a mother of two little boys (read dragons) and have lots of fun with a four year old and a baby in the house.
-  title: "Spring RabbitMQ"
+  title: "Java 9 - Project Jigsaw"
   abstract: >
     <h4>Jigsaw in a nutshell.</h4>
     Reliable configuration and strong encapsulation are the two key values of the project. 
@@ -99,6 +99,7 @@
     Milen is a Developer Advocate at Liferay and focuses on Java and OSGi Platform. 
     He is passionate about designing and building software as well as helping others design and build good software! 
     After more than 15 years developing, designing and consulting on various Java EE solutions for leading European companies, he currently spends most of his time teaching, speaking at conferences all over the world and researching his favorite topics around Java modularity, systems architecture and software craftsmanship.
+  title: "From zero to production in 1 conference talk time"
   abstract: >
     NoSQL, Serverless, DevOps, Social Auth, ... 
     Developers these days want to forget about infrastructure and simply build great scalable apps quickly. 
@@ -184,7 +185,7 @@
    Gorjan is a software engineer at Netcetera, working on various projects including research into the area of machine learning. 
    For his graduate thesis, he built a proof of concept event recommendation system. 
    Nowadays, he spends his work time developing daily in Java, JavaScript and Python, and the rest at Coursera, learning the latest trends in the world of Big Data and Data Science. 
-  title: "Face feature detection using Java (openCV)"
+  title: "Recommender Systems: What, Why, How"
   abstract: >
     The need to offer a custom tailored experience to each user, while fitting your product to their unique personality, has become a basic product requirement. 
     Recommender systems are an essential step towards the solution.
@@ -264,7 +265,7 @@
     In his free time he likes contributing to open source software, mostly to MicroProfile and JBoss Forge.
     Ivan is doing his PhD in the University of National and World Economy in Sofia in the area of throttling shared resources in multi-tenant cloud environment. 
     He is teaching Java and Java EE in the Sofia University.
-  title: "Monads in Javascript?"
+  title: "MicroProfile: the future of standard enterprise Java"
   abstract: >
     Microservices are hot topic these days. 
     And it's not just another hype, but the reality - the new  deployment and delivery model of scaling and maintaining single app features lead to completely new development model.
