@@ -30,7 +30,6 @@
 
 - name: "Dimitar Siljanovski" #2
   id: "dsiljanovski"
-  twitter: ""
   bio: >
     Dimitar has 12 years of Software Development experience and in last 8 years he is working as Software Architect for multiple international companies. 
     He loves to build tech teams and to find solutions for complex Product requirements. 
@@ -64,7 +63,6 @@
 
 - name: "Katerina Doneva" #4
   id: "kdoneva"
-  twitter: ""
   bio: >
     Software Engineer with over 8 years of success in developing enterprise application in Java and related technologies.
     Oracle Certified Professional, Java SE 8 Programmer.
@@ -96,7 +94,6 @@
     }
   contact: ""
   image: "nophoto.png"
-  slides: ""
 
 - name: "Milen Dyankov" #5
   id: "mdyankov"
@@ -113,7 +110,6 @@
     While having fun playing with what I code, you'll learn how to easily build any web application - from simple SPAs trough a full micro-service architecture to complex enterprise applications.
   contact: ""
   image: "mdyankov.png"
-  slides: ""
 
 - name: "Miki Jankov" #6
   id: "mjankov"
@@ -127,11 +123,9 @@
      Learn how to setup the system, how to connect devices to it and how to control them using smartphone app and web browser, or automate their control with rules.
   contact: ""
   image: "mjankov.jpg"
-  slides: ""
 
 - name: "Michael Drost" #7
   id: "mdrost"
-  twitter: ""
   bio: >
     Michael Drost: husband to a fantastic wife, father to four incredible children, TOGAF certified, excellence obsessed and motorsport mad. 
     Started testing in 2000 and never looked back. 
@@ -149,7 +143,6 @@
     Come and get the keys to unlock the true tester!
   contact: ""
   image: "mdrost.jpg"
-  slides: ""
   
 - name: "Jana Karcheska" #8
   id: "jkarcheska"
@@ -171,7 +164,6 @@
     I want to try to go about this topic in a pragmatic way drawing from my experience and cured by my passion for functional programming and showcase and compare some of the advantages and setbacks in the most popular Javascript frameworks.
   contact: ""
   image: "jana.png"
-  slides: ""
 
 - name: "Marjan Kindalov" #9
   id: "mkindalov"
@@ -187,7 +179,6 @@
     While doing that you will get the basic ideas about cryptography terms like nonce, hashes, salt, rainbow-tables, key stretching as well as terms like User Enumeration, Password Enumeration etc.
   contact: ""
   image: "nophoto.png"
-  slides: ""
 
 - name: "Gorjan Zajkovski" #10
   id: "gzajkovski"
@@ -202,7 +193,6 @@
     Recommender systems are an essential step towards the solution.
   contact: ""
   image: "gzajkovski.jpg"
-  slides: ""
 
 - name: "Pavel Bely" #11
   id: "pbely"
@@ -218,10 +208,10 @@
     In my presentation I'll share my experience of using ElasticBeanstalk and automating deployment with Jenkins."
   contact: ""
   image: "pbely.jpg"
-  slides: ""
 
 - name: "Sashko Peshevski" #12
   id: "speshevski"
+  twitter: "saspes"
   bio: >
     Senior software developer and consultant at Polar Cape with 10 years experience in Java. 
     More than 2 year ago (beside Java) started to work as a hybrid mobile app developer, Android and iOS, including JavaScript, AngularJS, Cordova, HTML5, Objective-C, etc. 
@@ -231,9 +221,9 @@
     Spring Boot SSO implemented with Oauth2 and Zuul proxy, focuses on client developer simplicity while providing specific authorization flows for web and desktop apps, mobile and IoT devices.
   contact: ""
   image: "nophoto.png"
-  slides: ""
 
 - name: "Goran Kopevski" #13
+  twitter: "kopevski"
   id: "gkopevski"
   bio: >
     Goran Kopevski is a 6 year experienced Javascript developer. 
@@ -265,7 +255,6 @@
     Javaslang fuses the power of object-oriented programming with the elegance and robustness of functional programming. 
   contact: ""
   image: "nophoto.png"
-  slides: ""
 
 - name: "Ivan St. Ivanov" #15
   id: "iivanov"
@@ -292,4 +281,3 @@
     Join this session to learn more about the initiative, its current state and future outlooks.
   contact: ""
   image: "nophoto.png"
-  slides: ""
