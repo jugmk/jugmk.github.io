@@ -11,7 +11,6 @@
     In my career I gathered some insights that I would like to share with the audience. This experiences come from both working as a software developer and IT architect with non-technical people and from becoming a part-time manager myself."
   contact: ""
   image: "corsin.jpg"
-  slides: ""
 
 - name: "Nikola Zivkov" #1
   id: "zivkov"
@@ -42,7 +41,6 @@
     Business and Team organizations should follow this architecture, which motivated us to spend a huge amount of time in the last 3 years to transform our Company into Microservices-based organization.
   contact: ""
   image: "dsiljanovski.jpg"
-  slides: ""
 
 - name: "Tomche Delev" #3
   id: "tdelev"
@@ -51,7 +49,7 @@
     Teaching assistant at FINKI, with previous industry experience in start-up with passion about sharing knowledge. 
     Worked as developer and architect for ten years on business applications and personal projects in many different technologies and programming languages. 
     Passionate about Java and JVM technologies, clean code, programming languages and from recently functional programming.
-  title: "Connected Hardware for Java Software Engineers 101"
+  title: "Test easy and prosper with Spock Framework"
   abstract: >
     The talk will be divided in three parts. 
     In the first part it will show and emphasize the importance of testing in general, and unit testing in particular as the base of the test pyramid. 
@@ -59,7 +57,6 @@
     Then in the third and final part of the talk, a moderate and real world examples of unit tests written in Spock will be presented (or live coded, depending on the time).   
   contact: ""
   image: "tomche.jpg"
-  slides: ""
 
 - name: "Katerina Doneva" #4
   id: "kdoneva"
