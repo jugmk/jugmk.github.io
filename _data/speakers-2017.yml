@@ -29,13 +29,12 @@
   image: "zivkov.png"
 
 - name: "Dimitar Siljanovski" #2
-  id: "dimitarsiljanovski"
+  id: "dsiljanovski"
   twitter: ""
   bio: >
-    Dimitar is an experienced IT-professional, having a strong track record in start-ups and established technology companies. 
-    Before joining CUPONATION as CTO in 2013, he previously worked as Software architect and developer in multiple companies such as oDesk and Ecorys. 
-    Dimitar is globally responsible for all platforms and software related matters within the group. 
-    He holds a Bachelor in Software Engineering from First European University Skopje.
+    Dimitar has 12 years of Software Development experience and in last 8 years he is working as Software Architect for multiple international companies. 
+    He loves to build tech teams and to find solutions for complex Product requirements. 
+    In the last 4 years as CTO of Global Savings Group he managed to scale the company from single platform in single country to 40 platforms operating in 24 countries with more than 100M of active users monthly.
   title: "Do not make the Monolith great again!"
   abstract: >
     Microservices are not something that you need to jump into immediately. 
@@ -43,7 +42,7 @@
     Luckily we survived that trap, so we can share the story with you. 
     Business and Team organizations should follow this architecture, which motivated us to spend a huge amount of time in the last 3 years to transform our Company into Microservices-based organization.
   contact: ""
-  image: "nophoto.png"
+  image: "dsiljanovski.jpg"
   slides: ""
 
 - name: "Tomche Delev" #3
@@ -113,7 +112,7 @@
 
     While having fun playing with what I code, you'll learn how to easily build any web application - from simple SPAs trough a full micro-service architecture to complex enterprise applications.
   contact: ""
-  image: "nophoto.png"
+  image: "mdyankov.png"
   slides: ""
 
 - name: "Miki Jankov" #6
@@ -127,7 +126,7 @@
      Introduction to the open-source software openHAB and the challenges to build your own smarthome based on openHAB and open-source hardware like Raspberry Pi and Arduino. 
      Learn how to setup the system, how to connect devices to it and how to control them using smartphone app and web browser, or automate their control with rules.
   contact: ""
-  image: "nophoto.png"
+  image: "mjankov.jpg"
   slides: ""
 
 - name: "Michael Drost" #7
@@ -149,7 +148,7 @@
     My talk will focus on how practical Business Driven Testing can save you time and allow you to deliver the best product possible without distractions. 
     Come and get the keys to unlock the true tester!
   contact: ""
-  image: "nophoto.png"
+  image: "mdrost.jpg"
   slides: ""
   
 - name: "Jana Karcheska" #8
@@ -202,7 +201,7 @@
     The need to offer a custom tailored experience to each user, while fitting your product to their unique personality, has become a basic product requirement. 
     Recommender systems are an essential step towards the solution.
   contact: ""
-  image: "nophoto.png"
+  image: "gzajkovski.jpg"
   slides: ""
 
 - name: "Pavel Bely" #11
@@ -218,7 +217,7 @@
     It allows you to quickly deploy and manage applications in the AWS Cloud and let Amazon care about the infrastructure magic.
     In my presentation I'll share my experience of using ElasticBeanstalk and automating deployment with Jenkins."
   contact: ""
-  image: "nophoto.png"
+  image: "pbely.jpg"
   slides: ""
 
 - name: "Sashko Peshevski" #12
