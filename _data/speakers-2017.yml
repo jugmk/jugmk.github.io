@@ -242,8 +242,8 @@
   contact: ""
   image: "gorank.jpg"
 
-- name: "Blagoj Atanasovski & Aleksandar Andreevski" #14
-  id: "blagojaleks"
+- name: "Blagoj Atanasovski" #14
+  id: "batansovski"
   bio: >
     ...
   title: "Javaslang - Achieve functionally eloquence with Java8"
@@ -252,7 +252,7 @@
     It helps to reduce the amount of code and to increase the robustness. 
     Javaslang fuses the power of object-oriented programming with the elegance and robustness of functional programming. 
   contact: ""
-  image: "nophoto.png"
+  image: "batanasovski.jpg"
 
 - name: "Ivan St. Ivanov" #15
   id: "iivanov"
