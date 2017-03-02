@@ -218,7 +218,7 @@
   abstract: >
     Spring Boot SSO implemented with Oauth2 and Zuul proxy, focuses on client developer simplicity while providing specific authorization flows for web and desktop apps, mobile and IoT devices.
   contact: ""
-  image: "nophoto.png"
+  image: "speshevski.jpg"
 
 - name: "Goran Kopevski" #13
   twitter: "kopevski"
@@ -245,7 +245,8 @@
 - name: "Blagoj Atanasovski" #14
   id: "batansovski"
   bio: >
-    ...
+    Blagoj is a Software Engineer at Sorsix, where he works on data-intensive applications. 
+    His interests include distributed systems, database systems architecture and concurrency.
   title: "Javaslang - Achieve functionally eloquence with Java8"
   abstract: >
     Javaslang is a functional library for Java8+. 
