@@ -6,9 +6,13 @@
     Corsin studied computer science and worked part-time as a research assistant at ETH Zurich. 
   title: "Managers and Customers - The Missing Manual"
   abstract: >
-    The goal of the talk is to provide developers with information about how non-technical managers and customers tick and how to deal with them in daily project work.
-    Developers need to work together with non-technical people. And the better this collaboration works, the more successful the projects are. It is helpful for both parties to understand each other, know what motivates and drives the other side, what they care about.
-    In my career I gathered some insights that I would like to share with the audience. This experiences come from both working as a software developer and IT architect with non-technical people and from becoming a part-time manager myself."
+    <p>The goal of the talk is to provide developers with information about how non-technical managers and customers tick and how to deal with them in daily project work.</p>
+    
+    <p>Developers need to work together with non-technical people. And the better this collaboration works, the more successful the projects are. 
+    It is helpful for both parties to understand each other, know what motivates and drives the other side, what they care about.</p>
+    
+    <p>In my career I gathered some insights that I would like to share with the audience. 
+    This experiences come from both working as a software developer and IT architect with non-technical people and from becoming a part-time manager myself.</p>
   contact: ""
   image: "corsin.jpg"
 
@@ -21,9 +25,13 @@
     He’s been a member of the Macedonian JUG since the group’s second meeting.
   title: "How I learned to stop worrying and love the monolith"
   abstract: >
+    <p>
     With so many advocates of both the microservices-first and monolith-first approaches, it's important to understand the strengths and weaknesses of both architectural styles. 
     With these two being at two opposite sides of the spectrum, could there be a middle ground?
+    </p>
+    <p>
     We will explore the concept of structured monoliths by visiting several topics such as layered architecture (and the damages it causes), Ports and Adapters architecture as its alternative and Domain-Driven Design's Bounded Context pattern that can help us create components which can one day become microservices.
+    </p>
   contact: ""
   image: "zivkov.png"
 
@@ -51,8 +59,7 @@
     Passionate about Java and JVM technologies, clean code, programming languages and from recently functional programming.
   title: "Test easy and prosper with Spock Framework"
   abstract: >
-    The talk will be divided in three parts. 
-    In the first part it will show and emphasize the importance of testing in general, and unit testing in particular as the base of the test pyramid. 
+    In the first part of the talk it will present and emphasize the importance of testing in general, and unit testing in particular as the base of the test pyramid. 
     Then, in the second part it will introduce the audience with the Spock Framework written in Groovy (JVM dynamic langauge). 
     Then in the third and final part of the talk, a moderate and real world examples of unit tests written in Spock will be presented (or live coded, depending on the time).   
   contact: ""
@@ -90,7 +97,7 @@
        PrezUtil.showAllreadyWrittenModules();
     }
   contact: ""
-  image: "nophoto.png"
+  image: "kdoneva.jpg"
 
 - name: "Milen Dyankov" #5
   id: "mdyankov"
@@ -104,8 +111,6 @@
     NoSQL, Serverless, DevOps, Social Auth, ... 
     Developers these days want to forget about infrastructure and simply build great scalable apps quickly. 
     This just got easier and I'll prove it to you by live coding an application that you can interact with during the talk (bring your laptop and/or smartphone).
-
-    While having fun playing with what I code, you'll learn how to easily build any web application - from simple SPAs trough a full micro-service architecture to complex enterprise applications.
   contact: ""
   image: "mdyankov.png"
 
@@ -131,14 +136,17 @@
     Unlocking that potential in an octane driven, high pressure environment and being rewarded with the top step of the podium, is the way I love to spend my weekends! 
   title: "Agile testing: why the tester is your best friend ever!"
   abstract: >
+    <p>
     Testers bring a particular skillset to the table. 
     Whether it is asking the unexpected question or finding the one issue everybody else missed. 
     But they can do a lot more and I am not talking about coding. 
     You actually hold the key to unlocking a huge amount of potential achievements. 
     Did you know that if you let them start doing their thing before you start doing yours, you will be in a far better position to deliver the product the product owner needs?
-
+    </p>
+    <p>
     My talk will focus on how practical Business Driven Testing can save you time and allow you to deliver the best product possible without distractions. 
     Come and get the keys to unlock the true tester!
+    </p>
   contact: ""
   image: "mdrost.jpg"
   
@@ -151,15 +159,19 @@
     Outside of the daily work, her other interests are machine learning, bioinformatics and functional programming, languages like Lisp, Clojure and few other languages on the JVM.
   title: "How Reactive do we need to be"
   abstract: >
+    <p>
     My greatest passion in programming are functional languages, the languages that were believed to be the future of AI. 
     Now they are prevailing in all other areas and concepts like Reactive, Immutable, Stateless are becoming part of our daily work. 
     Which is great, but the question is how Reactive do we really need to be. 
     I want to give my "point de vue" based on my experience with using Javascript frontend technologies for big enterprise projects.
-
+    </p>
+    <p>
     While it is easy to be courageous and innovative when doing small start up projects in reality most of us still have to do big projects that need to stay stable and useful for many years. 
     It is amazing that now enterprise projects are opening up to novelty but how can we really survive the turmoil and take advantage of the good and avoid the volatile and bad.
-
+    </p>
+    <p>
     I want to try to go about this topic in a pragmatic way drawing from my experience and cured by my passion for functional programming and showcase and compare some of the advantages and setbacks in the most popular Javascript frameworks.
+    </p>
   contact: ""
   image: "jana.png"
 
@@ -171,10 +183,27 @@
     Author of not so famous "Struckture" project.
   title: "User story: User can register and login into the system"
   abstract: >
-    Implementing User registration and Login functionality is a common but not a simple task. 
-    It is usually guided by some business and security guidelines. 
-    This talk guides you from most simple(and bad) implementations towards more complicated and secure solutions.
-    While doing that you will get the basic ideas about cryptography terms like nonce, hashes, salt, rainbow-tables, key stretching as well as terms like User Enumeration, Password Enumeration etc.
+    <h4>Registration</h4>
+    <ul>
+      <li>2 step Registration</li>
+      <li>why is done</li>
+      <li>how is done</li>
+    </ul>
+    <h4>Login</h4>
+    <ul>
+      <li>storing plain Password in DB</li>
+      <li>storing hash of the password in the DB</li>
+      <li>dictionary attack, rainbow-tables</li>
+      <li>salting the passwords with static hash</li>
+      <li>salting the password with dynamic hash</li>    
+      <li>key stretching</li>
+    </ul>
+    <h4>Error messages</h4>
+    <h4>User enumeration</h4>
+    <h4>Password enumeration</h4>
+    <h4>TLS</h4>
+    <h4>Frameworks: List of frameworks if there is a time for that.</h4>
+
   contact: ""
   image: "nophoto.png"
 
@@ -187,8 +216,23 @@
    Nowadays, he spends his work time developing daily in Java, JavaScript and Python, and the rest at Coursera, learning the latest trends in the world of Big Data and Data Science. 
   title: "Recommender Systems: What, Why, How"
   abstract: >
-    The need to offer a custom tailored experience to each user, while fitting your product to their unique personality, has become a basic product requirement. 
-    Recommender systems are an essential step towards the solution.
+    <p>
+    This talk will give a short overview of what a Recommender System is, and the decisions one has to take into account when designing one. 
+    Then we will go into more details on the general concept of a recommendation engine, why do we need one, the used algorithm (collaborative filtering, factorization techniques), its' nature (personalized / non-personalized), the valuation metrics, and the learning procedure. 
+    A couple of key points will also be addressed, such as the importance of implicit user feedback, the integration of the engine into the service, and the unavoidable pitfalls.
+    </p>
+    <h4>WHAT</h4>
+    In the introductory part of the talk, we will first see what a Recommender System is. 
+    In what follows, a solid understanding of what the purpose of such a system is, will be established. 
+    Also, a short summary will be given, of what it’s role is, and what is outside it’s scope.
+    <h4>WHY</h4>
+    Next, a short requirements list will be presented, to showcase features that we take for granted, present in almost all of the modern online platforms, which are all powered by a recommendation engine of some kind.
+    <h4>HOW</h4>
+    In this longest part of the talk, I will mostly focus on answering this question: How do we integrate a recommendation engine into a new service, or a product? 
+    A short overview of the few most popular techniques will be given, alongside the key decisions one has to make when designing the recommendation process. 
+    Also, a few implied points will be discussed, which directly influence, or are a consequence from the design decisions.
+    <h4>Closing:</h4>
+    In this part, I will give a couple of examples of well designed recommendation engines, and their seamless integration into the core products.
   contact: ""
   image: "gzajkovski.jpg"
 
@@ -201,9 +245,17 @@
     Currently I work in Seavus as a full stack developer.
   title: "How to deploy Dockerized applications to AWS ElasticBeanstalk"
   abstract: >
+    <p>
     Perhaps the easiest way  to run your application at AWS as a multi Docker container app is to use Amazon ElasticBeanstalk. 
     It allows you to quickly deploy and manage applications in the AWS Cloud and let Amazon care about the infrastructure magic.
-    In my presentation I'll share my experience of using ElasticBeanstalk and automating deployment with Jenkins."
+    In short all you need to do is to create an application in Elastic Beanstalk, configure its environment and provide an archive with Dockerrun.aws.json file. This is where you define which docker images should be used and how they need to be configured when deploying your app.
+    Continuous integration? Yes, this can be automated, Jenkins is there to help with lots of AWS plugins (so you don’t need to know any Groovy). 
+    In my presentation I'll share my experience of using ElasticBeanstalk and automating deployment with Jenkins.
+    </p>
+
+    <p>
+    <a target="_blank" href="https://medium.com/@pavelbely/deploying-dockerized-multi-container-application-to-aws-using-jenkins-833a998ce6ed#.w1xhd0wgr">Here</a> is my blog post that is the core of my presentation
+    </p>
   contact: ""
   image: "pbely.jpg"
 
@@ -216,7 +268,11 @@
     Also, in free time, he has blogging view on the most recent happenings in IT, gadgets and IoT (especially Raspberry Pi).
   title: "Spring Boot SSO in 15 min"
   abstract: >
-    Spring Boot SSO implemented with Oauth2 and Zuul proxy, focuses on client developer simplicity while providing specific authorization flows for web and desktop apps, mobile and IoT devices.
+    Spring Boot SSO implemented with Oauth2 and Zuul proxy, with .jdbc() instead of .inMemory(), focuses on client developer simplicity while providing specific authorization flows for web and desktop apps, mobile and IoT devices. 
+    Implementation .inMemory() will be faster, but if multiple clients are consuming this then it is better to have it in .jdbc(). 
+    Will use an OAuth2 server as the authenticator, so that we can also use it to grant tokens for the backend resource server using MySQL as client, user and token store. 
+    The goal is to work around CORS and the Same Origin Policy restriction of the browser and allow the UI to call the API even though they don't share the same origin using Zuul proxy.
+
   contact: ""
   image: "speshevski.jpg"
 
@@ -268,22 +324,22 @@
     He is teaching Java and Java EE in the Sofia University.
   title: "MicroProfile: the future of standard enterprise Java"
   abstract: >
-    Microservices are hot topic these days. 
-    And it's not just another hype, but the reality - the new  deployment and delivery model of scaling and maintaining single app features lead to completely new development model.
-
-    Most of the platform vendors from the Java space followed the trends and came up with powerful products in that space. 
-    As always Java EE was accused for being late for the party. 
-    Individual vendors have their own solutions, but they are still far from standard. 
-    The MicroProfile initiative is a step in the right direction. 
-    There vendors work together to define what a microservice runtime is and implement it on top of standard technologies.
-
-    Join this session to learn more about the initiative, its current state and future outlooks.
+    <p>
+    The presentation will start with an overview of the history of innovation in the Java EE space. 
+    Then it will outline the problems with the previous approaches that lead to the inception of the MicroProfile initiative.
+    </p>
+    <p>
+    The second part of the presentation will be a description of what MicroProfile is - which are the vendors behind it, what are its goals and what is the innovation process. 
+    Then it will briefly review what is in version 1.0 and what is coming in version 1.1.
+    <p>
+    Finally the speaker will show a working MicroProfile 1.0 application, where each service is running on a different vendor vendor platform.
+    </p>
   contact: ""
   image: "nophoto.png"
 
 - name: "Petar Blazevski" #16
-  id: "PetarBlazevski"
-  twitter: "pblazevski"
+  id: "pblazevski"
+  twitter: "PetarBlazevski"
   bio: >
     Petar is a front-end developer at Polar Cape with 5 years of experience. 
     He started working as a back-end developer using the PHP scripting language, and moved to full time front-end when JavaScript started taking over the web.
@@ -296,7 +352,7 @@
     Redux, on the other hand, has evolved around the idea of Flux, and is becoming the go-to tool in a React application. 
     It was created as a state management library with minimal API, but with the ability to be implemented in various features like hot reloading, universal apps, etc.
   contact: ""
-  image: "nophoto.png"
+  image: "pblazevski.jpg"
 
 - name: "Branislav Bajlovski" #17
   id: "bbajlovski"
