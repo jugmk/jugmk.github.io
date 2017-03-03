@@ -97,7 +97,7 @@
        PrezUtil.showAllreadyWrittenModules();
     }
   contact: ""
-  image: "nophoto.png"
+  image: "kdoneva.jpg"
 
 - name: "Milen Dyankov" #5
   id: "mdyankov"
