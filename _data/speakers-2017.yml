@@ -322,7 +322,7 @@
     In his free time he likes contributing to open source software, mostly to MicroProfile and JBoss Forge.
     Ivan is doing his PhD in the University of National and World Economy in Sofia in the area of throttling shared resources in multi-tenant cloud environment. 
     He is teaching Java and Java EE in the Sofia University.
-  title: "MicroProfile: the future of standard enterprise Java"
+  title: "MicroProfile quick start"
   abstract: >
     <p>
     The presentation will start with an overview of the history of innovation in the Java EE space. 
@@ -335,7 +335,7 @@
     Finally the speaker will show a working MicroProfile 1.0 application, where each service is running on a different vendor vendor platform.
     </p>
   contact: ""
-  image: "nophoto.png"
+  image: "ivan.jpg"
 
 - name: "Petar Blazevski" #16
   id: "pblazevski"
