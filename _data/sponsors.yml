@@ -6,25 +6,37 @@
   image: seavus.jpg
 - name: PolarCape
   url: http://polarcape.com/
-  image: polarcape.gif
+  image: polarcape.png
 - name: Tricode
   url: http://www.tricode.nl/
   image: tricodelogo.png
+- name: Sorsix
+  url: https://www.sorsix.com/
+  image: sorsix.png
+- name: Global Savings Group
+  url: https://www.global-savings-group.com/
+  image: gsg.png
+- name: Musala Soft
+  url: http://musala.com/
+  image: musalalogo.png
 - name: Endava
   url: http://www.endava.mk/
   image: endava.jpg
-- name: EverNear
-  url: http://www.evernear.com/
-  image: ever_near.jpg
 - name: Singular
   url: http://singular.mk/
   image: singularlogo.png
 - name: Inside
   url: http://www.one-inside.com/
   image: insidelogo.png
-- name: Musala Soft
-  url: http://musala.com/
-  image: musalalogo.png
+- name: S&&T
+  url: http://www.snt.mk/
+  image: snt.png
+- name: Armedia
+  url: https://www.armedia.com/
+  image: armedia.png
+- name: EverNear
+  url: http://www.evernear.com/
+  image: ever_near.jpg
 - name: Genrepsoft
   url: http://www.genrepsoft.com/
   image: genrep_logo.png
