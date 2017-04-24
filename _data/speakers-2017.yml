@@ -66,7 +66,7 @@
     Then in the third and final part of the talk, a moderate and real world examples of unit tests written in Spock will be presented (or live coded, depending on the time).   
   contact: ""
   image: "tomche.jpg"
-  slides: "http://delev.me/presentations/spock/#/"
+  slidesLink: "http://delev.me/presentations/spock/#/"
 
 - name: "Katerina Doneva" #4
   id: "kdoneva"

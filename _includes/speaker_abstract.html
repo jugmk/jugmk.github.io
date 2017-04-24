@@ -20,6 +20,9 @@
     {% if speaker.slides %}
     <h4>Slides: <a href="/presentations/{{speaker.slides}}">download</a></h4>
     {% endif %}
+    {% if speaker.slidesLink %}
+    <h4>Slides: <a href="{{speaker.slidesLink}}">view</a></h4>
+    {% endif %}
     {% if speaker.other %}
     <h4>Other: {{speaker.other}}</h4>
     {% endif %}
