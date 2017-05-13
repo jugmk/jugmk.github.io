@@ -51,6 +51,7 @@
     Business and Team organizations should follow this architecture, which motivated us to spend a huge amount of time in the last 3 years to transform our Company into Microservices-based organization.
   contact: ""
   image: "dsiljanovski.jpg"
+  slidesLink: "https://docs.google.com/presentation/d/1yFJS5TI0eqSCKXZ9avmClL0Lo8zf3MpgSvhuyuwXOvM/pub?start=false&loop=false&delayms=3000"
 
 - name: "Tomche Delev" #3
   id: "tdelev"
@@ -156,6 +157,7 @@
     </p>
   contact: ""
   image: "mdrost.jpg"
+  slides: "javaskop17/Michael.pptx"
   
 - name: "Jana Karcheska" #8
   id: "jkarcheska"
