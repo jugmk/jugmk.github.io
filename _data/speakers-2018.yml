@@ -1,0 +1,213 @@
+- name: "Panche Chavkovski" #0
+  id: "pance"
+  twitter: "hsilomedus"
+  bio: >
+    Pance is a senior software engineer at Netcetera and one of the JUGMK leaders. 
+    He is a Java and IoT developer on daily basis, part-time hardware maker, and one of the team behind the codefu.mk coding competition.
+    Every now and then, Pance blogs at <a href="http://pance.mk/">pance.mk</a>
+  title: "8, 9, 10, 11"
+  abstract: >
+    <p>The current state of Java. What is to change, what can we expect, what does the future see?</p>
+    <p>A quick glance into the current adoption state of the different Java version. What's with the new versioning plan? Changes, improvements and new features? What will the the projects like Amber and Valhalla bring to the language?.</p>
+    <p>What does the future hold for all Java developers, and what will all that mean for the entire eco-system?</p>
+  contact: ""
+  image: "pance2.jpg"
+
+- name: "Drazen Nikolic" #1
+  id: "drazen"
+  twitter: "drazennis"
+  bio: >
+    Drazen Nikolic has 17 years of experience developing Java enterprise applications. He has worked in various domains like e-commerce, insurance, digital marketing, social apps etc. Spring Certified Professional.
+    Alongside working on client projects, he regularly prepares and executes various internal technical presentations and workshops. So far talked at Code Camp, Iasi, Romania, StartIT Fest, Belgrade, Serbia conferences, as well as at Seavus Code Talks events.
+  title: "Going Reactive with Spring 5"
+  abstract: >
+    <p>What is Reactive Programming?</p>
+    <p>Reactive Programming paradigm is in a hype lately, and for a reason. Some 10 years ago, typical server installations consisted of 10’s of servers, with response time measured in seconds, maintenance downtime measured in hours and data volumes of GBs. Today, we have clusters with 1000’s of servers, with required sub-second response times and no downtime. Data volumes are exponentially growing to TBs and PBs, received in a form of asynchronous data streams. As Java developers, we’ve been taught to take advantage of the powerful modern hardware by using more threads. But, systems composed on multiple threads, communicating with shared and synchronized state, are blocking, have strong coupling, are hard to compose and use system resources in an inefficient way.</p>
+    <p>Reactive Manifesto is a prescription for building modern, cloud-scale architectures, which should be: message-driven (react to events), elastic (react to load), resilient (react to failures) and responsive (react to users). Reactive Streams is a specification based on Reactive Manifesto. It is a standard for asynchronous stream processing with non-blocking back pressure. Implementations of this specifications are Akka Streams, RxJava, Project Reactor, Vert.x, MongoDB Reactive Streams driver etc. It consists of 4 interfaces: Publisher, Subscriber, Subscription and Processor.</p>
+    <p>Reactive Programming is programming paradigm for developing non-blocking, message-driven applications, that scale on a few threads, with back pressure in order not to overwhelm consumers. At a first glance it might look complicated, but after a close examination, it becomes fairly straightforward. It infuses asynchrony into the core of the system and leads naturally to microservices implementation. It uses functional programming concepts to manipulate data streams. Failures are first-class citizens, too. </p>
+    <p>Reactive Building Blocks of Spring 5</p>
+    <p>The Reactive Streams types are not enough; you'll need higher-order implementations to support operators such as filtering and transformation. Pivotal's Reactor project is a good choice here; it builds on top of the Reactive Streams specs. As useful as project Reactor is, it's only a foundation. Applications need to talk to data source. They need to produce and consume HTTP, Server-Sent Events (SSE) or WebSocket endpoints. They should support authentication and authorization. Spring Framework 5.0 provides these things. It includes a new reactive runtime and component module called Spring WebFlux.</p>
+    <p>An unavoidable impact of Reactive Programming with Spring 5 is shifting towards functional transformations. When non-blocking implementations, such as Spring’s WebClient or Spring Data’s reactive repositories, are used, we have to deal with reactive data types: Mono<T> and Flux<T>. To stay non-blocking, result of the queries can be only accessed through functional transformations. This API is similar to Java 8 Stream but is more extensive and compatible with the reactive patterns.</p>
+    <p>Spring 5 introduces the ability to use reactive programming in our applications – both on the server and client layer - Spring WebFlux. We can use the new WebClient class (instead of RestTemplate) which allows us to make a request to the server, and apply transformations and actions to the response when it eventually comes back, all without blocking any other operations in our code.</p>
+    <p>Spring Data adds support for reactive repositories and reactive templates, for databases like Cassandra, Couchbase, MongoDB and Redis, by utilize their reactive capabilities and drivers. Having this support, you are able to implement applications having end-to-end non-blocking reactive behavior.</p>
+    <p>When it comes to Spring Security, in additional to its standard use, Spring 5 adds a feature to enable it for WebFlux applications.</p>
+    <p>Demo</p>
+    <p>A short Demo showing how to use Mono and Flux producers, to process simple data streams, when a consumer gets subscribed.</p>
+  contact: ""
+  image: ""
+  
+- name: "Blagoj Atanasovski" #2
+  id: "blagoj"
+  bio: >
+    Java Dev and Team Lead.
+  title: "Structuring Large Angular Applications"
+  abstract: >
+    The basic Angular building block is a Component. But many different Components can have different responsibilities, can be shared or unique. In a large application the number of components requires them to be somehow organized and structured. In this presentation we will present our approach in structuring Angular applications in vertical slices, pages and components. We will show the advantages and drawbacks of our approach, and want to engage the audience to share ideas and what works for them.
+  contact: ""
+  image: "batanasovski.jpg"
+  
+- name: "Stojan Peshov" #3
+  id: "stojan"
+  twitter: "spesov"
+  bio: >
+    Stojan Peshov is Java developer with more than 10 years experience in web and back-end development. 
+    He has worked on a wide range of projects and business domains using open source libraries and frameworks 
+    such as Spring, Hibernate, Magnolia CMS, IceFaces, Hessian, RobotFramework, AngularJS, etc. As such, 
+    he has tasted different flavors of Java: JSP, JSF, JPA, JTA, CDI, as well as Test Automation, ETL, 
+    HTML5, Javascript and Web Services.
+  title: "Post-Agile Methodologies and all that Jazz"
+  abstract: >
+    <p>It's been 15 years since the Agile Manifesto was signed and several methodologies were raised ever since. There is almost no developer nowadays that haven't adopted at least one of the Agile principles and uses them in everyday work or even private life. Some has even done improvised versions which work according their needs. </p>
+    <p>The question that's been around these past years is if the Agile is old enough to become past and what's the next big thing, is it a time to call it Post-Agile period and what that means. What has or needs to change in order to abandon the old and become the Post Agile follower.</p>
+    <p>Lots of teams already claim themselves as Post-Agile pioneers and some new ideas of methodologies have been introduced. I'll try to bring an overview of some of them and bring you some thoughts that might help answering the above questions.</p>
+  contact: ""
+  image: "stojanp.jpg"
+  
+- name: "Ognen Poposki" #4
+  id: "ognen"
+  bio: >
+    Front-end developer with 1.5 years of experience in the field. Advanced algorithms and optimization expert. Machine learning and AI enthusiast.
+  title: "PageSpeed as a feature - small set of best practices"
+  abstract: >
+    PageSpeed optimization techniques described via the cause, the problem and the solution(s). The cause described via emerging technologies and easy access to the Internet. Human comfort zones and instant gratification described as the problem. Optimization techniques described as the solution. Tools to test your website.
+  contact: ""
+  image: ""
+  
+- name: "Tomche Delev" #5
+  id: "tdelev"
+  twitter: "tdelev"
+  bio: >
+    Former TA at FINKI, with industry experience in start-up with great passion about sharing knowledge. Worked as developer and architect for ten years on business applications and personal projects in many different technologies and programming languages. Passionate about Java and JVM technologies, clean code, programming languages and from recently functional programming.
+  title: "Functional programming showdown: Java vs Scala vs Kotlin"
+  abstract: >
+    <p>Pure function, higher-order functions, optional, map, flatMap, lazy and other functional programming constructs are becoming common in everyday programming. With the multi-core architecture on servers and microservice architectures in the cloud, functional programming is becoming even more relevant and most certainly the future of programming in highly concurrent environments.</p>
+    <p>Java 8 was the first version that introduced functional programming concepts in the language, Scala is build to fully support functional programming and what about Kotlin? In this presentation, we will see and learn how we can implement the basic functional programming concepts in Java, Scala and Kotlin and comprare how "functional" they really are. For beginners, but also experienced programmers who are using mostly imperative style the presentation will serve as a introduction to very different programming mindset, and introduce programming language alternatives to Java in the JVM world.</p>
+    <p>Understanding what functional programming is, and what are its basic concepts is essential for any programmer who want to dig deeper in Stream, Optional, CompletableFuture, Observable, Promise, Actors and many other very popular concepts often interrelated with reactive programming or also called functional reactive programming.   </p>
+  contact: ""
+  image: "tomche.jpg"
+
+- name: "Goran Kopevski" #6
+  id: "gorank"
+  twitter: "kopevski"
+  bio: >
+    Goran Kopevski is a 7-year experienced senior Javascript developer. Currently, he is working as Tech Lead at Global Savings Group on Travel Affiliate Business Portfolio. He is responsible for the architecture of the system which serves millions of users. In the past, he has worked for multiple clients including Liberty Global, Porsche Informatik and various telecom and banking companies. His current passion is AWS and working on inventive solutions. Open minded person who wants to think out of the box. Aims for simple solutions and expert in quick and dirty fixes on production systems.
+  title: "AWS architecture problems while being fancy"
+  abstract: >
+    Being pioneer in a field most of the time gives you a boost when you are showing your portfolio. It is enriched with lots of fancy and buzz words and when you talk with your friends and colleagues you sound as you are talking rocket science and you look smart. And that is a good thing. On the other side you have a lot of hidden traps that you need to overcome when working with new architecture technologies. In this talk I will present the architecture that me and my team created on top of AWS. The architecture currently is serving million of users on daily basis with 90%+ score in every performance test. It consists of 15+ services that are provided by AWS. The presentation will focus on all of the good things and the problems that we are facing while using AWS services.
+  contact: ""
+  image: "gorank.jpg"
+  
+- name: "Nikola Zivkov" #7
+  id: "zivkov"
+  twitter: "nikolazivkov"
+  bio: >
+    Nikola Zivkov is a Technology Line Manager for Java at Seavus. With more than 14 years of experience in building Java enterprise solutions, he’s passionate about building resilient architectures that withstand the test of time (and crazy client demands). He’s been a member of the Macedonian JUG since the group’s second meeting.
+  title: "Microservices external API and data management patterns"
+  abstract: >
+    <p>The list of microservices patterns is an extensive one and covers different aspects of working with microservices such as design, implementation, deployment and operations. One attempt to catalogue these patterns is available at http://microservices.io</p>
+    <p>The external API category describes two patterns: the “API gateway” and the “Backend for frontend” a.k.a. “BFF”. Their purpose is to minimize the chatty interface a frontend would have with the microservices as their APIs are typically fine grained.</p>
+    <p>Once an API gateway is deployed, it has the responsibility to fetch and join data from multiple microservices acting as an “API composer”. An alternative data management pattern that is more efficient is the well known Command Query Responsibility Segregation (CQRS) patterns that introduces a so called query model, one which is optimized for querying and displaying data on the frontend.</p>
+    <p>A microservices demo application is used to showcase the problems and the solutions based on the adoption of the aforementioned microservices patterns.</p>
+  contact: ""
+  image: "zivkov.png"
+  
+- name: "Jordan Soklevski" #8
+  id: "joki"
+  twitter: ""
+  bio: >
+    Software Engineer at UpWork.
+  title: "Building and operating a 10milion user platform"
+  abstract: >
+    In a world where everyone is dreaming of building the next Facebook i would try to give an overview of the challenges we face when building highly scalable architectures and a walk-through of the  current frameworks, tools and principles that aim to make this journey bearable and exiting.
+  contact: ""
+  image: ""
+  
+- name: "Aleksandar Donevski" #9
+  id: "aleksandard"
+  bio: >
+    Aleksandar Donevski is experienced senior software engineer with an established academic and professional background, currently working in Musala Soft company. He received a B.S. degree in Computer Science from the Faculty of Computer Science and Engineering (FCSE), and his experience in Java and C# has exposed him to various cloud-based environments, making him very interested and active in working with Cloud environments and tools.
+  title: "Processing of big data with Apache Spark "
+  abstract: >
+    How processing of big data can be performed with Apache Spark? Common challenges and approaches in processing of big data. 
+  contact: ""
+  image: ""
+  
+- name: "Aleksandar Mihajlovski" #10
+  id: "aleksandara"
+  twitter: "mihajlovskia"
+  bio: >
+    JavaScript developer at Polar Cape Consulting and Blockchain enthusiast with desire to learn new technologies.
+  title: "Ethereum - The Blockchain of Blockchains"
+  abstract: >
+    Bitcoin and Ethereum are two mainstream cryptocurrencies looking to leverage blockchain technologies to drive innovation across numerous industries. This means that blockchain evolution is happening. Why this happens and what does it mean to us? 
+    The talk will give short overview of what Blockchain is, why is it so popular, and how Bitcoin and Ethereum fit in this technology. Then it will outline the problems that you could have using cryptocurrencies and how to solve some of them, also I will try to explain how to create a coin and use it in your own application.
+  contact: ""
+  image: ""
+  
+- name: "Blagoj Jovanov" #11
+  id: "blagojj"
+  bio: >
+    Blagoj is working as a Software Engineer at Swiss software company Netcetera. 
+    His first work experience included Spring based applications, and after that 
+    he got involved in media asset management, specifically video transcoding. 
+    Recently he is developing applications in the 3-D Secure Payment area, where 
+    his main focus is frontend development using latest Angular framework."
+  title: "Code or Something like It"
+  abstract: >
+    The talk will start with the reasons and my motivation for doing it. The first part will address various aspects of coding and everything around it, serving as a preparation for the main topic. The idea for presenting the anti-patterns shall resemble the sin counter from videos describing movie errors, followed by lots of memes and developer suitable content.
+  contact: ""
+  image: ""
+  
+- name: "Emilija Stojmenovska" #12
+  id: "emche"
+  bio: >
+    I am a always happy, very cheerful unicorn that was born in 1994 in Skopje. Big passion for science, UX design and Front-end development. Experience with web technologies like HTML, CSS and Javascript, but also with Visual Design, Interaction Design, User Experience, User Interface design and Human Computer Interaction. I also like talking with people, riding the bike, hiking, traveling and of course a great party.
+  title: "So, you say CSS is not fun at all?"
+  abstract: >
+    <p>Chapter 1: All that positioning</p>
+    <p>Short introduction to new ways of positioning, flexbox and CSS grid, what is the difference and what are the new features and the cool stuff we can do with them. How to use them together and what we can NOT make with them, for now ;).</p>
+    <p>Chapter 2: Add some color</p>
+    <p>Hidden meaning of the hexadecimal code. Give a glimpse of all those color with a funny hexadecimal combination and how we can actually combine them. A good color pallet is the key to every good website.</p>
+    <p>Chapter 3: Classes with a deeper meaning</p>
+    <p>Give the right name to the CSS class, it is important for the people in your project and those who will work on that project in the future. How a fun, creative and meaningful name class can help you structure your CSS better and faster, and this is where things can get very creative. Introduction to Unicode classes, yes, it is possible.</p>
+  contact: ""
+  image: ""
+  
+- name: "Jörgen Blomberg" #13
+  id: "joergen"
+  bio: >
+    Jörgen Blomberg is a senior consultant at Polar Cape Consulting in Sweden, working primarily with enterprise architecture and service management. He has studied Artificial Intelligence and neurophysiology at the Royal Institute of Technology in Stockholm, and has been involved in several projects using AI and machine learning for financial and behavioral analysis.
+  title: "AI and Machine Learning – why should we care?"
+  abstract: >
+    <p>This is a short introduction to Artificial Intelligence, Machine Learning and Data Mining. We will try to define the concepts, describe what can be done with them, and what they can’t do.</p>
+    <p>We will also discuss how recent developments have generated new opportunities for applying AI and ML in practical applications (e.g. voice recognition, self-driving cars, “Big Data” analysis systems, etc.) causing the current interest in this area.</p>
+    <p>The final part is a look at what we as IT professionals need to know to satisfy the demands of the employers and customers who want to start using AI and ML.</p>
+    <p>The presentation is on a general level and should be accessible without any specific programming or mathematical background.</p>
+  contact: ""
+  image: ""
+  
+- name: "Dmitry Aleksandrov" #14
+  id: "mitya"
+  twitter: "bercut2000"
+  bio: >
+    Dmitry is a principal expert developer living in Sofia, Bulgaria. He has more than a decade experience mainly in Java Enterprise in banking/telecom, but interested in dynamic languages on JVM and features like massive computations on GPUs. He is a true believer in open source and community driven initiatives. He is a co-lead of the Bulgarian Java User Group and co-organizer of jPrime Conf.  
+    Dmitry is a blogger and also a frequent conference speaker at local events as well as conferences like JavaOne, Devoxx/Voxxed and Joker. 
+  title: "Java on the GPU. Where are we now?"
+  abstract: >
+    <p>It all came up from several tasks that should have been done for some startups. At some points some near to real time huge matrix multiplications should have to be done for some financial calculations. First it all started with some ordinary approaches with parallel processing on the CPU. Then we realized that we have a very powerful resource available but not utilized – The GPU. After some investigation we came to a working solution on how to run our computations on heterogeneous environments – both CPU and GPU.</p> 
+    <p>In this session we will make an introduction on what a GPU is, how did it evolve through years, and what is available to us developers now. We will see what are the shaders. We will explore how access this massive computational power through Java and make it available even for the Enterprise projects. We will explore how to bind java to OpenCL and CUDA. We will see what frameworks can we use to seamlessly write java code that will be executed on GPU devices.</p>
+    <p>Currently the GPU resources are available not just for gaming PCs but even on laptops or cloud machines. Although in a hard way they still can be used to unlock massive optimizations.</p>
+  contact: ""
+  image: ""
+  
+- name: "Alexandru Mortan" #15
+  id: "alexandru"
+  twitter: "AlexandruMortan"
+  bio: >
+    Passionate senior software engineer with Java background, experimenting with trending practices and technologies in the field of artificial intelligence. As a developer in the team building the presented project, has been directly involved in the problem-solving and decision-taking processes during the lifetime of the project.  
+  title: "Automating financial processes using Machine Learning"
+  abstract: >
+    <p>In the financial business there are several paper-based processes that require a thorough analysis resulting in increased costs and time-consuming activities. This presentation aims to describe the approaches and challenges experienced during the development of an intelligent system, meant to automate the covenant extraction process for documents with an increased level of confidentiality.</p> 
+    <p>A walkthrough of all the components present in the final solution, together with their evolution and limitations, will offer insights about modern practices and technologies like Machine Learning or Natural Language Processing, without disregarding the performance, deployment and scalability aspects in the roadmap from experiment to a production-ready project. All the problem-solving processes and the logic behind the major technical decisions will be carefully described in order to present the project from a developer’s perspective.</p>
+  contact: ""
+  image: ""  
