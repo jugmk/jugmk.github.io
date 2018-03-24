@@ -34,7 +34,7 @@
     <p>Demo</p>
     <p>A short Demo showing how to use Mono and Flux producers, to process simple data streams, when a consumer gets subscribed.</p>
   contact: ""
-  image: ""
+  image: "drazen.jpg"
   
 - name: "Blagoj Atanasovski" #2
   id: "blagoj"
@@ -210,4 +210,4 @@
     <p>In the financial business there are several paper-based processes that require a thorough analysis resulting in increased costs and time-consuming activities. This presentation aims to describe the approaches and challenges experienced during the development of an intelligent system, meant to automate the covenant extraction process for documents with an increased level of confidentiality.</p> 
     <p>A walkthrough of all the components present in the final solution, together with their evolution and limitations, will offer insights about modern practices and technologies like Machine Learning or Natural Language Processing, without disregarding the performance, deployment and scalability aspects in the roadmap from experiment to a production-ready project. All the problem-solving processes and the logic behind the major technical decisions will be carefully described in order to present the project from a developer’s perspective.</p>
   contact: ""
-  image: ""  
+  image: "alexandru.jpg"  
