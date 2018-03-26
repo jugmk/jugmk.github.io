@@ -156,7 +156,7 @@
   abstract: >
     The talk will start with the reasons and my motivation for doing it. The first part will address various aspects of coding and everything around it, serving as a preparation for the main topic. The idea for presenting the anti-patterns shall resemble the sin counter from videos describing movie errors, followed by lots of memes and developer suitable content.
   contact: ""
-  image: ""
+  image: "blagojjovanov.jpg"
   
 - name: "Emilija Stojmenovska" #12
   id: "emche"
