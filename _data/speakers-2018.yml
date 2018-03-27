@@ -113,7 +113,7 @@
   
 - name: "Jordan Soklevski" #8
   id: "joki"
-  twitter: ""
+  twitter: "jsoklevski"
   bio: >
     Software Engineer at UpWork.
   title: "Building and operating a 10milion user platform"
@@ -130,7 +130,7 @@
   abstract: >
     How processing of big data can be performed with Apache Spark? Common challenges and approaches in processing of big data. 
   contact: ""
-  image: ""
+  image: "aleksandardonevski.png"
   
 - name: "Aleksandar Mihajlovski" #10
   id: "aleksandara"
