@@ -1,0 +1,23 @@
+---
+title: "Tech session #23"
+date: 2018-05-10 18:15:00
+location: "TMF (FINKI) Amphitheatre"
+category: tech-session
+presentations:
+- title: Turbo Charge CPU Utilization in Fork/Join Using the ManagedBlocker
+  speaker: Dr. Heinz Kabutz
+  bio: >
+    Heinz is the mastermind behind <a href="https://www.javaspecialists.eu/">The Java Specialists' Newsletter</a>. He has a PhD in Computer Science. Heinz has programmed significant portions of several large Java applications and has taught Java to thousands of professional programmers. He is a regular speaker at all the major Java conferences.
+    Java ChampionsHeinz was chosen as a Java Champion by Sun Microsystems, the inventors of Java, for his work in advancing Java.
+    Heinz presents our Java training courses anywhere in the world, either in person or via remote teaching technologies. He is the author of all our courses, including Java Specialist Master, Design Patterns and Concurrency Specialist Courses.
+    Heinz is fluent in English and German.
+  image: "heinz.jpg"
+  abstract: >
+    Fork/Join is a framework for parallelizing calculations using recursive decomposition, also called divide and conquer.
+    These algorithms occasionally end up duplicating work, especially at the beginning of the run.  
+    We can reduce wasted CPU cycles by implementing a reserved caching scheme.  
+    Before a task starts its calculation, it tries to reserve an entry in the shared map.  If it is successful, it immediately begins.  If not, it blocks until the other thread has finished its calculation.  Unfortunately this might result in a significant number of blocked threads, decreasing CPU utilization.  
+    In this talk we will demonstrate this issue and offer a solution in the form of the ManagedBlocker.  Combined with the Fork/Join, it can keep parallelism at the desired level.
+---
+
+{% include tech_session.html %}
