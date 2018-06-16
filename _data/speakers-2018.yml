@@ -12,6 +12,7 @@
     <p>What does the future hold for all Java developers, and what will all that mean for the entire eco-system?</p>
   contact: ""
   image: "pance2.jpg"
+  slides: "891011.pptx"
 
 - name: "Drazen Nikolic" #1
   id: "drazen"
