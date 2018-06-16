@@ -132,6 +132,7 @@
     How processing of big data can be performed with Apache Spark? Common challenges and approaches in processing of big data. 
   contact: ""
   image: "aleksandardonevski.png"
+  slides: "javaskop18/spark.pdf"
   
 - name: "Aleksandar Mihajlovski" #10
   id: "aleksandara"
@@ -214,3 +215,4 @@
     <p>A walkthrough of all the components present in the final solution, together with their evolution and limitations, will offer insights about modern practices and technologies like Machine Learning or Natural Language Processing, without disregarding the performance, deployment and scalability aspects in the roadmap from experiment to a production-ready project. All the problem-solving processes and the logic behind the major technical decisions will be carefully described in order to present the project from a developer’s perspective.</p>
   contact: ""
   image: "alexandru.jpg"  
+  slides: "javaskop18/autofinwithml.pptx"
