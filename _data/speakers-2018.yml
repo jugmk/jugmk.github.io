@@ -96,6 +96,7 @@
     Being pioneer in a field most of the time gives you a boost when you are showing your portfolio. It is enriched with lots of fancy and buzz words and when you talk with your friends and colleagues you sound as you are talking rocket science and you look smart. And that is a good thing. On the other side you have a lot of hidden traps that you need to overcome when working with new architecture technologies. In this talk I will present the architecture that me and my team created on top of AWS. The architecture currently is serving million of users on daily basis with 90%+ score in every performance test. It consists of 15+ services that are provided by AWS. The presentation will focus on all of the good things and the problems that we are facing while using AWS services.
   contact: ""
   image: "gorank.jpg"
+  slidesLink: "https://www.slideshare.net/gorankopevski/aws-architecture-problems-while-being-fancy-94839334"
   
 - name: "Nikola Zivkov" #7
   id: "zivkov"
@@ -143,6 +144,7 @@
     The talk will give short overview of what Blockchain is, why is it so popular, and how Bitcoin and Ethereum fit in this technology. Then it will outline the problems that you could have using cryptocurrencies and how to solve some of them, also I will try to explain how to create a coin and use it in your own application.
   contact: ""
   image: ""
+  slides: "javaskop18/ethereum.pptx"
   
 - name: "Blagoj Jovanov" #11
   id: "blagojj"
@@ -173,7 +175,7 @@
   contact: ""
   image: ""
   
-- name: "Jörgen Blomberg" #13
+- name: "Jörgen §berg" #13
   id: "joergen"
   bio: >
     Jörgen Blomberg is a senior consultant at Polar Cape Consulting in Sweden, working primarily with enterprise architecture and service management. He has studied Artificial Intelligence and neurophysiology at the Royal Institute of Technology in Stockholm, and has been involved in several projects using AI and machine learning for financial and behavioral analysis.
@@ -185,6 +187,7 @@
     <p>The presentation is on a general level and should be accessible without any specific programming or mathematical background.</p>
   contact: ""
   image: ""
+  slides: "javaskop18/aiml.pptx"
   
 - name: "Dmitry Aleksandrov" #14
   id: "mitya"
