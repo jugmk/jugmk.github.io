@@ -1,0 +1,216 @@
+- name: "Nikola Zivkov" #0
+  id: "zivkov"
+  twitter: "nikolazivkov"
+  bio: >
+    Nikola Zivkov is a Technology Line Manager for Java at Seavus. With more than 15 years of experience in building Java enterprise solutions, he’s passionate about building resilient architectures that can withstand the test of time (and crazy client demands). He’s been a member of the Macedonian JUG since the group’s second meeting.
+  title: "A deterministic way to run and test your applications with Testcontainers"
+  abstract: >
+    <p>Gone are the days when your application consisted of just a web server and a database. The complexity of today’s applications is such that they need to persist their data in a variety of database stores (MongoDB, Cassandra), provide full text search capabilities (Elasticsearch), speak to other applications (RabbitMQ, Kafka) or simply interact with a third-party system over REST.</p>
+    <p>Setting up your local and CI environment with all these infrastructure services can be quite the challenge. Starting with the tedious process of manual setup, keeping the documentation up to date, OS and product version differences (“works on my machine” anyone?), the list of potential problems goes on and on.</p>
+    <p>Once we venture into integration testing, a different set of problems arise. Running your JPA queries against an H2 in-memory database is well supported but how do you make sure that your MongoDB or Elasticsearch queries work?</p>
+    <p>Testcontainers provides a deterministic way of running and testing your applications. It automates the environment setup by leveraging Docker so you don’t need to do it manually, and spins up Docker containers for the duration of the integration tests and tears them down once the test execution has finished. Out-of-the-box support is provided for well known RDBMS services (PostgreSQL, MySQL, MariaDB, etc.), Elasticsearch, Kafka, Webdriver, Localstack, etc but any third-party service can be wired-in by leveraging GenericContainer as base. Complex scenarios are supported through Testcontainer’s integration with Docker Compose.</p>
+  contact: ""
+  image: "zivkov.png"
+  
+- name: "Martin Ilievski" #1
+  id: "martinil"
+  twitter: "martinmaxs"
+  bio: >
+    Martin Ilievski is a Senior Developer at Seavus, technology geek and a frontend aficionado. He is an Oracle certified Java Master and holds a Bachelor's degree of Computer Science from FSCE. In his spare time, he enjoys coding, playing guitar, and eating pizza.
+  title: "A deterministic way to run and test your applications with Testcontainers"
+  abstract: >
+    <p>Gone are the days when your application consisted of just a web server and a database. The complexity of today’s applications is such that they need to persist their data in a variety of database stores (MongoDB, Cassandra), provide full text search capabilities (Elasticsearch), speak to other applications (RabbitMQ, Kafka) or simply interact with a third-party system over REST.</p>
+    <p>Setting up your local and CI environment with all these infrastructure services can be quite the challenge. Starting with the tedious process of manual setup, keeping the documentation up to date, OS and product version differences (“works on my machine” anyone?), the list of potential problems goes on and on.</p>
+    <p>Once we venture into integration testing, a different set of problems arise. Running your JPA queries against an H2 in-memory database is well supported but how do you make sure that your MongoDB or Elasticsearch queries work?</p>
+    <p>Testcontainers provides a deterministic way of running and testing your applications. It automates the environment setup by leveraging Docker so you don’t need to do it manually, and spins up Docker containers for the duration of the integration tests and tears them down once the test execution has finished. Out-of-the-box support is provided for well known RDBMS services (PostgreSQL, MySQL, MariaDB, etc.), Elasticsearch, Kafka, Webdriver, Localstack, etc but any third-party service can be wired-in by leveraging GenericContainer as base. Complex scenarios are supported through Testcontainer’s integration with Docker Compose.</p>
+  contact: ""
+  image: "martinil.jpg"
+  
+- name: "Tomche Delev" #2
+  id: "tdelev"
+  twitter: "tdelev"
+  bio: >
+    Former TA at FINKI, with industry experience in start-up with great passion about sharing knowledge. Worked as developer and architect for ten years on business applications and personal projects in many different technologies and programming languages. Passionate about Java and JVM technologies, clean code, programming languages and from recently functional programming.
+  title: "Spring and Kotlin, is it a functional relationship?"
+  abstract: >
+    <p>Spring Framework 5 introduced dedicated Kotlin support to ensure that Spring and Kotlin play well together. One of the key strengths of Kotlin is that it provides a very good interoperability with libraries written in Java. But there are ways to go even further and allow writing fully idiomatic Kotlin code when developing your next Spring application.</p>
+    <p>In the presentation I will cover the following:</p>
+    <p>- a very brief introduction to Kotlin</p>
+    <p>- how to write a minimal Spring Boot application using only Kotlin</p>
+    <p>- Kotlin plugins for Spring support</p>
+    <p>- JPA and data classes</p>
+    <p>- nullability support</p>
+    <p>- extension methods and more.</p>
+    <p>With many examples of code I will try to show you can write more expressive and functional applications in your favorite framework using the full power of Kotlin.</p>
+  contact: ""
+  image: "tomche.jpg"
+  
+
+- name: "Antonio Ivanovski" #3
+  id: "tote"
+  bio: >
+    Working as Android Developer at Netcetera. Like to live on the edge by using latest and grea... not tested technologies. However, working mainly on serious banking related projects, this is not always possible. Because of this I have developed love for pet projects that allow me to experiment and go crazy.
+  title: "Back in the days, developers used to write boilerplate code"
+  abstract: >
+    Few of today most popular libraries like Dagger, AutoValue and ButterKniffe are made possible by the ability to generate code at compile time.
+    In this talk I will touch on the basics of Annotation Processing and dive a bit deeper on code generation with JavaPoet.
+  contact: ""
+
+- name: "Martin Nachev" #4
+  id: "mnachev"
+  bio: >
+    Martin Nachev is an Oracle certified Java Knight with four years of experience in the battlefield. Martin is a clean code devotee and a fan of automation testing, hence the passion for unit testing. He is in constant search for improvement, thus he spends his spare time voraciously reading programming books and attending conferences. This time, he is walking onto stage as one of the presenters himself.
+  title: "JUnit: Revenge of the 5th"
+  abstract: >
+    JUnit 4 might be considered the standard testing framework in Java, but since its release in 2006 not much has changed, as the framework neglected to provide ways to simplify testing or make it more flexible. Luckily, in 2017, a developer-friendly upgrade - JUnit 5 - was released with its main goals being to be both backwards and forwards compatible. JUnit 5 features include parallel and conditional test execution, tagging, nested tests, dynamic tests, repeated tests, parametrized tests, custom display names and more. Furthermore, with the new JUnit Platform, third-party test engines can be developed for other JVM languages. This presentation walks the audience through the JUnit 5 architecture, highlights the advantages over its predecessor, and covers the way to migrate from JUnit 4 to JUnit 5.
+  contact: ""
+  
+- name: "Aleksandar Mihajlovski" #5
+  id: "aleksandara"
+  twitter: "mihajlovskia"
+  bio: >
+    Aleksandar Mihajlovski is JavaScript developer at Polar Cape and Blockchain enthusiast with desire to learn new technologies.
+  title: "Swagger Codegen for lazy developers"
+  abstract: >
+    Live code session for developing client and server application using one single source (yaml) of truth. 
+  contact: ""
+  
+- name: "Viktor Kajtazov" #6
+  id: "vkajtazov"
+  bio: >
+    Viktor Kajtazov is 4 years experienced software engineer at Polar Cape. Has been working with several technologies and different software architectures. Passionate about clean code and scalable architectures.
+  title: "Swagger Codegen for lazy developers"
+  abstract: >
+    Live code session for developing client and server application using one single source (yaml) of truth. 
+  contact: ""
+  
+  
+- name: "Dejan Jankov" #7
+  id: "djankov"
+  twitter: "dejanjankov"
+  bio: >
+    Dejan Jankov is a Certified Scrum Master. Besides not benefiting from this certification in any way, he is a full time developer and lead of a remote team. With more than 6 years of experience in building Java enterprise and Android applications, his interests span from talking requirement owners out of bad ideas to cooking, designing solutions and constant refactoring.
+  title: "Boilerhate - hate for boilerplate "
+  abstract: >
+    <p>Writing code is not hard. But writing correct code is a challenge. That involves a lot more work than the production of code itself. So we aim to minimize the amount of boilerplate code we write by applying various tools to our work, in order to decrease the time we spend on menial tasks and increase the time spent on business-impacting tasks. Code generation through annotation processor or the java.lang.reflect.Proxy can and does greatly help in achieving this goal.</p>
+    <p>The presentation will explore the few ways of code generation in Java, and how Spring's BeanPostProcessor and relatives help in applying the code generation solutions automatically and on an application level. Ever wondered how Spring's @Transactional, @ConfigurationProperties or @Validated are applied? Will cover the ways in which Spring retrofits our code to add functionality on top of it like the mentioned transaction management, bean validation, and how we can use the same approach to develop similar solutions on our own. And will go through the annotation processing way of code generation again with a personal example, and open source projects like QueryDsl, Lombok, Dagger, MapStruct, and others.</p>
+  contact: ""
+  
+- name: "Milan Savić" #8
+  id: "msavic"
+  twitter: "MilanSavic14"
+  bio: >
+    Milan Savić is a Software Engineer at AxonIQ. He has experience with various software projects ranging from chemical analyzers to contactless mobile payment systems. In some of those projects, CQRS and Event Sourcing came as a natural solution, but things had to be built from scratch almost every time. Finding out about AxonFramework got him interested in being a part of the solution. In March 2018 he joined AxonIQ team on a mission to build tools and frameworks which would help others in building event-driven, reactive systems.
+  title: "Introduction to DDD, CQRS, and EventSourcing with Axon Framework"
+  abstract: >
+    <p>DDD (Domain-Driven Design) offers a number of valuable architectural guardrails such as bounded contexts, domain events and sets a good base for CQRS (Command Query Responsibility Segregation). If we apply these architectural concepts wisely, they enable us to write a friendly, structured monolith that can be transformed into microservices in a controlled manner. The Axon Framework helps even more by providing a clean, location-transparent, event-driven way of implementing these architectural concepts.</p>
+    <p>In this talk, we will zoom in on this DDD/CQRS approach to evolutionary microservices with Axon. As part of the talk, there will be a live coding demo showing Axon in action. Join me to learn from each other new ways of dealing with software complexity!</p>
+  contact: ""
+  
+- name: "Laurentiu Spilca" #9
+  id: "lspilca"
+  bio: >
+    Development Lead at Endava Romania and Senior Java Instructor at Telecom Academy. Architect and develop applications using: Spring Boot, Microservices, Spring Security, OAuth2, JWT, Netflix, Eureka, Hystrix, Ribbon, Zuul, JUnit, Mockito. BDDMockito . Architect AWS applications. Making use of big data with ElasticStack and/or Splunk.
+    Frequent speaker at tech conferences around the world.
+  title: "Architectural anti-patterns when delivering a software ecosystem with Kubernetes."
+  abstract: >
+    The link between the architecture and how to deploy a software environment is one of the most important factors that lead to a great result: a high available, fast accessible, reliable and easy to change software service. Let's discover through live-coding approach what the aspects and common pitfalls are when delivering your software with Kubernetes.
+  contact: ""  
+ 
+  
+- name: "Panche Chavkovski" #10
+  id: "pance"
+  twitter: "hsilomedus"
+  bio: >
+    Pance is a senior software engineer at Netcetera and one of the JUGMK leaders. 
+    He is a Java and IoT developer on daily basis, part-time hardware maker, and one of the team behind the codefu.mk coding competition.
+    Every now and then, Pance blogs at <a href="http://pance.mk/">pance.mk</a>
+  title: "The eleventh hour"
+  abstract: >
+    <p>Have you chosen your JDK 11 flavor yet? No?</p>
+    <p>Learn what you need to do in order to get along with the new release train, and get your project up to date: what options are there, how painful the migration is, what can you do.</p>
+    <p>Also, the story is not over yet. Get a quick peek at what's coming next to JDK near you.</p>
+  contact: ""
+  image: "pance2.jpg"
+  
+  
+  
+- name: "Mincho Tonev" #11
+  id: "mtonev"
+  bio: >
+    Mincho is a Staff engineer in the company and one of the most successful product owners in the Vsphere UI team. He has significant impact on the vSphere Client quality and customer experience.
+  title: "Customer Driven Development"
+  abstract: >
+    <p>How nice would it be if you could address customer feedback before even releasing the product?</p>
+    <p>Find out how the customers became part of our R&D process in vSphere Client!</p>
+    <p>Come and see the tools we used and our success stories.</p>
+    <p>While building the new vSphere Client, we were able to constantly gather feedback from our customers.</p>
+    <p>We were able to address many requests and bugs found on the customer environment.</p>
+    <p>The more we listened, the more customers continued to share.</p>
+    <p>They were willing to present their use-cases, environment and organization to make us see how our product fit their needs.</p>
+  contact: ""
+  
+- name: "Stojan Peshov" #12
+  id: "stojan"
+  twitter: "spesov"
+  bio: >
+    Stojan Peshov is Java developer with more than 10 years experience in web and back-end development. 
+    He has worked on a wide range of projects and business domains using open source libraries and frameworks 
+    such as Spring, Hibernate, Magnolia CMS, IceFaces, Hessian, RobotFramework, AngularJS, etc. As such, 
+    he has tasted different flavors of Java: JSP, JSF, JPA, JTA, CDI, as well as Test Automation, ETL, 
+    HTML5, Javascript and Web Services.
+  title: "Confessions of a Senior Mind"
+  abstract: >
+    I'd like to confess what it feels like to be a senior, maybe that would help juniors undestand us better. :)
+    I'll try to briefly run over my everyday problems and challenges and see how much can the audience identify with it. It's tough to be a senior, but also fun at the same time.
+  contact: ""
+  image: "stojanp.jpg"  
+  
+- name: "Dragan Sahpaski" #13
+  id: "dsahpaski"
+  twitter: "dragansah"
+  bio: >
+    Dragan is the CTO of Sorsix. Dragan has over fifteen years’ experience at all levels of software development, and in his current role is involved in establishment of standards for development and software project management at Sorsix.
+  title: "OKRs for software engineers: A tool for personal and team growth."
+  abstract: >
+    <p>Many of us are hands-on software engineers and it is often that we face challenges when working in a team or collaborating with few or many people. OKRs are a management tool which can be used from small individual teams to large and cascaded organizations. We will focus on small and nimble teams and even individuals managing themselves. The secret of 1+1 > 2 lies in good collaboration and what other better tool for software developers than one invented by engineers at Intel and pioneered by Google from when they were a 30 person team until today when they're still using it and perfecting it.</p>
+    <p>We will go through two interactive examples which are enough for understanding the basics and inspiring oneself to look more closely into OKRs. The advantages of OKRs will be obvious, even for the young audience which hasn't been yet introduced to management methods for better team work.</p>
+    <p>OKRs have been implemented in many Silicon Vally startups and other companies under the mentorship of John Doer (who also mentored Google) and have been vastly popularized in the past several years mainly with his book "Measure What Matters".</p>
+    <p>We will engage the audience with interactive examples and will give out copies of John Doer's book "Measure What Matters".</p>
+  contact: ""
+  
+  
+  
+- name: "Dejan Dimitrovski" #14
+  id: "dejand"
+  twitter: "ddejan"
+  bio: >
+    Pance is a senior software engineer at Netcetera and one of the JUGMK leaders. 
+    He is a Java and IoT developer on daily basis, part-time hardware maker, and one of the team behind the codefu.mk coding competition.
+    Every now and then, Pance blogs at <a href="http://pance.mk/">pance.mk</a>
+  title: "Continuous reliability"
+  abstract: >
+    Congratulations, you decided to adopt one of the agile methodologies. You have implemented the CI/CD workflow with boards, sprints, standups, and retrospectives with all the bells and whistles. So, what is wrong? Why are you still struggling with errors and unpredictable expectations? Maybe you think you are not agile enough or maybe there is a missing link in your CI/CD workflow. It is time to talk about Continuous Reliability - the key principle for success with agile. Join this session to tackle challenges and pitfalls in adoption of agile principles through real-life cases. Let’s talk how can the Continuous Reliability principle strengthen the software development process from planning, management execution, development, testing and delivery perspective, aligned to customer and request management, continuous integration, automated tests, and continuous delivery with highest level of stability. All through examples that reflect on team practices and cultural changes.
+  contact: ""
+  
+- name: "Aleksandra Hristov" #15
+  id: "alexhris"
+  twitter: "alexhris"
+  bio: >
+    Aleksandra is a computer science engineer, currently working as a Senior UX designer and front-end developer in Netcetera, with about 10 years of professional experience. She has had talks about HTML/CSS, Responsive design, User Experience and Mobile app design within the company, at the events - Mobile Monday Macedonia, Digit, EESTEC Academy, MobileFirstMK, Front-end meetups at Skopje's Hacklab KIKA - and as a guest lecturer at the Faculty of Computer Science and Engineering. 
+  title: "Front-end up front"
+  abstract: >
+    <p>Using pattern libraries to improve the communication between designers and developers and the importance of including the whole team and the client into the planning phase.</p>
+    <p>How to plan and build components that can be used in different contexts and within other components with examples from real projects. How we have used UX design principles to ease our front-end implementations with code examples using the latest CSS features and Angular.</p>
+  contact: ""
+  
+- name: "Miki Jankov" #16
+  id: "mjankov"
+  twitter: "Miki_Mixajlo"
+  bio: >
+    JMiki is a senior software engineer at Intertec, currently working as a backend developer. He is a Java software engineer, embedded systems enthusiast and home automation hobbyist, trying to automate most of the tasks at home. Currently investing his free time in the "IoT smart villa" and trying to automate the office building that he is working at.
+  title: "How we managed to make our office building, a smart office building."
+  abstract: >
+     We'll discuss how we started the "IoT initiative" inside the company that we are currently working for, what are our plans and what have we achieved so far. Quick overview of the project(s) and the different technologies(software stack/hardware) involved in the project. We will continue with explaining what problems can we have while implementing a project like this in an existing building and what one should watch out for.
+  contact: ""
+  image: "mjankov.jpg"
