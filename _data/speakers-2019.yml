@@ -208,6 +208,7 @@
     <p>Using pattern libraries to improve the communication between designers and developers and the importance of including the whole team and the client into the planning phase.</p>
     <p>How to plan and build components that can be used in different contexts and within other components with examples from real projects. How we have used UX design principles to ease our front-end implementations with code examples using the latest CSS features and Angular.</p>
   contact: ""
+  image: "ahr.jpg"
   
 - name: "Miki Jankov" #16
   id: "mjankov"
