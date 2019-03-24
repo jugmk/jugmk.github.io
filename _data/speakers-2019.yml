@@ -84,6 +84,7 @@
   abstract: >
     Live code session for developing client and server application using one single source (yaml) of truth. 
   contact: ""
+  image: "viktorkajtazov.jpg"
   
   
 - name: "Dejan Jankov" #7
@@ -113,13 +114,12 @@
 - name: "Laurentiu Spilca" #9
   id: "lspilca"
   bio: >
-    Development Lead at Endava Romania and Senior Java Instructor at Telecom Academy. Architect and develop applications using: Spring Boot, Microservices, Spring Security, OAuth2, JWT, Netflix, Eureka, Hystrix, Ribbon, Zuul, JUnit, Mockito. BDDMockito . Architect AWS applications. Making use of big data with ElasticStack and/or Splunk.
-    Frequent speaker at tech conferences around the world.
+    Laurentiu Spilca is a dedicated development lead and trainer at Endava, where he is leading the development of a project in the financial market of European Nordic countries. He has over nine years of experience. Previously, he was a software developer building one of the biggest ERP solutions with worldwide installations. Laurentiu believes it’s important to not only deliver high-quality software but also share knowledge and help others to upskill, which has driven him to design and teach courses related to Java technologies and deliver presentations and workshops. Outside work, Laurentiu is passionate about traveling and scuba diving.
   title: "Architectural anti-patterns when delivering a software ecosystem with Kubernetes."
   abstract: >
     The link between the architecture and how to deploy a software environment is one of the most important factors that lead to a great result: a high available, fast accessible, reliable and easy to change software service. Let's discover through live-coding approach what the aspects and common pitfalls are when delivering your software with Kubernetes.
   contact: ""  
- 
+  image: "laurentius.jpg"
   
 - name: "Panche Chavkovski" #10
   id: "pance"
@@ -189,9 +189,9 @@
   id: "dejand"
   twitter: "ddejan"
   bio: >
-    Dejan Dimitrovski position himself as a trusted advisor to his clients and team members providing best business solutions with maximizing the usage of the technologies applying best practices. Always willing to share his dreams and visions, rising challenges and realizing opportunities into real-life solution. His best value is always to be dedicated and committed to achieve great business goals utilizing all available resources effectively.
-    Regular speaker on local and regional conferences and events covering topics on agile software development, best software development practices, service oriented and cloud-based solutions. As one of the founders on technical communities, he is constantly involved in all activities and events organized by the community.
-    He is Cloud addict, proud owner of many certificates and achievements who actively chase for interesting and attractive business adventures. He constantly improves his knowledge reading business and management books and articles. Besides that, he is passionate nature lover in a form of running, hiking and skiing.
+    <p>Dejan Dimitrovski position himself as a trusted advisor to his clients and team members providing best business solutions with maximizing the usage of the technologies applying best practices. Always willing to share his dreams and visions, rising challenges and realizing opportunities into real-life solution. His best value is always to be dedicated and committed to achieve great business goals utilizing all available resources effectively.</p>
+    <p>Regular speaker on local and regional conferences and events covering topics on agile software development, best software development practices, service oriented and cloud-based solutions. As one of the founders on technical communities, he is constantly involved in all activities and events organized by the community.</p>
+    <p>He is Cloud addict, proud owner of many certificates and achievements who actively chase for interesting and attractive business adventures. He constantly improves his knowledge reading business and management books and articles. Besides that, he is passionate nature lover in a form of running, hiking and skiing.</p>
   title: "Continuous reliability"
   abstract: >
     Congratulations, you decided to adopt one of the agile methodologies. You have implemented the CI/CD workflow with boards, sprints, standups, and retrospectives with all the bells and whistles. So, what is wrong? Why are you still struggling with errors and unpredictable expectations? Maybe you think you are not agile enough or maybe there is a missing link in your CI/CD workflow. It is time to talk about Continuous Reliability - the key principle for success with agile. Join this session to tackle challenges and pitfalls in adoption of agile principles through real-life cases. Let’s talk how can the Continuous Reliability principle strengthen the software development process from planning, management execution, development, testing and delivery perspective, aligned to customer and request management, continuous integration, automated tests, and continuous delivery with highest level of stability. All through examples that reflect on team practices and cultural changes.
