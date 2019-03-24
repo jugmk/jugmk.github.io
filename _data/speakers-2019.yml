@@ -65,16 +65,6 @@
     JUnit 4 might be considered the standard testing framework in Java, but since its release in 2006 not much has changed, as the framework neglected to provide ways to simplify testing or make it more flexible. Luckily, in 2017, a developer-friendly upgrade - JUnit 5 - was released with its main goals being to be both backwards and forwards compatible. JUnit 5 features include parallel and conditional test execution, tagging, nested tests, dynamic tests, repeated tests, parametrized tests, custom display names and more. Furthermore, with the new JUnit Platform, third-party test engines can be developed for other JVM languages. This presentation walks the audience through the JUnit 5 architecture, highlights the advantages over its predecessor, and covers the way to migrate from JUnit 4 to JUnit 5.
   contact: ""
   
-- name: "Aleksandar Mihajlovski" #5
-  id: "aleksandara"
-  twitter: "mihajlovskia"
-  bio: >
-    Aleksandar Mihajlovski is JavaScript developer at Polar Cape and Blockchain enthusiast with desire to learn new technologies.
-  title: "Swagger Codegen for lazy developers"
-  abstract: >
-    Live code session for developing client and server application using one single source (yaml) of truth. 
-  contact: ""
-  
 - name: "Viktor Kajtazov" #6
   id: "vkajtazov"
   bio: >
@@ -214,3 +204,12 @@
      We'll discuss how we started the "IoT initiative" inside the company that we are currently working for, what are our plans and what have we achieved so far. Quick overview of the project(s) and the different technologies(software stack/hardware) involved in the project. We will continue with explaining what problems can we have while implementing a project like this in an existing building and what one should watch out for.
   contact: ""
   image: "mjankov.jpg"
+  
+- name: "Gjorgji Janevski" #17
+  id: "gjanevski"
+  bio: >
+    I’m graphic a designer from Skopje, Macedonia with more than 10+ years of experience. I cover large area of techniques and design software and love to explore design in every aspect of life. Currently focused on solving problems with interface and UX concept in Sorsix.
+  title: "Not another UX presentation"
+  abstract: >
+    Across different plastic examples spectators should understand the importance of the UX process. Getting out and talking with clients and potential users is equal important as the development process of the product. The pillars of the project and its intuitive and usability perfection is also based on the UX process. UX is not a profession it is experience gathered with practice and research results. Basically you dont need UI if you understand in total the user needs, habits, daily routine etc.
+  contact: ""
