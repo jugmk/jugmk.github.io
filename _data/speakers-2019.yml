@@ -10,7 +10,7 @@
     <p>Once we venture into integration testing, a different set of problems arise. Running your JPA queries against an H2 in-memory database is well supported but how do you make sure that your MongoDB or Elasticsearch queries work?</p>
     <p>Testcontainers provides a deterministic way of running and testing your applications. It automates the environment setup by leveraging Docker so you don’t need to do it manually, and spins up Docker containers for the duration of the integration tests and tears them down once the test execution has finished. Out-of-the-box support is provided for well known RDBMS services (PostgreSQL, MySQL, MariaDB, etc.), Elasticsearch, Kafka, Webdriver, Localstack, etc but any third-party service can be wired-in by leveraging GenericContainer as base. Complex scenarios are supported through Testcontainer’s integration with Docker Compose.</p>
   contact: ""
-  image: "zivkov.png"
+  image: "zivkov2.jpg"
   
 - name: "Martin Ilievski" #1
   id: "martinil"
@@ -24,7 +24,7 @@
     <p>Once we venture into integration testing, a different set of problems arise. Running your JPA queries against an H2 in-memory database is well supported but how do you make sure that your MongoDB or Elasticsearch queries work?</p>
     <p>Testcontainers provides a deterministic way of running and testing your applications. It automates the environment setup by leveraging Docker so you don’t need to do it manually, and spins up Docker containers for the duration of the integration tests and tears them down once the test execution has finished. Out-of-the-box support is provided for well known RDBMS services (PostgreSQL, MySQL, MariaDB, etc.), Elasticsearch, Kafka, Webdriver, Localstack, etc but any third-party service can be wired-in by leveraging GenericContainer as base. Complex scenarios are supported through Testcontainer’s integration with Docker Compose.</p>
   contact: ""
-  image: "martinil.jpg"
+  image: "martinilievski2.png"
   
 - name: "Tomche Delev" #2
   id: "tdelev"
@@ -55,6 +55,7 @@
     Few of today most popular libraries like Dagger, AutoValue and ButterKniffe are made possible by the ability to generate code at compile time.
     In this talk I will touch on the basics of Annotation Processing and dive a bit deeper on code generation with JavaPoet.
   contact: ""
+  image: "tote.jpg"
 
 - name: "Martin Nachev" #4
   id: "mnachev"
@@ -64,6 +65,7 @@
   abstract: >
     JUnit 4 might be considered the standard testing framework in Java, but since its release in 2006 not much has changed, as the framework neglected to provide ways to simplify testing or make it more flexible. Luckily, in 2017, a developer-friendly upgrade - JUnit 5 - was released with its main goals being to be both backwards and forwards compatible. JUnit 5 features include parallel and conditional test execution, tagging, nested tests, dynamic tests, repeated tests, parametrized tests, custom display names and more. Furthermore, with the new JUnit Platform, third-party test engines can be developed for other JVM languages. This presentation walks the audience through the JUnit 5 architecture, highlights the advantages over its predecessor, and covers the way to migrate from JUnit 4 to JUnit 5.
   contact: ""
+  image: "MartinNachev.jpg"
   
 - name: "Gjorgji Janevski" #5
   id: "gjanevski"
@@ -94,6 +96,7 @@
     <p>Writing code is not hard. But writing correct code is a challenge. That involves a lot more work than the production of code itself. So we aim to minimize the amount of boilerplate code we write by applying various tools to our work, in order to decrease the time we spend on menial tasks and increase the time spent on business-impacting tasks. Code generation through annotation processor or the java.lang.reflect.Proxy can and does greatly help in achieving this goal.</p>
     <p>The presentation will explore the few ways of code generation in Java, and how Spring's BeanPostProcessor and relatives help in applying the code generation solutions automatically and on an application level. Ever wondered how Spring's @Transactional, @ConfigurationProperties or @Validated are applied? Will cover the ways in which Spring retrofits our code to add functionality on top of it like the mentioned transaction management, bean validation, and how we can use the same approach to develop similar solutions on our own. And will go through the annotation processing way of code generation again with a personal example, and open source projects like QueryDsl, Lombok, Dagger, MapStruct, and others.</p>
   contact: ""
+  image: "DejanJankov.jpg"
   
 - name: "Milan Savić" #8
   id: "msavic"
@@ -105,6 +108,7 @@
     <p>DDD (Domain-Driven Design) offers a number of valuable architectural guardrails such as bounded contexts, domain events and sets a good base for CQRS (Command Query Responsibility Segregation). If we apply these architectural concepts wisely, they enable us to write a friendly, structured monolith that can be transformed into microservices in a controlled manner. The Axon Framework helps even more by providing a clean, location-transparent, event-driven way of implementing these architectural concepts.</p>
     <p>In this talk, we will zoom in on this DDD/CQRS approach to evolutionary microservices with Axon. As part of the talk, there will be a live coding demo showing Axon in action. Join me to learn from each other new ways of dealing with software complexity!</p>
   contact: ""
+  image: "MilanSavic.jpg"
   
 - name: "Laurentiu Spilca" #9
   id: "lspilca"
@@ -148,6 +152,7 @@
     <p>The more we listened, the more customers continued to share.</p>
     <p>They were willing to present their use-cases, environment and organization to make us see how our product fit their needs.</p>
   contact: ""
+  image: "mtonev.jpg"
   
 - name: "Stojan Peshov" #12
   id: "stojan"
@@ -191,6 +196,7 @@
   abstract: >
     Congratulations, you decided to adopt one of the agile methodologies. You have implemented the CI/CD workflow with boards, sprints, standups, and retrospectives with all the bells and whistles. So, what is wrong? Why are you still struggling with errors and unpredictable expectations? Maybe you think you are not agile enough or maybe there is a missing link in your CI/CD workflow. It is time to talk about Continuous Reliability - the key principle for success with agile. Join this session to tackle challenges and pitfalls in adoption of agile principles through real-life cases. Let’s talk how can the Continuous Reliability principle strengthen the software development process from planning, management execution, development, testing and delivery perspective, aligned to customer and request management, continuous integration, automated tests, and continuous delivery with highest level of stability. All through examples that reflect on team practices and cultural changes.
   contact: ""
+  image: "dejand.png"
   
 - name: "Aleksandra Hristov" #15
   id: "alexhris"
