@@ -31,9 +31,9 @@
 - name: Singular
   url: http://singular.mk/
   image: singularlogo.png
-- name: Global Savings Group
-  url: https://www.global-savings-group.com/
-  image: gsg.png
+- name: Intertec
+  url: https://www.intertec.io/
+  image: intertec_logo.svg
 - name: S&&T
   url: http://www.snt.mk/
   image: sandt.png
