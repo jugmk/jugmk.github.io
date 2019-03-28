@@ -217,3 +217,13 @@
      We'll discuss how we started the "IoT initiative" inside the company that we are currently working for, what are our plans and what have we achieved so far. Quick overview of the project(s) and the different technologies(software stack/hardware) involved in the project. We will continue with explaining what problems can we have while implementing a project like this in an existing building and what one should watch out for.
   contact: ""
   image: "mjankov.jpg"
+
+- name: "Lazar Majstorchev" #17
+  id: "mlazar"
+  bio: >
+    Quality Assurance Engineer at Intertec - Product Development Company. In charge of the processes within the CI / CD pipeline. Striving for continuous delivery in an approach which incorporates the concepts of continuous integration, automated testing and continuous deployment. An IoT enthusiast, who loves hiking & mountain climbing.
+  title: "How we managed to make our office building, a smart office building."
+  abstract: >
+     We'll discuss how we started the "IoT initiative" inside the company that we are currently working for, what are our plans and what have we achieved so far. Quick overview of the project(s) and the different technologies(software stack/hardware) involved in the project. We will continue with explaining what problems can we have while implementing a project like this in an existing building and what one should watch out for.
+  contact: ""
+  image: "mlazar.jpg"
