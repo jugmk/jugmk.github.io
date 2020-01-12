@@ -75,6 +75,7 @@
   abstract: >
     Across different plastic examples spectators should understand the importance of the UX process. Getting out and talking with clients and potential users is equal important as the development process of the product. The pillars of the project and its intuitive and usability perfection is also based on the UX process. UX is not a profession it is experience gathered with practice and research results. Basically you dont need UI if you understand in total the user needs, habits, daily routine etc.
   contact: ""
+  image: "gjanevski.png"
   
 - name: "Viktor Kajtazov" #6
   id: "vkajtazov"
@@ -85,7 +86,6 @@
     Live code session for developing client and server application using one single source (yaml) of truth. 
   contact: ""
   image: "viktorkajtazov.jpg"
-  
   
 - name: "Dejan Jankov" #7
   id: "djankov"
@@ -136,8 +136,6 @@
   contact: ""
   image: "pance2.jpg"
   
-  
-  
 - name: "Mincho Tonev" #11
   id: "mtonev"
   bio: >
@@ -182,8 +180,7 @@
     <p>OKRs have been implemented in many Silicon Vally startups and other companies under the mentorship of John Doer (who also mentored Google) and have been vastly popularized in the past several years mainly with his book "Measure What Matters".</p>
     <p>We will engage the audience with interactive examples and will give out copies of John Doer's book "Measure What Matters".</p>
   contact: ""
-  
-  
+  image: "dsahpaski.jpg"
   
 - name: "Dejan Dimitrovski" #14
   id: "dejand"
@@ -220,12 +217,13 @@
      We'll discuss how we started the "IoT initiative" inside the company that we are currently working for, what are our plans and what have we achieved so far. Quick overview of the project(s) and the different technologies(software stack/hardware) involved in the project. We will continue with explaining what problems can we have while implementing a project like this in an existing building and what one should watch out for.
   contact: ""
   image: "mjankov.jpg"
-  
-- name: "Gjorgji Janevski" #17
-  id: "gjanevski"
+
+- name: "Lazar Majstorchev" #17
+  id: "mlazar"
   bio: >
-    I’m graphic a designer from Skopje, Macedonia with more than 10+ years of experience. I cover large area of techniques and design software and love to explore design in every aspect of life. Currently focused on solving problems with interface and UX concept in Sorsix.
-  title: "Not another UX presentation"
+    Quality Assurance Engineer at Intertec - Product Development Company. In charge of the processes within the CI / CD pipeline. Striving for continuous delivery in an approach which incorporates the concepts of continuous integration, automated testing and continuous deployment. An IoT enthusiast, who loves hiking & mountain climbing.
+  title: "How we managed to make our office building, a smart office building."
   abstract: >
-    Across different plastic examples spectators should understand the importance of the UX process. Getting out and talking with clients and potential users is equal important as the development process of the product. The pillars of the project and its intuitive and usability perfection is also based on the UX process. UX is not a profession it is experience gathered with practice and research results. Basically you dont need UI if you understand in total the user needs, habits, daily routine etc.
+     We'll discuss how we started the "IoT initiative" inside the company that we are currently working for, what are our plans and what have we achieved so far. Quick overview of the project(s) and the different technologies(software stack/hardware) involved in the project. We will continue with explaining what problems can we have while implementing a project like this in an existing building and what one should watch out for.
   contact: ""
+  image: "mlazar.jpg"

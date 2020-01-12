@@ -271,3 +271,7 @@ h6,
     font-size: 12px;
     text-align: center;
 }
+
+li.list-group-item a img {
+    width: 100%;
+}
