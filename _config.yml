@@ -28,3 +28,4 @@ defaults:
       icon: photo
 # Build settings
 markdown: kramdown
+future: true
