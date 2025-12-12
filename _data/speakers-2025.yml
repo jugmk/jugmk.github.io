@@ -1,0 +1,29 @@
+- name: "Gjorgji Madzarov" #0
+  id: "madzarov"
+  bio: >
+    Gjorgji Madjarov is a Professor at the Faculty of Computer Science and Engineering, “St. Cyril and Methodius” University in Skopje. His active research interests are on designing advanced approaches for automated time-series modeling and forecasting, stream processing and AI Operations using an extensive set of state of the art algorithms. Building on more than 15 years of research, development and management experience, he now leads a highly skilled team of professionals, dedicated to delivering state-of-the-art ML solutions to the world.
+  
+- name: "Dimitar Peshevski" #1
+  id: "peshevski"
+  bio: >
+    Dimitar Peshevski is a dedicated researcher and a PhD student in Data Science in Computer Science and Engineering at the Faculty of Computer Science and Engineering.  He currently serves as a Demonstrator, having previously held the role of Lab Assistant for courses including Introduction to Data Science and Operating Systems. His scientific and research interests are focused on Data Science, Machine Learning, Artificial Intelligence, Parallel and Distributed Processing, and Software Engineering. Dimitar has authored and co-authored multiple scientific papers presented at both domestic and international conferences and published in academic journals.
+  
+- name: "Martin Toshev" #2
+  id: "marto"
+  bio: >
+    Martin is a solution architect and IT consultant conducting professional trainings for novice and experienced developers. He is a Java enthusiast and one of the leads of the Bulgarian Java User group (BG JUG) where he is one of the organizers of jPrime conference. He is also one of the organizers of ChurConf Java community conference in New Zealand.
+  
+- name: "Kristina Stolikj" #3
+  id: "stolikj"
+  bio: >
+    Software Engineer at Sorsix with five years of experience building fullstack applications, from Java roots to Kotlin expertise. Passionate about technology, currently developing medical software that streamlines workflows for doctors and improves patient outcomes. Always exploring new technologies and better approaches to solve real-world problems.
+
+- name: "Ivan Kichukov" #4
+  id: "kichukov"
+  bio: >
+    Sr.SWE and Gnd netcetera
+  
+- name: "Panche Chavkovski" #5
+  id: "pance"
+  bio: >
+  Pance is a Principal Software Engineer at G+D Netcetera and the current JUGMK leader. He is a Java developer on daily basis, GenAI enthusiast and part-time hardware maker. Pance is known as the creator of the pulse.eco platform.
