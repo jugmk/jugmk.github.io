@@ -21,7 +21,7 @@
 - name: "Ivan Kichukov" #4
   id: "kichukov"
   bio: >
-    Sr.SWE and Gnd netcetera
+    Ivan Kichukov is a software engineer at G+D Netcetera. The greater part of his professional focus has been the back-end side of things when building web-applications in the Spring Boot + Java ecosystem.
   
 - name: "Panche Chavkovski" #5
   id: "pance"
