@@ -13,7 +13,9 @@
     {% if speaker.twitter %}
     <h4 id="speaker-twitter-{{ speaker.id }}"><a href="https://twitter.com/{{ speaker.twitter }}">@{{ speaker.twitter }}</a></h4>
     {% endif %}
+    {% if speaker.title %}
     <h4 id="talk-{{ speaker.id }}">Topic: {{ speaker.title }}</h4>
+    {% endif %}
     <p>
       {{ speaker.abstract }}
     </p>
