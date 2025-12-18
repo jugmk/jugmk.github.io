@@ -1,21 +1,15 @@
-- name: Netcetera
+- name: G+D Netcetera
   url: http://www.netcetera.com/
-  image: netcetera.gif
-- name: Seavus
+  image: netcetera.png
+- name: Avenga
   url: http://www.seavus.com.mk/
-  image: seavus.jpg
-- name: PolarCape
-  url: http://polarcape.com/
+  image: avenga.png
+- name: Nion
+  url: https://nionit.com/
   image: polarcape.png
 - name: Sorsix
   url: https://www.sorsix.com/
-  image: sorsix.png
-- name: Musala Soft
-  url: http://musala.com/
-  image: musalalogo.png
-- name: Endava
-  url: http://www.endava.mk/
-  image: endava.png
+  image: nion.jpg
 - name: Inside
   url: http://www.one-inside.com/
   image: insidelogo.png
@@ -25,21 +19,6 @@
 - name: ITgma
   url: http://www.itgma.com/
   image: itgma.png
-- name: Tricode
-  url: http://www.tricode.nl/
-  image: tricodelogo.png
-- name: Singular
-  url: http://singular.mk/
-  image: singularlogo.png
 - name: Intertec
   url: https://www.intertec.io/
   image: intertec_logo.svg
-- name: S&&T
-  url: http://www.snt.mk/
-  image: sandt.png
-- name: EverNear
-  url: http://www.evernear.com/
-  image: ever_near.jpg
-- name: Genrepsoft
-  url: http://www.genrepsoft.com/
-  image: genrep_logo.png
