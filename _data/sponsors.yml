@@ -4,9 +4,9 @@
 - name: Seavus
   url: http://www.seavus.com.mk/
   image: seavus.jpg
-- name: PolarCape
-  url: http://polarcape.com/
-  image: polarcape.png
+- name: Nion
+  url: http://nionit.com/
+  image: nion.png
 - name: Sorsix
   url: https://www.sorsix.com/
   image: sorsix.png
